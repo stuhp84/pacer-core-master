@@ -1,0 +1,103 @@
+<div class="form-body"> 
+    <div class="page-content-inner">
+
+<label class="control-label">{{formData.form.reportName}}</label>
+
+<form action="#" class="form-horizontal form-bordered form-row-stripped">
+    <div class="form-body">
+        <div class="form-group" ng-repeat="optionset in formData.options track by $index" >
+            <label class="control-label col-md-3">{{formData.form.optionFieldNames[$index]}}</label>
+            <div class="col-md-5">
+                <select class="form-control input-circle" ng-model="CommonQuery[formData.form.optionFieldNames[$index]]">
+                    <option ng-repeat="opval in optionset track by $index" value="{{optionset[$index]}}">
+                        {{optionset[$index]}}
+                    </option>
+                </select>
+                <span class="help-block"> Select </span>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Count Status &nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <div class="checkbox-list">
+                <label class="checkbox-inline">
+                    <input ng-model="CommonQuery.pending_citations" type="checkbox"  value="1"> Pending </label>
+                <label class="checkbox-inline">
+                    <input ng-model="CommonQuery.terminated_citations" type="checkbox"  value="1"> Disposed </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Terminal Digits &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <div class="col-md-5">
+                <input type="text" placeholder="Enter Terminal Digits Number" class="form-control input-circle"
+                       ng-model="CommonQuery.terminal_digit">
+                <span class="help-block"> This is inline help - 2, 4-7 </span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Defendants &nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <div class="checkbox-list">
+                <label class="checkbox-inline">
+                    <input ng-model="CommonQuery.pending_defendants" type="checkbox"  value="on"> Pending defendants </label>
+                <label class="checkbox-inline">
+                    <input ng-model="CommonQuery.terminated_defendants" type="checkbox"  value="on"> Terminated defendants </label>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-4">Output Format &nbsp;&nbsp;&nbsp;&nbsp;  </label>
+            <div class="radio-list">
+                <label class="radio-inline">
+                    <input ng-model="CommonQuery.format" type="radio" name="optionsRadios1" id="optionsRadios1" value="standard" checked="">Formatted Display</label>
+                <label class="radio-inline">
+                    <input ng-model="CommonQuery.format" type="radio" name="optionsRadios2" id="optionsRadios2" value="data"> Data Only </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Filed</label>
+            <div class="col-md-4">
+                <div class="input-group input-large input-daterange">
+                    <p class="input-group">
+                        <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="CommonQuery.filled_from"
+                               is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open1()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+                    </p>
+                    <span class="input-group-addon"> to </span>
+                    <p class="input-group">
+                        <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="CommonQuery.filled_to"
+                               is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open2()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+                    </p>
+                    <span class="help-block"> Select date range </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-9 submit-btn">
+                    <button type="button" class="btn red" ng-click="getCriminalCaseReport()">
+                        Submit<span class="glyphicon glyphicon-ok-circle"></span>
+                    </button>
+                    <button type="button" class="btn default2">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</form>
+</div>
+</div>        

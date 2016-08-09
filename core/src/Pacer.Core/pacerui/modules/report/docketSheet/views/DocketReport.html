@@ -1,0 +1,87 @@
+<div class="summary" name="header"> USCourt: {{pacerData.header.USCourt}}
+    <br/> USCourtBranch: {{pacerData.header.USCourtBranch}}
+    <br/> CaseTitle: {{pacerData.header.CaseTitle}}
+    <br/> CaseNum: {{pacerData.header.CaseNum}}
+    <br/> Appeal: {{pacerData.header.Appeal}}
+    <br/> PartyCompanyName: {{pacerData.header.PartyCompanyName}}
+    <br/> AssignedTo: {{pacerData.header.AssignedTo}}
+    <br/> Cause: {{pacerData.header.Cause}}
+    <br/> DateFiled: {{pacerData.header.DateFiled}}
+    <br/> DateTerminated: {{pacerData.header.DateTerminated}}
+    <br/> JuryDemand: {{pacerData.header.JuryDemand}}
+    <br/> NatureOfSuit: {{pacerData.header.NatureOfSuit}}
+    <br/> Jurisdiction: {{pacerData.header.Jurisdiction}}
+    <br/>
+</div>
+<br/>
+<table class="table panel panel-default" name="pacerData.docketTable">
+    <tr ng-repeat="pacerData_docketTable in pacerData.docketTable">
+        <td>  DateFiled: {{pacerData_docketTable.DateFiled}}
+            <br/>
+        </td>
+        <td>
+            <a href ng-click="fetchCase(pacerData_docketTable.hash[0])" >{{pacerData_docketTable.hash[1]}}</a>
+        </td>
+        <td>  DocketText: {{pacerData_docketTable.DocketText}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<table class="table panel panel-default" name="pacerData.associations">
+    <tr ng-repeat="pacerData_associations in pacerData.associations">
+        <td>  PartyName: {{pacerData_associations.person.PartyName}}
+            <br/> PartyCompany: {{pacerData_associations.person.PartyCompany}}
+            <br/> ExtraText: {{pacerData_associations.person.ExtraText}}
+            <br/>
+        </td>
+        <td>  represent: {{pacerData_associations.represent}}
+            <br/>
+        </td>
+        <td>
+            <table class="table panel panel-default" name="pacerData_associations.attorneys">
+                <tr ng-repeat="pacerData_associations_attorneys in pacerData_associations.attorneys">
+                    <td>
+                    <td>  Phone: {{pacerData_associations_attorneys.Phone}}
+                        <br/>
+                    </td>
+                    <td>  extraInfo1: {{pacerData_associations_attorneys.extraInfo1}}
+                        <br/>
+                    </td>
+                    <td>  extraInfo2: {{pacerData_associations_attorneys.extraInfo2}}
+                        <br/>
+                    </td>
+                    <td>  Name: {{pacerData_associations_attorneys.Name}}
+                        <br/>
+                    </td>
+                    <td>  Company: {{pacerData_associations_attorneys.Company}}
+                        <br/>
+                    </td>
+                    <td>
+                        <table class="table panel panel-default" name="pacerData_associations_attorneys.Address"> Address:
+                            <tr ng-repeat="pacerData_associations_attorneys_Address in pacerData_associations_attorneys.Address  track by $index">
+                                <td>{{pacerData_associations_attorneys_Address}}</td>
+                                <br/>
+                            </tr>
+                        </table>
+                        <br/>
+                    </td>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> PacerLogin: {{pacerData.billing.PacerLogin}}
+    <br/> ClientCode: {{pacerData.billing.ClientCode}}
+    <br/> Description: {{pacerData.billing.Description}}
+    <br/> SearchCriteria: {{pacerData.billing.SearchCriteria}}
+    <br/> BillablePages: {{pacerData.billing.BillablePages}}
+    <br/> Cost: {{pacerData.billing.Cost}}
+    <br/>
+</div>

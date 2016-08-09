@@ -1,0 +1,286 @@
+{
+  "USCourt": "Civil Cases Report",
+  "USCourtBranch": "U.S. DISTRICT COURT -- PACER Training Site (District Court CM/ECF Version 4.2)",
+  "CaseTitle": "Filed Report Period: 6/3/2007 - 7/1/2007",
+  "civilCasesTable": [
+    {
+      "CaseNumberTitle": {
+        "URLName": "Sealed v. Sealed"
+      },
+      "CaseDates": "",
+      "DaysPending": "",
+      "Notes": ""
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64643,1:07-cv-00376-JTC",
+        "URLName": "Geris et al v. DiSilva Taunton Express Inc. et al"
+      },
+      "CaseDates": {
+        "Casefiled": "06/13/2007"
+      },
+      "DaysPending": "3344",
+      "Notes": {
+        "Cause": "28:1446 Petition for Removal",
+        "NOS": "350 Motor Vehicle",
+        "Office": "Buffalo",
+        "Jurisdiction": "Diversity",
+        "Presider": "John T. Curtin",
+        "Jurydemand": "Plaintiff",
+        "Caseflags": "HBS"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64711,1:07-cv-00394-RJA -HKS",
+        "URLName": "Schroeder v. North Fork Bank"
+      },
+      "CaseDates": {
+        "Casefiled": "06/19/2007"
+      },
+      "DaysPending": "3338",
+      "Notes": {
+        "Cause": "28:1332 Diversity-Contract Dispute",
+        "NOS": "190 Contract: Other",
+        "Office": "Buffalo",
+        "Jurisdiction": "Diversity",
+        "Presider": "Richard J. Arcara",
+        "Referral": "H. Kenneth Schroeder, Jr.",
+        "Jurydemand": "Plaintiff",
+        "Caseflags": "CASREF,,,HKS,,,MEDIATION"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64850,1:07-cv-00422-WMS-JJM",
+        "URLName": "Smith v. Ford Motor Company et al"
+      },
+      "CaseDates": {
+        "Casefiled": "06/28/2007"
+      },
+      "DaysPending": "3329",
+      "Notes": {
+        "Cause": "42:12101 Americans With Disabilities Act",
+        "NOS": "440 Civil Rights: Other",
+        "Office": "Buffalo",
+        "Jurisdiction": "Federal Question",
+        "Presider": "William M. Skretny",
+        "Referral": "Jeremiah J. McCarthy",
+        "Jurydemand": "Plaintiff",
+        "Caseflags": "CASREF,,,JJM,,,MEDIATION"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64851,1:07-cv-00423-WMS-JJM",
+        "URLName": "Weise v. Ford Motor Company et al"
+      },
+      "CaseDates": {
+        "Casefiled": "06/28/2007"
+      },
+      "DaysPending": "3329",
+      "Notes": {
+        "Cause": "42:12101 Americans With Disabilities Act",
+        "NOS": "440 Civil Rights: Other",
+        "Office": "Buffalo",
+        "Jurisdiction": "Federal Question",
+        "Presider": "William M. Skretny",
+        "Referral": "Jeremiah J. McCarthy",
+        "Jurydemand": "Plaintiff",
+        "Caseflags": "CASREF,,,JJM,,,MEDIATION"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64852,1:07-cv-00424-WMS-JJM",
+        "URLName": "Morris v. Ford Motor Company et al"
+      },
+      "CaseDates": {
+        "Casefiled": "06/28/2007"
+      },
+      "DaysPending": "3329",
+      "Notes": {
+        "Cause": "42:12101 Americans With Disabilities Act",
+        "NOS": "440 Civil Rights: Other",
+        "Office": "Buffalo",
+        "Jurisdiction": "Federal Question",
+        "Presider": "William M. Skretny",
+        "Referral": "Jeremiah J. McCarthy",
+        "Jurydemand": "Plaintiff",
+        "Caseflags": "CASREF,,,JJM,,,MEDIATION"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64751,1:07-mc-00039",
+        "URLName": "Gaffney v. Jupiter Construction"
+      },
+      "CaseDates": {
+        "Casefiled": "06/11/2007"
+      },
+      "DaysPending": "3346",
+      "Notes": {
+        "Office": "Buffalo",
+        "Presider": "Unassigned"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64799,1:07-mc-00043",
+        "URLName": ""
+      },
+      "CaseDates": {
+        "Casefiled": "06/22/2007"
+      },
+      "DaysPending": "3335",
+      "Notes": {
+        "Office": "Buffalo",
+        "Presider": "Unassigned"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64561,6:07-cv-06280-MAT",
+        "URLName": "Winkler -v- Grant, et al."
+      },
+      "CaseDates": {
+        "Casefiled": "06/04/2007",
+        "Caseclosed": "04/10/2008",
+        "Casereopened": "07/21/2010"
+      },
+      "DaysPending": "2210",
+      "Notes": {
+        "Cause": "42:1983 Civil Rights Act",
+        "NOS": "440 Civil Rights: Other",
+        "Office": "Rochester",
+        "Jurisdiction": "Federal Question",
+        "Presider": "Michael A. Telesca",
+        "Jurydemand": "None",
+        "Caseflags": "CLOSED_2008,,,MWP"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64823,6:07-cv-06316-DGL-MWP",
+        "URLName": "Lieberman et al v. City of Rochester et al"
+      },
+      "CaseDates": {
+        "Casefiled": "06/25/2007"
+      },
+      "DaysPending": "3332",
+      "Notes": {
+        "Cause": "42:1981 Civil Rights",
+        "NOS": "440 Civil Rights: Other",
+        "Office": "Rochester",
+        "Jurisdiction": "Federal Question",
+        "Presider": "David G. Larimer",
+        "Referral": "Marian W. Payson",
+        "Jurydemand": "Both",
+        "Caseflags": "CASREF,,,MWP"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64824,6:07-cv-06324-MAT-JWF",
+        "URLName": "Selective Insurance Company of America v. Swarey"
+      },
+      "CaseDates": {
+        "Casefiled": "06/27/2007"
+      },
+      "DaysPending": "3330",
+      "Notes": {
+        "Cause": "28:1391 Personal Injury",
+        "NOS": "380 Personal Property: Other",
+        "Office": "Rochester",
+        "Jurisdiction": "Diversity",
+        "Presider": "Michael A. Telesca",
+        "Referral": "Jonathan W. Feldman",
+        "Jurydemand": "Plaintiff",
+        "Caseflags": "CASREF,,,JWF"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64847,6:07-cv-06325-DGL -MWP",
+        "URLName": "Glenwright et al v. Xerox Corporation"
+      },
+      "CaseDates": {
+        "Casefiled": "06/27/2007"
+      },
+      "DaysPending": "3330",
+      "Notes": {
+        "Cause": "29:621 Job Discrimination (Age)",
+        "NOS": "442 Civil Rights: Jobs",
+        "Office": "Rochester",
+        "Jurisdiction": "Federal Question",
+        "Presider": "David G. Larimer",
+        "Referral": "Marian W. Payson",
+        "Jurydemand": "Plaintiff",
+        "Caseflags": "CASREF,,,MWP"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URLName": "Sealed v. Sealed"
+      },
+      "CaseDates": "",
+      "DaysPending": "",
+      "Notes": ""
+    }
+  ],
+  "civilCasesSummaryTable": [
+    {
+      "Office": "Case Type",
+      "All": "All"
+    },
+    {
+      "Office": "Nature of Suit",
+      "All": "All"
+    },
+    {
+      "Office": "Cause",
+      "All": "All"
+    },
+    {
+      "Office": "Jurisdiction",
+      "All": "All"
+    },
+    {
+      "Office": "Filed Date",
+      "All": "6/3/2007 - 7/1/2007"
+    },
+    {
+      "Office": "Case Flags",
+      "All": "All"
+    },
+    {
+      "Office": "Terminal Digits",
+      "All": "All"
+    },
+    {
+      "Office": "Open Cases",
+      "All": "Yes"
+    },
+    {
+      "Office": "Closed Cases",
+      "All": "No"
+    },
+    {
+      "Office": "Sort by",
+      "All": "case number"
+    }
+  ],
+  "billing": {
+    "PacerCenter": "PACER Service Center",
+    "TransactionReceipt": "Transaction Receipt",
+    "Date": "08/08/2016 11:59:18",
+    "PacerLogin": "tr1234:7001234:0",
+    "ClientCode": "",
+    "Description": "Civil Cases Report",
+    "SearchCriteria": "Filed From: 6/3/2007  Filed To: 7/1/2007",
+    "BillablePages": "4",
+    "Cost": "0.40"
+  },
+  "sidebar": "Case",
+  "parsed": true
+}

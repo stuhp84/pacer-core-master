@@ -1,0 +1,803 @@
+{
+  "USCourt": "Criminal Cases Report",
+  "USCourtBranch": "U.S. DISTRICT COURT -- PACER Training Site (District Court CM/ECF Version 4.2)",
+  "CaseTitle": "Filed Report Period: 6/4/2007 - 6/11/2016",
+  "numberOfCasesReported": "19",
+  "crCasesTable2": [
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64653,1:07-cr-00132-RJA,<br/>,USA v. Hofferden et al",
+      "CaseDates": ",Case filed:,06/12/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Buffalo,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64654,2 - Jennifer Fargnoli",
+      "CaseDates": "Added:,06/12/2007",
+      "DaysPending": "3345",
+      "Notes": "Presider:,Richard J. Arcara,<br/>,,Referral:,H. Kenneth Schroeder, Jr."
+    },
+    {
+      "CaseNumberTitle": "7-68,<br/>,Sealed v. Sealed",
+      "CaseDates": "",
+      "DaysPending": "",
+      "Notes": ""
+    },
+    {
+      "CaseNumberTitle": "Defendant*SEALED*",
+      "CaseDates": "",
+      "DaysPending": "",
+      "Notes": ""
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64624,1:07-mj-00069-HKS,<br/>,USA v. Willet",
+      "CaseDates": ",Case filed:,06/08/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Buffalo,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64625,1 - Courtney C. Willet",
+      "CaseDates": "Added:,06/08/2007",
+      "DaysPending": "3349",
+      "Notes": "Presider:,H. Kenneth Schroeder, Jr."
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64559,1:07-mj-01028-JJM,<br/>,USA v. Nichol",
+      "CaseDates": ",Case filed:,06/04/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Buffalo,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64560,1 - Ted Terry Nichol",
+      "CaseDates": "Added:,06/04/2007",
+      "DaysPending": "3353",
+      "Notes": "Presider:,Jeremiah J. McCarthy"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65075,1:07-mj-01029-JJM,<br/>,USA v. Rana",
+      "CaseDates": ",Case filed:,06/04/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Buffalo,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65076,1 - Yasser Rana",
+      "CaseDates": "Added:,06/04/2007",
+      "DaysPending": "3353",
+      "Notes": "Presider:,Jeremiah J. McCarthy"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64596,1:07-mj-01035-HBS,<br/>,USA v. Freeman",
+      "CaseDates": ",Case filed:,06/06/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Buffalo,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64597,1 - Rico L. Freeman",
+      "CaseDates": "Added:,06/06/2007",
+      "DaysPending": "3351",
+      "Notes": "Presider:,Hugh B. Scott"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64702,1:07-mj-01038-JJM,<br/>,USA v. Pilier",
+      "CaseDates": ",Case filed:,06/14/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Buffalo,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64703,1 - Victoriano Pilier",
+      "CaseDates": "Added:,06/14/2007",
+      "DaysPending": "3343",
+      "Notes": "Presider:,Jeremiah J. McCarthy"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64894,1:07-mj-01052-JJM,<br/>,USA v. Deleonardo et al",
+      "CaseDates": ",Case filed:,06/28/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Buffalo,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64896,2 - Angel Quiles",
+      "CaseDates": "Added:,06/28/2007",
+      "DaysPending": "3329",
+      "Notes": "Presider:,Jeremiah J. McCarthy"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64604,6:07-mj-00545-JWF,<br/>,In Re: Search of 525 Broadway Street, Elmira, New York",
+      "CaseDates": ",Case filed:,06/08/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64605,1 - 525 Broadway Street, Elmira, New York",
+      "CaseDates": "Added:,06/08/2007",
+      "DaysPending": "3349",
+      "Notes": "Presider:,Jonathan W. Feldman"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65195,6:07-mj-04043-MWP,<br/>,In Re:  Search of Dell Inspiron 6000 laptop computer",
+      "CaseDates": ",Case filed:,06/08/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65196,1 - Dell Inspiron 6000 laptop computer",
+      "CaseDates": "Added:,06/08/2007",
+      "DaysPending": "3349",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64608,6:07-mj-04044-MWP,<br/>,USA v. Trejo-Pacheco",
+      "CaseDates": ",Case filed:,06/08/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64609,1 - Jose Antonio Trejo-Pacheco",
+      "CaseDates": "Added:,06/08/2007",
+      "DaysPending": "3349",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65163,6:07-mj-04046-MWP,<br/>,In Re:  Search of 180 Garson Avenue",
+      "CaseDates": ",Case filed:,06/11/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65164,1 - 180 Garson Avenue",
+      "CaseDates": "Added:,06/11/2007",
+      "DaysPending": "3346",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64718,6:07-mj-04048-MWP,<br/>,USA v. Grant",
+      "CaseDates": ",Case filed:,06/13/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64719,1 - Jahi E. Grant",
+      "CaseDates": "Added:,06/13/2007",
+      "DaysPending": "3344",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65155,6:07-mj-04056-MWP,<br/>,In Re Search of:  USA v. 2007 Suzuki",
+      "CaseDates": ",Case filed:,06/26/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65156,1 - 2007 Suzuki",
+      "CaseDates": "Added:,06/26/2007",
+      "DaysPending": "3331",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65160,6:07-mj-04059-MWP,<br/>,In Re: Search of EB 078661465 US",
+      "CaseDates": ",Case filed:,06/27/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?65161,1 - EB 078661465 US",
+      "CaseDates": "Added:,06/27/2007",
+      "DaysPending": "3330",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64840,6:07-mj-04060-MWP,<br/>,USA v. Bonilla et al",
+      "CaseDates": ",Case filed:,06/27/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64841,1 - Reynaldo Bonilla",
+      "CaseDates": "Added:,06/27/2007",
+      "DaysPending": "3330",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64842,2 - Michael A. Rodriguez, III",
+      "CaseDates": "Added:,06/27/2007",
+      "DaysPending": "3330",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64922,6:07-mj-04063-MWP,<br/>,USA v. Johnson",
+      "CaseDates": ",Case filed:,06/29/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64923,1 - Khalfani Johnson",
+      "CaseDates": "Added:,06/29/2007",
+      "DaysPending": "3328",
+      "Notes": "Presider:,Marian W. Payson"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64709,6:07-mr-06009-CJS,<br/>,USA v. Al Huraibi",
+      "CaseDates": ",Case filed:,06/07/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64710,1 - Mohamed Al Huraibi",
+      "CaseDates": "Added:,06/19/2007",
+      "DaysPending": "3338",
+      "Notes": "Presider:,Charles J. Siragusa"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64861,6:07-mr-06010-DGL,<br/>,USA v. Cathey",
+      "CaseDates": ",Case filed:,06/14/2007",
+      "DaysPending": "",
+      "Notes": ",Office:,Rochester,<br/>,"
+    },
+    {
+      "CaseNumberTitle": ",/cgi-bin/DktRpt.pl?64862,1 - Michael Cathey",
+      "CaseDates": "Added:,06/14/2007",
+      "DaysPending": "3343",
+      "Notes": "Presider:,David G. Larimer"
+    }
+  ],
+  "crCasesTable": [
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64653,1:07-cr-00132-RJA",
+        "URLName": "USA v. Hofferden et al"
+      },
+      "CaseDates": {
+        "Casefiled": "06/12/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Buffalo"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64654",
+        "URLName": "2 - Jennifer Fargnoli"
+      },
+      "CaseDates": {
+        "Added": "06/12/2007"
+      },
+      "DaysPending": "3345",
+      "Notes": {
+        "Presider": "Richard J. Arcara",
+        "Referral": "H. Kenneth Schroeder, Jr."
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URLName": "Sealed v. Sealed"
+      },
+      "CaseDates": "",
+      "DaysPending": "",
+      "Notes": ""
+    },
+    {
+      "CaseNumberTitle": "",
+      "CaseDates": "",
+      "DaysPending": "",
+      "Notes": ""
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64624,1:07-mj-00069-HKS",
+        "URLName": "USA v. Willet"
+      },
+      "CaseDates": {
+        "Casefiled": "06/08/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Buffalo"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64625",
+        "URLName": "1 - Courtney C. Willet"
+      },
+      "CaseDates": {
+        "Added": "06/08/2007"
+      },
+      "DaysPending": "3349",
+      "Notes": {
+        "Presider": "H. Kenneth Schroeder, Jr."
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64559,1:07-mj-01028-JJM",
+        "URLName": "USA v. Nichol"
+      },
+      "CaseDates": {
+        "Casefiled": "06/04/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Buffalo"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64560",
+        "URLName": "1 - Ted Terry Nichol"
+      },
+      "CaseDates": {
+        "Added": "06/04/2007"
+      },
+      "DaysPending": "3353",
+      "Notes": {
+        "Presider": "Jeremiah J. McCarthy"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65075,1:07-mj-01029-JJM",
+        "URLName": "USA v. Rana"
+      },
+      "CaseDates": {
+        "Casefiled": "06/04/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Buffalo"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65076",
+        "URLName": "1 - Yasser Rana"
+      },
+      "CaseDates": {
+        "Added": "06/04/2007"
+      },
+      "DaysPending": "3353",
+      "Notes": {
+        "Presider": "Jeremiah J. McCarthy"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64596,1:07-mj-01035-HBS",
+        "URLName": "USA v. Freeman"
+      },
+      "CaseDates": {
+        "Casefiled": "06/06/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Buffalo"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64597",
+        "URLName": "1 - Rico L. Freeman"
+      },
+      "CaseDates": {
+        "Added": "06/06/2007"
+      },
+      "DaysPending": "3351",
+      "Notes": {
+        "Presider": "Hugh B. Scott"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64702,1:07-mj-01038-JJM",
+        "URLName": "USA v. Pilier"
+      },
+      "CaseDates": {
+        "Casefiled": "06/14/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Buffalo"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64703",
+        "URLName": "1 - Victoriano Pilier"
+      },
+      "CaseDates": {
+        "Added": "06/14/2007"
+      },
+      "DaysPending": "3343",
+      "Notes": {
+        "Presider": "Jeremiah J. McCarthy"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64894,1:07-mj-01052-JJM",
+        "URLName": "USA v. Deleonardo et al"
+      },
+      "CaseDates": {
+        "Casefiled": "06/28/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Buffalo"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64896",
+        "URLName": "2 - Angel Quiles"
+      },
+      "CaseDates": {
+        "Added": "06/28/2007"
+      },
+      "DaysPending": "3329",
+      "Notes": {
+        "Presider": "Jeremiah J. McCarthy"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64604,6:07-mj-00545-JWF",
+        "URLName": "In Re: Search of 525 Broadway Street, Elmira, New York"
+      },
+      "CaseDates": {
+        "Casefiled": "06/08/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64605",
+        "URLName": " New York"
+      },
+      "CaseDates": {
+        "Added": "06/08/2007"
+      },
+      "DaysPending": "3349",
+      "Notes": {
+        "Presider": "Jonathan W. Feldman"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65195,6:07-mj-04043-MWP",
+        "URLName": "In Re:  Search of Dell Inspiron 6000 laptop computer"
+      },
+      "CaseDates": {
+        "Casefiled": "06/08/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65196",
+        "URLName": "1 - Dell Inspiron 6000 laptop computer"
+      },
+      "CaseDates": {
+        "Added": "06/08/2007"
+      },
+      "DaysPending": "3349",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64608,6:07-mj-04044-MWP",
+        "URLName": "USA v. Trejo-Pacheco"
+      },
+      "CaseDates": {
+        "Casefiled": "06/08/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64609",
+        "URLName": "1 - Jose Antonio Trejo-Pacheco"
+      },
+      "CaseDates": {
+        "Added": "06/08/2007"
+      },
+      "DaysPending": "3349",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65163,6:07-mj-04046-MWP",
+        "URLName": "In Re:  Search of 180 Garson Avenue"
+      },
+      "CaseDates": {
+        "Casefiled": "06/11/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65164",
+        "URLName": "1 - 180 Garson Avenue"
+      },
+      "CaseDates": {
+        "Added": "06/11/2007"
+      },
+      "DaysPending": "3346",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64718,6:07-mj-04048-MWP",
+        "URLName": "USA v. Grant"
+      },
+      "CaseDates": {
+        "Casefiled": "06/13/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64719",
+        "URLName": "1 - Jahi E. Grant"
+      },
+      "CaseDates": {
+        "Added": "06/13/2007"
+      },
+      "DaysPending": "3344",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65155,6:07-mj-04056-MWP",
+        "URLName": "In Re Search of:  USA v. 2007 Suzuki"
+      },
+      "CaseDates": {
+        "Casefiled": "06/26/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65156",
+        "URLName": "1 - 2007 Suzuki"
+      },
+      "CaseDates": {
+        "Added": "06/26/2007"
+      },
+      "DaysPending": "3331",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65160,6:07-mj-04059-MWP",
+        "URLName": "In Re: Search of EB 078661465 US"
+      },
+      "CaseDates": {
+        "Casefiled": "06/27/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?65161",
+        "URLName": "1 - EB 078661465 US"
+      },
+      "CaseDates": {
+        "Added": "06/27/2007"
+      },
+      "DaysPending": "3330",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64840,6:07-mj-04060-MWP",
+        "URLName": "USA v. Bonilla et al"
+      },
+      "CaseDates": {
+        "Casefiled": "06/27/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64841",
+        "URLName": "1 - Reynaldo Bonilla"
+      },
+      "CaseDates": {
+        "Added": "06/27/2007"
+      },
+      "DaysPending": "3330",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64842",
+        "URLName": " III"
+      },
+      "CaseDates": {
+        "Added": "06/27/2007"
+      },
+      "DaysPending": "3330",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64922,6:07-mj-04063-MWP",
+        "URLName": "USA v. Johnson"
+      },
+      "CaseDates": {
+        "Casefiled": "06/29/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64923",
+        "URLName": "1 - Khalfani Johnson"
+      },
+      "CaseDates": {
+        "Added": "06/29/2007"
+      },
+      "DaysPending": "3328",
+      "Notes": {
+        "Presider": "Marian W. Payson"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64709,6:07-mr-06009-CJS",
+        "URLName": "USA v. Al Huraibi"
+      },
+      "CaseDates": {
+        "Casefiled": "06/07/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64710",
+        "URLName": "1 - Mohamed Al Huraibi"
+      },
+      "CaseDates": {
+        "Added": "06/19/2007"
+      },
+      "DaysPending": "3338",
+      "Notes": {
+        "Presider": "Charles J. Siragusa"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64861,6:07-mr-06010-DGL",
+        "URLName": "USA v. Cathey"
+      },
+      "CaseDates": {
+        "Casefiled": "06/14/2007"
+      },
+      "DaysPending": "",
+      "Notes": {
+        "Office": "Rochester"
+      }
+    },
+    {
+      "CaseNumberTitle": {
+        "URL": "/cgi-bin/DktRpt.pl?64862",
+        "URLName": "1 - Michael Cathey"
+      },
+      "CaseDates": {
+        "Added": "06/14/2007"
+      },
+      "DaysPending": "3343",
+      "Notes": {
+        "Presider": "David G. Larimer"
+      }
+    }
+  ],
+  "crCasesSummaryTable": [
+    {
+      "Office": "Case Type",
+      "All": "All"
+    },
+    {
+      "Office": "Citation",
+      "All": "All"
+    },
+    {
+      "Office": "Pending Counts",
+      "All": "Yes"
+    },
+    {
+      "Office": "Disposed Counts",
+      "All": "No"
+    },
+    {
+      "Office": "Filed Date",
+      "All": "6/4/2007 - 6/11/2016"
+    },
+    {
+      "Office": "Case Flags",
+      "All": "All"
+    },
+    {
+      "Office": "Terminal Digits",
+      "All": "All"
+    },
+    {
+      "Office": "Pending Defendants",
+      "All": "Yes"
+    },
+    {
+      "Office": "Terminated Defendants",
+      "All": "No"
+    },
+    {
+      "Office": "Fugitive Defendants",
+      "All": "No"
+    },
+    {
+      "Office": "Non-Fugitive Defendants",
+      "All": "Yes"
+    },
+    {
+      "Office": "Sort by",
+      "All": "case number"
+    }
+  ],
+  "billing": {
+    "PacerCenter": "PACER Service Center",
+    "TransactionReceipt": "Transaction Receipt",
+    "Date": "08/08/2016 11:55:24",
+    "PacerLogin": "tr1234:7001234:0",
+    "ClientCode": "",
+    "Description": "Criminal Cases Report",
+    "SearchCriteria": "Filed From: 6/4/2007  Filed To: 6/11/2016",
+    "BillablePages": "2",
+    "Cost": "0.20"
+  },
+  "sidebar": "Case",
+  "parsed": true
+}

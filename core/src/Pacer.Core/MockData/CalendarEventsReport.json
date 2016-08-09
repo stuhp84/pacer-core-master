@@ -1,0 +1,135 @@
+{
+  "USCourt": "U.S. DISTRICT COURT",
+  "USCourtBranch": "PACER Training Site (District Court CM/ECF Version 4.2)",
+  "CaseTitle": "Calendar Events Set For 6/12/2007-7/12/2007",
+  "calendarEventTable": [
+    {
+      "date": "06/13/2007",
+      "subevents": [
+        {
+          "time": "10:00 AM",
+          "eventlist": [
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?63815",
+              "docketReportURIName": "1:07-mj-02096-HBS-1 USA v. Krak",
+              "status": "Preliminary Hearing",
+              "plaintiff": "Thomas S. Duszkiewicz representing USA (Plaintiff)",
+              "defendant": "Joel L. Daniels representing Stipan Krak (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-34,63815,127529",
+              "textOrder": "Minute Entry for proceedings held before Judge Hugh B. Scott :Status Conference as to Stipan Krak held on 5/16/2007,.  Negotiations had occurred.  Govt extended plea offer.  Defense counsel is not available.  Time Excluded ; Govt to submit speedy trial order.  Preliminary Examination set for 6/13/2007 10:00 AM before Hon. Hugh B. Scott. APPEAR - M. Kane, AUSA; T. Hoover, Esq. (JLD)"
+            }
+          ]
+        },
+        {
+          "time": "02:00 PM",
+          "eventlist": [
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?63401",
+              "docketReportURIName": "1:07-mj-00014-HKS-1 USA v. Henderson et al",
+              "status": "Arraignment",
+              "plaintiff": "Joseph M. Guerra, III representing USA (Plaintiff)",
+              "defendant": "Marianne Mariano representing Jeremy Henderson (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-154,63401,128024",
+              "textOrder": "TEXT ORDER as to Jeremy Henderson, Shane Baker, Shawn Baker  Arraignment set for 6/13/2007 02:00 PM before Hon. H. Kenneth Schroeder Jr.  SO ORDERED.  Entered by Judge H. Kenneth Schroeder Jr. on 6/6/07."
+            },
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?63402",
+              "docketReportURIName": "1:07-mj-00014-HKS-2 USA v. Henderson et al",
+              "status": "Arraignment",
+              "plaintiff": "Joseph M. Guerra, III representing USA (Plaintiff)",
+              "defendant": "Herbert L. Greenman representing Shane Baker (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-154,63402,128025",
+              "textOrder": "TEXT ORDER as to Jeremy Henderson, Shane Baker, Shawn Baker  Arraignment set for 6/13/2007 02:00 PM before Hon. H. Kenneth Schroeder Jr.  SO ORDERED.  Entered by Judge H. Kenneth Schroeder Jr. on 6/6/07."
+            },
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?63403",
+              "docketReportURIName": "1:07-mj-00014-HKS-3 USA v. Henderson et al",
+              "status": "Arraignment",
+              "plaintiff": "Joseph M. Guerra, III representing USA (Plaintiff)",
+              "defendant": "Daniel J. Henry, Jr representing Shawn Baker (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-154,63403,128026",
+              "textOrder": "TEXT ORDER as to Jeremy Henderson, Shane Baker, Shawn Baker  Arraignment set for 6/13/2007 02:00 PM before Hon. H. Kenneth Schroeder Jr.  SO ORDERED.  Entered by Judge H. Kenneth Schroeder Jr. on 6/6/07."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "06/14/2007",
+      "subevents": [
+        {
+          "time": "03:00 PM",
+          "eventlist": [
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?64387",
+              "docketReportURIName": "1:07-mj-00056-HKS-1 USA v. Priola",
+              "status": "Preliminary Hearing",
+              "plaintiff": "Martin J. Littlefield representing USA (Plaintiff)",
+              "defendant": "John F. Humann representing Rosario Priola (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-42,64387,128258",
+              "textOrder": "Minute Entry for proceedings held before Judge H. Kenneth Schroeder Jr.:Detention Hearing as to Rosario Priola held on 6/6/2007.  Time Excluded as to Rosario Priola from: 6/6/07 to 6/14/07.   Preliminary Examination set for 6/14/2007 03:00 PM before Hon. H. Kenneth Schroeder Jr.(Court Reporter FTR Gold.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "06/21/2007",
+      "subevents": [
+        {
+          "time": "09:00 AM",
+          "eventlist": [
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?62975",
+              "docketReportURIName": "1:07-mj-02016-HBS-1 USA v. James et al",
+              "status": "Status Conference",
+              "plaintiff": "Richard P. Maigret representing USA (Plaintiff)",
+              "defendant": "Paul G. Dell representing Gary N. James, Jr (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-102,62975,127185",
+              "textOrder": "Minute Entry for proceedings held before Judge Hugh B. Scott :Status Conference as to Gary N. James, Jr, Alphonso Moody, Jermaine Ellison held on 5/24/2007.  AUSA Maigret has just been assigned to this case.  Govt will provided additional discovery and will schedule meetings with counsel.  Deft Moody & Ellison do not agree to adjournment.  Time Excluded ; Govt to submit speedy trial order. Final Status Conference set for 6/21/2007 09:00 AM before Hon. Hugh B. Scott. APPEAR - R. Maigret, AUSA; P. Dell, B. Donohue & L. Desiderio, Esqs."
+            },
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?62976",
+              "docketReportURIName": "1:07-mj-02016-HBS-2 USA v. James et al",
+              "status": "Status Conference",
+              "plaintiff": "Barry J. Donohue representing Alphonso Moody (Defendant)",
+              "defendant": "Lawrence J. Desiderio representing Alphonso Moody (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-102,62976,127186",
+              "textOrder": "Minute Entry for proceedings held before Judge Hugh B. Scott :Status Conference as to Gary N. James, Jr, Alphonso Moody, Jermaine Ellison held on 5/24/2007.  AUSA Maigret has just been assigned to this case.  Govt will provided additional discovery and will schedule meetings with counsel.  Deft Moody & Ellison do not agree to adjournment.  Time Excluded ; Govt to submit speedy trial order. Final Status Conference set for 6/21/2007 09:00 AM before Hon. Hugh B. Scott. APPEAR - R. Maigret, AUSA; P. Dell, B. Donohue & L. Desiderio, Esqs."
+            },
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?62977",
+              "docketReportURIName": "1:07-mj-02016-HBS-3 USA v. James et al",
+              "status": "Status Conference",
+              "plaintiff": "Richard P. Maigret representing USA (Plaintiff)",
+              "defendant": "Barry J. Donohue representing Jermaine Ellison (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-102,62977,127187",
+              "textOrder": "Minute Entry for proceedings held before Judge Hugh B. Scott :Status Conference as to Gary N. James, Jr, Alphonso Moody, Jermaine Ellison held on 5/24/2007.  AUSA Maigret has just been assigned to this case.  Govt will provided additional discovery and will schedule meetings with counsel.  Deft Moody & Ellison do not agree to adjournment.  Time Excluded ; Govt to submit speedy trial order. Final Status Conference set for 6/21/2007 09:00 AM before Hon. Hugh B. Scott. APPEAR - R. Maigret, AUSA; P. Dell, B. Donohue & L. Desiderio, Esqs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "07/05/2007",
+      "subevents": [
+        {
+          "time": "10:00 AM",
+          "eventlist": [
+            {
+              "dockReportURI": "/cgi-bin/DktRpt.pl?63918",
+              "docketReportURIName": "1:07-mj-02108-HBS-1 USA v. Hopkinson",
+              "status": "Preliminary Hearing",
+              "plaintiff": "George C. Burgasser representing USA (Plaintiff)",
+              "defendant": "Timothy W. Hoover representing Kwame Kenneth Hopkinson (Defendant)",
+              "calEventsURI": "/cgi-bin/CalEvents.pl?516838398806503-L_More_1-0-22,63918,125289",
+              "textOrder": "Minute Entry for proceedings held before Judge Hugh B. Scott :Status Conference as to Kwame Kenneth Hopkinson held on 5/1/2007.  Some discussions generally to resolve the case.  Voluntary discovery ongoing.  Time Excluded ; Govt to submit speedy order.  Preliminary Examination set for 7/5/2007 10:00 AM before Hon. Hugh B. Scott. APPEAR - G. Burgasser, AUSA; T. Hoover, Esq."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sidebar": "Case",
+  "parsed": true
+}

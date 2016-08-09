@@ -1,0 +1,50 @@
+USCourt: {{pacerData.USCourt}}
+<br/> USCourtBranch: {{pacerData.USCourtBranch}}
+<br/> CaseTitle: {{pacerData.CaseTitle}}
+<br/> numberOfCasesReported: {{pacerData.numberOfCasesReported}}
+<br/>
+<table class="table panel panel-default" name="pacerData.WrittenOpinionsReport">
+    <tr ng-repeat="pacerData_WrittenOpinionsReport in pacerData.WrittenOpinionsReport">
+        <td>  CaseNumberName: {{pacerData_WrittenOpinionsReport.CaseNumberName}}
+            <br/>
+        </td>
+        <td>  DateFiled: {{pacerData_WrittenOpinionsReport.DateFiled}}
+            <br/>
+        </td>
+        <td>  URL: {{pacerData_WrittenOpinionsReport.Doc.URL}}
+            <br/> URLName: {{pacerData_WrittenOpinionsReport.Doc.URLName}}
+            <br/>
+        </td>
+        <td>  Description: {{pacerData_WrittenOpinionsReport.Description}}
+            <br/>
+        </td>
+        <td>  Office: {{pacerData_WrittenOpinionsReport.Notes.Office}}
+            <br/> CaseFlags: {{pacerData_WrittenOpinionsReport.Notes.CaseFlags}}
+            <br/> NOS: {{pacerData_WrittenOpinionsReport.Notes.NOS}}
+            <br/> Cause: {{pacerData_WrittenOpinionsReport.Notes.Cause}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<table class="table panel panel-default" name="pacerData.WrittenOpinionsReportSummaryTable">
+    <tr ng-repeat="pacerData_WrittenOpinionsReportSummaryTable in pacerData.WrittenOpinionsReportSummaryTable">
+        <td>  CaseNumber: {{pacerData_WrittenOpinionsReportSummaryTable.CaseNumber}}
+            <br/>
+        </td>
+        <td>  All: {{pacerData_WrittenOpinionsReportSummaryTable.All}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> CaseFlags: {{pacerData.billing.CaseFlags}}
+    <br/> NatureOfSuit: {{pacerData.billing.NatureOfSuit}}
+    <br/> Cause: {{pacerData.billing.Cause}}
+    <br/> FiledDate: {{pacerData.billing.FiledDate}}
+    <br/> SortBy: {{pacerData.billing.SortBy}}
+    <br/>
+</div>

@@ -1,0 +1,53 @@
+USCourt: {{pacerData.USCourt}}
+<br/> USCourtBranch: {{pacerData.USCourtBranch}}
+<br/> CaseTitle: {{pacerData.CaseTitle}}
+<br/>
+<table class="table panel panel-default" name="pacerData.calendarEventTable">
+    <tr ng-repeat="pacerData_calendarEventTable in pacerData.calendarEventTable">
+        <td>  date: {{pacerData_calendarEventTable.date}}
+            <br/>
+        </td>
+        <td>
+            <table class="table panel panel-default" name="pacerData_calendarEventTable.subevents">
+                <tr ng-repeat="pacerData_calendarEventTable_subevents in pacerData_calendarEventTable.subevents">
+
+                    <td>  time: {{pacerData_calendarEventTable_subevents.time}}
+                        <br/>
+                    </td>
+                    <td>
+                        <table class="table panel panel-default" name="pacerData_calendarEventTable_subevents.eventlist">
+                            <tr ng-repeat="pacerData_calendarEventTable_subevents_eventlist in pacerData_calendarEventTable_subevents.eventlist">
+
+                                <td>  dockReportURI: {{pacerData_calendarEventTable_subevents_eventlist.dockReportURI}}
+                                    <br/>
+                                </td>
+                                <td>  docketReportURIName: {{pacerData_calendarEventTable_subevents_eventlist.docketReportURIName}}
+                                    <br/>
+                                </td>
+                                <td>  status: {{pacerData_calendarEventTable_subevents_eventlist.status}}
+                                    <br/>
+                                </td>
+                                <td>  plaintiff: {{pacerData_calendarEventTable_subevents_eventlist.plaintiff}}
+                                    <br/>
+                                </td>
+                                <td>  defendant: {{pacerData_calendarEventTable_subevents_eventlist.defendant}}
+                                    <br/>
+                                </td>
+                                <td>  calEventsURI: {{pacerData_calendarEventTable_subevents_eventlist.calEventsURI}}
+                                    <br/>
+                                </td>
+                                <td>  textOrder: {{pacerData_calendarEventTable_subevents_eventlist.textOrder}}
+                                    <br/>
+                                </td>
+
+                            </tr>
+                        </table>
+                        <br/>
+                    </td>
+
+                </tr>
+            </table>
+            <br/>
+        </td>
+    </tr>
+</table>

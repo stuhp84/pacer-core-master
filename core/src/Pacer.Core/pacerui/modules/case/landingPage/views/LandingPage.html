@@ -1,0 +1,41 @@
+<div class="page-content-inner">
+
+    <div class="summary">
+        <h3><span class="bold-title">{{caseHeader.caseID}} </span> {{caseHeader.PartyName}}</h3>
+        <h4><span class="sec-title">{{caseHeader.PartyRepresentative}}</span></h4>
+        <p><b>Filed:</b> {{caseHeader.DateFiled}} |
+            <b>Terminated:</b> {{caseHeader.DateTerminated}} |
+            <b>Last filing:</b> {{caseHeader.DateOfLastFiling}}
+        </p>
+        <p>
+            <span ng-show="caseHeader.PartyReferral != null">
+                <b>Party Referral:</b> {{caseHeader.PartyReferral}}
+            </span>
+            <span ng-show="caseHeader.AssociatedCases != null">
+                <b>Associated Cases:</b> {{caseHeader.AssociatedCases}}
+            </span>
+        </p>
+    </div>
+
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+
+    <table class="table panel panel-sm">
+        <tr class="title">
+            <td align="center" colspan="4"><b>Selection Criteria for Query<b/></td>
+        </tr>
+
+        <tr>
+            <td align="center" colspan="4"><b>Filed:</b> from {{caseHeader.DateFiled}} to {{caseHeader.DateTerminated}}</td>
+        </tr>
+    </table>
+
+</div>
+
+
+</body>
+</html>

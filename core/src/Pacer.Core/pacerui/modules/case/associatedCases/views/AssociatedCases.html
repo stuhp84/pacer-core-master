@@ -1,0 +1,39 @@
+<div class="summary" name="header1"> CaseNum: {{pacerData.header1.CaseNum}}
+    <br/> PartyName: {{pacerData.header1.PartyName}}
+    <br/> PartyRepresentative: {{pacerData.header1.PartyRepresentative}}
+    <br/> PartyReferral: {{pacerData.header1.PartyReferral}}
+    <br/> DateFiled: {{pacerData.header1.DateFiled}}
+    <br/> DateTerminated: {{pacerData.header1.DateTerminated}}
+    <br/> DateOfLastFiling: {{pacerData.header1.DateOfLastFiling}}
+    <br/> AssociatedCases: {{pacerData.header1.AssociatedCases}}
+    <br/>
+</div>
+<br/>
+<table class="table panel panel-default" name="pacerData.queryResult">
+    <tr ng-repeat="pacerData_queryResult in pacerData.queryResult">
+        <td>  CourtName: {{pacerData_queryResult.CourtName}}
+            <br/>
+        </td>
+        <td>  CaseNumber: {{pacerData_queryResult.CaseNumber}}
+            <br/>
+        </td>
+        <td>  StartDate: {{pacerData_queryResult.StartDate}}
+            <br/>
+        </td>
+        <td>  EndDate: {{pacerData_queryResult.EndDate}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> PacerLogin: {{pacerData.billing.PacerLogin}}
+    <br/> ClientCode: {{pacerData.billing.ClientCode}}
+    <br/> Description: {{pacerData.billing.Description}}
+    <br/> SearchCriteria: {{pacerData.billing.SearchCriteria}}
+    <br/> BillablePages: {{pacerData.billing.BillablePages}}
+    <br/> Cost: {{pacerData.billing.Cost}}
+    <br/>
+</div>

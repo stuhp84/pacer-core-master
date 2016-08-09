@@ -1,0 +1,368 @@
+{
+  "header": {
+    "USCourt": "U.S. DISTRICT COURT",
+    "USCourtBranch": "PACER Training Site (District Court CM/ECF Version 4.2) (Buffalo)",
+    "CaseTitle": "CIVIL DOCKET FOR CASE #: 1:07-cv-00289-JTC",
+    "CaseNum": "1:07-cv-00289-JTC",
+    "Appeal": ",APPEAL,,,JJM,,,MEDIATION",
+    "PartyCompanyName": "Kirkendall et al v. Halliburton, Inc. et al",
+    "AssignedTo": "Hon. John T. Curtin",
+    "Cause": "29:1132 E.R.I.S.A.-Employee Benefits",
+    "DateFiled": "05/01/2007",
+    "DateTerminated": "06/10/2011",
+    "JuryDemand": "Plaintiff",
+    "NatureOfSuit": "791 Labor: E.R.I.S.A.",
+    "Jurisdiction": "Federal Question"
+  },
+  "docketTable": [
+    {
+      "DateFiled": "05/01/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=15&dm_id=819589&doc_num=1&pdf_header=2", "1", "" ],
+      "DocketText": "COMPLAINT against Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan (Filing fee $350.00 receipt number688), filed by Kathy Joy Kirkendall, Wesley Snyder, Barbara Caya, Bonnie Seth.(DLC) (Entered: 05/02/2007)"
+    },
+    {
+      "DateFiled": "05/01/2007",
+      "hash": "",
+      "DocketText": "Summons Issued as to Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan. (DLC) (Entered: 05/02/2007)"
+    },
+    {
+      "DateFiled": "05/01/2007",
+      "hash": "",
+      "DocketText": "AUTOMATIC REFERRAL to Mediation. (DLC) (Entered: 05/02/2007)"
+    },
+    {
+      "DateFiled": "05/02/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=24&dm_id=819602&doc_num=2&pdf_header=2", "2", "" ],
+      "DocketText": "ADR Notice and Plan electronically forwarded to attorney.(DLC) (Entered: 05/02/2007)"
+    },
+    {
+      "DateFiled": "07/11/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=26&dm_id=862013&doc_num=3&pdf_header=2", "3", "" ],
+      "DocketText": "MOTION for Limited Admission,of James S. Urban Pro Hac Vice,by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan.(Stecker, Paul) (Entered: 07/11/2007)"
+    },
+    {
+      "DateFiled": "07/11/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=31&dm_id=862019&doc_num=4&pdf_header=2", "4", "" ],
+      "DocketText": "DECLARATION signed by Paul K. Stecker re,https://dcecf.psc.uscourts.gov/doc1/17311050251,3,MOTION for Limited Admission,of James S. Urban Pro Hac Vice,filed by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/17311050077,1,)(Stecker, Paul) (Entered: 07/11/2007)"
+    },
+    {
+      "DateFiled": "07/11/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=34&dm_id=862032&doc_num=5&pdf_header=2", "5", "" ],
+      "DocketText": "AFFIRMATION signed by James S. Urban re,https://dcecf.psc.uscourts.gov/doc1/17311050251,3,MOTION for Limited Admission,of James S. Urban Pro Hac Vice,filed by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan,(Verified Petition),. (Stecker, Paul) (Entered: 07/11/2007)"
+    },
+    {
+      "DateFiled": "07/11/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=37&dm_id=862035&doc_num=6&pdf_header=2", "6", "" ],
+      "DocketText": "CERTIFICATE OF SERVICE by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan re,https://dcecf.psc.uscourts.gov/doc1/1731533865,5,Affirmation,,https://dcecf.psc.uscourts.gov/doc1/17301049744,4,Declaration,,https://dcecf.psc.uscourts.gov/doc1/17311050251,3,MOTION for Limited Admission,of James S. Urban Pro Hac Vice,(Stecker, Paul) (Entered: 07/11/2007)"
+    },
+    {
+      "DateFiled": "07/19/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=42&dm_id=867638&doc_num=7&pdf_header=2", "7", "" ],
+      "DocketText": "MOTION for Leave to Appear Pro Hac Vice,of Steven J. Sacher,by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan.(Stecker, Paul) (Entered: 07/19/2007)"
+    },
+    {
+      "DateFiled": "07/19/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=44&dm_id=867643&doc_num=8&pdf_header=2", "8", "" ],
+      "DocketText": "DECLARATION signed by Paul K. Stecker re,https://dcecf.psc.uscourts.gov/doc1/173131858,7,MOTION for Leave to Appear Pro Hac Vice,of Steven J. Sacher,filed by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/1731776868,1,)(Stecker, Paul) (Entered: 07/19/2007)"
+    },
+    {
+      "DateFiled": "07/19/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=47&dm_id=867655&doc_num=9&pdf_header=2", "9", "" ],
+      "DocketText": "AFFIRMATION signed by Steven J. Sacher re,https://dcecf.psc.uscourts.gov/doc1/173131858,7,MOTION for Leave to Appear Pro Hac Vice,of Steven J. Sacher,filed by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan. (Stecker, Paul) (Entered: 07/19/2007)"
+    },
+    {
+      "DateFiled": "07/19/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=50&dm_id=867658&doc_num=10&pdf_header=2", "10", "" ],
+      "DocketText": "CERTIFICATE OF SERVICE by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan re,https://dcecf.psc.uscourts.gov/doc1/173131858,7,MOTION for Leave to Appear Pro Hac Vice,of Steven J. Sacher,,,https://dcecf.psc.uscourts.gov/doc1/1730787328,8,Declaration,,https://dcecf.psc.uscourts.gov/doc1/1731770681,9,Affirmation (Stecker, Paul) (Entered: 07/19/2007)"
+    },
+    {
+      "DateFiled": "07/23/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=60&dm_id=870013&doc_num=11&pdf_header=2", "11", "" ],
+      "DocketText": "ANSWER to Complaint by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/17311016482,1,Exhibit A Part I#,https://dcecf.psc.uscourts.gov/doc1/17311016675,2,Exhibit A Part II#,https://dcecf.psc.uscourts.gov/doc1/17311016613,3,Exhibit B Part I#,https://dcecf.psc.uscourts.gov/doc1/17311016825,4,Exhibit B Part II#,https://dcecf.psc.uscourts.gov/doc1/17311016742,5,Exhibit B Part III#,https://dcecf.psc.uscourts.gov/doc1/17311016834,6,Exhibit B Part IV#,https://dcecf.psc.uscourts.gov/doc1/17311016883,7,Exhibit B Part V#,https://dcecf.psc.uscourts.gov/doc1/17311016674,8,Certificate of Service)(Stecker, Paul) (Entered: 07/23/2007)"
+    },
+    {
+      "DateFiled": "07/23/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=62&dm_id=870042&doc_num=12&pdf_header=2", "12", "" ],
+      "DocketText": "CONTINUATION OF EXHIBITS to,https://dcecf.psc.uscourts.gov/doc1/17301016816,11,Answer to Complaint,,Exhibit C,. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/1731396128,1,Exhibit D)(Stecker, Paul) (Entered: 07/23/2007)"
+    },
+    {
+      "DateFiled": "07/23/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=65&dm_id=870098&doc_num=13&pdf_header=2", "13", "" ],
+      "DocketText": "MOTION for Judgment on the Pleadings by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/1731396103,1,Memorandum in Support #,https://dcecf.psc.uscourts.gov/doc1/1731396251,2,Certificate of Service)(Stecker, Paul) (Entered: 07/23/2007)"
+    },
+    {
+      "DateFiled": "07/24/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=67&dm_id=870397&doc_num=14&pdf_header=2", "14", "" ],
+      "DocketText": "ADR Notice and Plan electronically forwarded to attorneys.(DZ) (Entered: 07/24/2007)"
+    },
+    {
+      "DateFiled": "07/25/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=69&dm_id=872292&doc_num=15&pdf_header=2", "15", "" ],
+      "DocketText": "STIPULATION by Kathy Joy Kirkendall, Wesley Snyder, Barbara Caya, Bonnie Seth. (Smith, Jules) (Entered: 07/25/2007)"
+    },
+    {
+      "DateFiled": "07/25/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=71&dm_id=872295&doc_num=16&pdf_header=2", "16", "" ],
+      "DocketText": "CERTIFICATE OF SERVICE by Kathy Joy Kirkendall, Wesley Snyder, Barbara Caya, Bonnie Seth re,https://dcecf.psc.uscourts.gov/doc1/1731409216,15,Stipulation (Smith, Jules) (Entered: 07/25/2007)"
+    },
+    {
+      "DateFiled": "07/27/2007",
+      "hash": "17",
+      "DocketText": "TEXT ORDER. IT HEREBY IS ORDERED that,https://dcecf.psc.uscourts.gov/doc1/17311050251,3,Defendant's Motion for an Order Granting James S. Urban's Admission to this district pro hac vice is GRANTED, subject to the prompt payment of the required fee. SO ORDERED. Issued by the Hon. William M. Skretny on 7/24/2007. (MEAL) (Entered: 07/27/2007)"
+    },
+    {
+      "DateFiled": "07/31/2007",
+      "hash": "18",
+      "DocketText": "TEXT ORDER. The,https://dcecf.psc.uscourts.gov/doc1/1731409216,15,Stipulation setting forth a submission schedule on the,https://dcecf.psc.uscourts.gov/doc1/1730396046,13,Defendants' Motion for Judgment on the Pleadings is HEREBY SO ORDERED. Response is due on or before 9/21/2007. Reply is due on or before 10/5/2007. Oral Argument will be scheduled if necessary after review of the submissions. SO ORDERED. Issued by the Hon. William M. Skretny on 7/30/2007. (MEAL) (Entered: 07/31/2007)"
+    },
+    {
+      "DateFiled": "07/31/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=81&dm_id=875949&doc_num=19&pdf_header=2", "19", "" ],
+      "DocketText": "NOTICE of Appearance by James S. Urban on behalf of all defendants (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/17311024082,1,Certificate of Service)(Urban, James) (Entered: 07/31/2007)"
+    },
+    {
+      "DateFiled": "08/02/2007",
+      "hash": "",
+      "DocketText": "Pro Hac Vice Filing fee: $ 75, receipt number 3976 received from James Urban counsel for defendants (JDK) (Entered: 08/03/2007)"
+    },
+    {
+      "DateFiled": "09/20/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=88&dm_id=910227&doc_num=20&pdf_header=2", "20", "" ],
+      "DocketText": "First MOTION for Extension of Time to File Response/Reply as to,https://dcecf.psc.uscourts.gov/doc1/1730396046,13,MOTION for Judgment on the Pleadings by Kathy Joy Kirkendall, Wesley Snyder, Bonnie Seth. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/17311083456,1,Certificate of Service)(Smith, Jules) (Entered: 09/20/2007)"
+    },
+    {
+      "DateFiled": "09/26/2007",
+      "hash": "21",
+      "DocketText": "TEXT ORDER. IT HEREBY IS ORDERED that the,https://dcecf.psc.uscourts.gov/doc1/17301083487,20,Plaintiffs' Motion for an Extension of Time to File a Response to,https://dcecf.psc.uscourts.gov/doc1/1730396046,13,Defendants' Motion for Judgment on the Pleadings is GRANTED. Plaintiffs' Response is now due by 9/28/2007. Defendants' Reply is now due 10/12/2007. This motion is granted on stipulation, without affidavit, THIS TIME ONLY. SO ORDERED. Issued by the Hon. William M. Skretny on 9/24/2007. (MEAL) (Entered: 09/26/2007)"
+    },
+    {
+      "DateFiled": "09/28/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=94&dm_id=915974&doc_num=22&pdf_header=2", "22", "" ],
+      "DocketText": "RESPONSE in Opposition re,https://dcecf.psc.uscourts.gov/doc1/1730396046,13,MOTION for Judgment on the Pleadings,Brief in Opposition to Defendants Motion for Judgment on the Pleadings,filed by Kathy Joy Kirkendall, Wesley Snyder, Bonnie Seth. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/1731473559,1,Appendix 1 Declaration of Kathleen Joy-Kirkendall#,https://dcecf.psc.uscourts.gov/doc1/1731473604,2,Exhibit A#,https://dcecf.psc.uscourts.gov/doc1/1731473371,3,Exhibit #,https://dcecf.psc.uscourts.gov/doc1/1731473381,4,Exhibit #,https://dcecf.psc.uscourts.gov/doc1/1731473689,5,Exhibit #,https://dcecf.psc.uscourts.gov/doc1/1731473759,6,Exhibit #,https://dcecf.psc.uscourts.gov/doc1/1731473283,7,Exhibit #,https://dcecf.psc.uscourts.gov/doc1/1731473598,8,Exhibit #,https://dcecf.psc.uscourts.gov/doc1/1731473310,9,Exhibit #,https://dcecf.psc.uscourts.gov/doc1/1731473308,10,Appendix 2 James Maguire Declaration#,https://dcecf.psc.uscourts.gov/doc1/1731473586,11,Exhibit #,https://dcecf.psc.uscourts.gov/doc1/1731473578,12,Certificate of Service)(Smith, Jules) (Entered: 09/28/2007)"
+    },
+    {
+      "DateFiled": "10/11/2007",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=97&dm_id=922865&doc_num=23&pdf_header=2", "23", "" ],
+      "DocketText": "REPLY to Response to Motion re,https://dcecf.psc.uscourts.gov/doc1/1730396046,13,MOTION for Judgment on the Pleadings filed by Halliburton, Inc., Halliburton Retirement Plan, Dresser Industries, Inc., Consolidated Retirement Plan. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/17311090365,1,Certificate of Service)(Urban, James) (Entered: 10/11/2007)"
+    },
+    {
+      "DateFiled": "10/17/2007",
+      "hash": "24",
+      "DocketText": "TEXT ORDER. IT HEREBY IS ORDERED that the,https://dcecf.psc.uscourts.gov/doc1/173131858,7,Motion for Steven J. Sacher to appea Pro Hac Vice is GRANTED subject to payment of the requisite filing fee. SO ORDERED. Issued by the Hon. William M. Skretny on 10/16/2007. (MEAL) (Entered: 10/17/2007)"
+    },
+    {
+      "DateFiled": "10/19/2007",
+      "hash": "",
+      "DocketText": "Pro Hac Vice fee paid for: Steven J. Sacher in the amount of $75.00, receipt number 4996. (DLC) (Entered: 10/22/2007)"
+    },
+    {
+      "DateFiled": "05/03/2011",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=104&dm_id=1898447&doc_num=25&pdf_header=2", "25", "" ],
+      "DocketText": "Joint MOTION for Hearing,in Form of Status Conference,by Barbara Caya, Dresser Industries, Inc., Consolidated Retirement Plan, Halliburton Retirement Plan, Halliburton, Inc., Kathy Joy Kirkendall, Bonnie Seth, Wesley Snyder. (Attachments: #,https://dcecf.psc.uscourts.gov/doc1/17312056116,1,Certificate of Service)(Urban, James) (Entered: 05/03/2011)"
+    },
+    {
+      "DateFiled": "06/07/2011",
+      "hash": "26",
+      "DocketText": "TEXT ORDER REASSIGNING CASE. IT HEREBY IS ORDERED that this case is TRANSFERRED to the Hon. John T. Curtin for all further proceedings. SO ORDERED. Issued by William M. Skretny, Chief Judge U.S.D.C. on 6/7/2011. (MEAL) (Entered: 06/07/2011)"
+    },
+    {
+      "DateFiled": "06/09/2011",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=109&dm_id=1925713&doc_num=27&pdf_header=2", "27", "" ],
+      "DocketText": "DECISION AND ORDER granting Defendants',https://dcecf.psc.uscourts.gov/doc1/17301016816,11,Motion for Judgment on the Pleadings with respect to Count I of the Complaint seeking declaratory judgment, and Count II seeking relief pursuant to ERISA sections 204 and 208. Defendants' Motion is converted to a summary judgment motion with respect to Counts III and IV, and that Motion is granted for failure to exhaust the administrative claims procedures established by the relevant Plan. Plaintiffs' Complaint is dismissed in its entirety and with prejudice. The parties' joint,https://dcecf.psc.uscourts.gov/doc1/17302056115,25,Motion for a status conference is denied as moot. The Clerk is directed to enter judgment in favor of Defendants and to close this case. Signed by Hon. John T. Curtin on 6/8/2011. (JEC) (Entered: 06/09/2011)"
+    },
+    {
+      "DateFiled": "06/10/2011",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=112&dm_id=1926269&doc_num=28&pdf_header=2", "28", "" ],
+      "DocketText": "JUDGMENT in favor of Dresser Industries, Inc., Consolidated Retirement Plan, Halliburton Retirement Plan, Halliburton, Inc. against Barbara Caya, Bonnie Seth, Kathy Joy Kirkendall, Wesley Snyder. Signed by the Clerk of the Court on 6/10/2011. (DLC) (Entered: 06/10/2011)"
+    },
+    {
+      "DateFiled": "07/05/2011",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=114&dm_id=1944352&doc_num=29&pdf_header=2", "29", "" ],
+      "DocketText": "NOTICE OF APPEAL as to,https://dcecf.psc.uscourts.gov/doc1/17312086435,28,Judgment by Barbara Caya, Kathy Joy Kirkendall, Bonnie Seth, Wesley Snyder. Filing fee paid $455.00, Receipt #024726. (DLC) (Entered: 07/06/2011)"
+    },
+    {
+      "DateFiled": "07/05/2011",
+      "hash": [ "/cgi-bin/show_doc.pl?caseid=64248&de_seq_num=117&dm_id=1944376&doc_num=30&pdf_header=2", "30", "" ],
+      "DocketText": "Remark: Pursuant to Local Rule 12.1 of the US Court of Appeals for the Second Circuit, Forms C and D must be completed within 14 days after the filing of a notice of appeal. Forms C & D attached. (DLC) (Entered: 07/06/2011)"
+    }
+  ],
+  "associations": [
+    {
+      "person": {
+        "PartyName": "Plaintiff",
+        "PartyCompany": "",
+        "ExtraText": "Kathy Joy Kirkendall,"
+      },
+      "represent": "represented by",
+      "attorneys": [
+        {
+          "Phone": "585 232-5600",
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "Jules                L.              Smith",
+          "Company": "",
+          "Address": [ "Blitman & King", "The Powers Building", "16 West Main Street", "Suite 207", "Rochester, NY 14614", "Fax: 585-232-7738", "Email:", "" ]
+        }
+      ]
+    },
+    {
+      "person": {
+        "PartyName": "Plaintiff",
+        "PartyCompany": "",
+        "ExtraText": "Wesley Snyder,"
+      },
+      "represent": "represented by",
+      "attorneys": [
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "Jules                L.              Smith",
+          "Company": "",
+          "Address": [ "(See above for address)", "" ]
+        }
+      ]
+    },
+    {
+      "person": {
+        "PartyName": "Plaintiff",
+        "PartyCompany": "",
+        "ExtraText": "Barbara Caya,"
+      },
+      "represent": "represented by",
+      "attorneys": [
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "Jules                L.              Smith",
+          "Company": "",
+          "Address": [ "(See above for address)", "" ]
+        }
+      ]
+    },
+    {
+      "person": {
+        "PartyName": "Plaintiff",
+        "PartyCompany": "",
+        "ExtraText": "Bonnie Seth,,,on behald of themselves and others similarly situated,"
+      },
+      "represent": "represented by",
+      "attorneys": [
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "Jules                L.              Smith",
+          "Company": "",
+          "Address": [ "(See above for address)", "" ]
+        }
+      ]
+    },
+    {
+      "person": {
+        "PartyName": "Defendant",
+        "PartyCompany": "",
+        "ExtraText": "Halliburton, Inc.,"
+      },
+      "represent": "represented by",
+      "attorneys": [
+        {
+          "Phone": "412-394-7906",
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "James                S.              Urban",
+          "Company": "",
+          "Address": [ "Jones Day", "500 Grant Street", "Suite 3100", "Pittsburgh, PA 15219", "Fax: 412-394-7959", "Email:", "" ]
+        },
+        {
+          "Phone": "(716) 847-8400",
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "",
+          "Company": "Paul                 K.              Stecker",
+          "Address": [ "", "Phillips Lytle LLP", "3400 HSBC Center", "Buffalo, NY 14203", "Fax: 716-852-6100", "Email:", "" ]
+        },
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "",
+          "Company": "Steven               J.              Sacher",
+          "Address": [ "", "Jones Day", "51 Louisiana Avenue NW", "Washington, DC 20001", "" ]
+        }
+      ]
+    },
+    {
+      "person": {
+        "PartyName": "Defendant",
+        "PartyCompany": "",
+        "ExtraText": "Halliburton Retirement Plan,"
+      },
+      "represent": "represented by",
+      "attorneys": [
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "James                S.              Urban",
+          "Company": "",
+          "Address": [ "(See above for address)", "" ]
+        },
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "",
+          "Company": "Paul                 K.              Stecker",
+          "Address": [ "", "(See above for address)", "" ]
+        },
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "",
+          "Company": "Steven               J.              Sacher",
+          "Address": [ "", "(See above for address)", "" ]
+        }
+      ]
+    },
+    {
+      "person": {
+        "PartyName": "Defendant",
+        "PartyCompany": "",
+        "ExtraText": "Dresser Industries, Inc., Consolidated Retirement Plan,"
+      },
+      "represent": "represented by",
+      "attorneys": [
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "James                S.              Urban",
+          "Company": "",
+          "Address": [ "(See above for address)", "" ]
+        },
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "",
+          "Company": "Paul                 K.              Stecker",
+          "Address": [ "", "(See above for address)", "" ]
+        },
+        {
+          "extraInfo1": "LEAD ATTORNEY",
+          "extraInfo2": "ATTORNEY TO BE NOTICED",
+          "Name": "",
+          "Company": "Steven               J.              Sacher",
+          "Address": [ "", "(See above for address)", "" ]
+        }
+      ]
+    }
+  ],
+  "billing": {
+    "PacerCenter": "PACER Service Center",
+    "TransactionReceipt": "Transaction Receipt",
+    "Date": "06/19/2016 09:15:46",
+    "PacerLogin": "tr1234",
+    "ClientCode": "",
+    "Description": "Docket Report",
+    "SearchCriteria": "1:07-cv-00289-JTC",
+    "BillablePages": "5",
+    "Cost": "0.50"
+  },
+  "sidebar": "Case",
+  "parsed": true
+}

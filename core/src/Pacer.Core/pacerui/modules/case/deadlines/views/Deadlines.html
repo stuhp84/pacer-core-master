@@ -1,0 +1,88 @@
+
+<div class="form-body">
+    <div class="page-content-inner">
+
+        <div class="summary">
+            <h3><span class="bold-title">{{pacerData.header1.CaseNum}}</span>{{pacerData.header1.PartyName}}</h3>
+            <h3>{{pacerData.header1.PartyRepresentative}}</h3>
+            <p><b>Filed:</b> {{pacerData.header1.DateFiled}} |
+                <b>Last filing:</b> {{pacerData.header1.DateOfLastFiling}} |
+                <span ng-show="pacerData.header1.DateTerminated"><b>Terminated:</b> {{pacerData.header1.DateTerminated}}</span></p>
+        </div>
+
+        <div class="title">
+            <h4>Deadlines / Hearings</h4>
+        </div>
+
+        <table class="table panel panel-default">
+            <tr>
+                <td width="120"><b>Doc. No.</b></td>
+                <td width="280"><b>Deadlines / Hearings</b></td>
+                <td width="120"><b>Filed Event</b><br /></td>
+                <td width="120"><b>Due / Set</b></td>
+                <td width="120"><b>Satisfied</b></td>
+                <td width="120"><b>Terminated</b></td>
+            </tr>
+
+
+            <tr ng-repeat="pacerData_deadlinesTable in pacerData.deadlinesTable">
+                <td>
+                    <a href ng-click="fetchCase(pacerData_deadlinesTable.DocNo[0])" >{{pacerData_deadlinesTable.DocNo[1]}}</a>
+                </td>
+                <td>
+                    <a href ng-click="fetchCase(pacerData_deadlinesTable.DeadlineHearing[0])" >{{pacerData_deadlinesTable.DeadlineHearing[1]}}</a>
+                </td>
+                <td>   {{pacerData_deadlinesTable.EventFiled}}
+                </td>
+                <td>   {{pacerData_deadlinesTable.DueSet}}
+                </td>
+                <td>   {{pacerData_deadlinesTable.Satisfied}}
+                </td>
+                <td>   {{pacerData_deadlinesTable.Terminated}}
+                </td>
+            </tr>
+    </table>
+
+        <table class="table panel panel-sm">
+            <tr>
+                <td align="center" colspan="4"><h4><span class="bold-title">{{pacerData.billing.PacerCenter}}</span></h4>
+                    <h4>{{pacerData.billing.TransactionReceipt}}</h4></td>
+            </tr>
+
+            <tr>
+                <td align="left" colspan="2">{{pacerData.billing.Date}}</td>
+                <td align="right" colspan="2">{{pacerData.billing.Time}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Login:</th>
+                <td align="right" colspan="2">{{pacerData.billing.PacerLogin}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Client Code:</th>
+                <td align="right" colspan="2">{{pacerData.billing.ClientCode}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Description:</th>
+                <td align="right" colspan="2">{{pacerData.billing.Description}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Search Criteria:</th>
+                <td align="right" colspan="2">{{pacerData.billing.SearchCriteria}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Billable Pages:</th>
+                <td align="right" colspan="2">{{pacerData.billing.BillablePages}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Cost:</th>
+                <td align="right" colspan="2">{{pacerData.billing.Cost}}</td>
+            </tr>
+        </table>
+        </div>
+    </div>

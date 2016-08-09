@@ -1,0 +1,192 @@
+<form  class="form-horizontal form-bordered form-row-stripped" >
+    <div class="title"><h4> Advanced Search </h4></div>
+
+    <div class="adv-search">
+
+        <div class="form-group">
+                <label class="control-label col-md-3">Case Status</label>
+                <div class="col-md-4">
+                    <label class="radio-inline">
+                        <input ng-model="CaseQuery.case_status" type="radio" name="optionsRadios1" id="optionsRadios1" value="Open" checked="">Open</label>
+                    <label class="radio-inline">
+                        <input ng-model="CaseQuery.case_status" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> Closed </label>
+                    <label class="radio-inline">
+                        <input ng-model="CaseQuery.case_status" type="radio" name="optionsRadios3" id="optionsRadios3" value="All"> All </label>
+                </div> 
+
+
+                <div class="col-md-4">
+                    <input type="text" placeholder="Case Number" class="form-control grey input-circle" ng-model="CaseQuery.case_num">
+                    <span class="help-block"> </span>
+                </div>       
+        </div>   
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Filed Date Range</label>
+            <div class="col-md-8">
+
+                <div class="input-group input-large input-daterange">
+                    <form name="productForm" valid-date >
+                         <input  readonly valid-date="" datepicker-popup="MM/dd/yyyy" maxlength="10" type="text" class="form-control grey" placeholder="MM/DD/YYYY" name="startDate"  uib-datepicker-popup="{{format}}" ng-model="CaseQuery.filed_from" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats"/>
+
+                        <span class="alert alert-danger" role="alert" ng-show="CaseQuery.filed_from.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Invalid start date.</span>
+
+                         <span class="alert alert-danger" role="alert" ng-show="CaseQuery.filed_from.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Start date is required.</span>
+
+                    </form>
+                     <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open1()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+
+
+                    <span class="input-group-addon"> to </span>
+
+                    <form name="productForm" >
+
+                         <input  readonly  datepicker-popup="MM/dd/yyyy" maxlength="10" type="text"  class="form-control grey" placeholder="MM/DD/YYYY" name="endDate" uib-datepicker-popup="{{format}}" ng-model="CaseQuery.filed_to" is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats"/>
+
+                    </form>
+                     <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open2()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Last Entry Date Range</label>
+            <div class="col-md-8">
+                <div class="input-group input-large input-daterange">
+                    <form name="productForm" >
+
+                         <input  readonly datepicker-popup="MM/dd/yyyy" maxlength="10" type="text"  class="form-control grey" placeholder="MM/DD/YYYY" name="startDate" uib-datepicker-popup="{{format}}" ng-model="CaseQuery.lastentry_from" is-open="popup3.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats"/>
+
+                        <span class="alert alert-danger" role="alert" ng-show="CaseQuery.filed_from.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Invalid start date.</span>
+
+                         <span class="alert alert-danger" role="alert" ng-show="CaseQuery.filed_from.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Start date is required.</span>
+                    </form>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open3()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+
+                    <span class="input-group-addon"> to </span>
+
+                    <form name="productForm" >
+                         <input  readonly datepicker-popup="MM/dd/yyyy" maxlength="10" type="text"  class="form-control grey" placeholder="MM/DD/YYYY" name="endDate" uib-datepicker-popup="{{format}}" ng-model="CaseQuery.lastentry_to" is-open="popup4.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats"/>
+
+                         <span class="alert alert-danger" role="alert" ng-show="myForm.startDate.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Invalid end date.</span>
+  
+                         <span class="alert alert-danger" role="alert" ng-show="myForm.startDate.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>End date is required.</span>
+                    </form>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open4()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+                <label class="control-label col-md-3">Nature Of Suit</label>
+                <div class="col-md-8">
+                      <select multiple class="form-control grey" id="sel1" ng-model="CaseQuery.naturesuit" >
+                          <option ng-repeat="opval in naturesuit track by $index" value="{{naturesuit[$index][0]}}">
+                              {{naturesuit[$index][1]}}
+                          </option>
+                      </select>
+
+                </div>
+                 <span class="help-block"> </span>
+        </div>
+
+        <div class="form-group">
+                <label class="control-label col-md-3">Cause of Action</label>
+                <div class="col-md-8">
+                    <select multiple class="form-control grey" id="sel2" ng-model="CaseQuery.causeaction" >
+                        <option ng-repeat="opval in causeaction track by $index" value="{{causeaction[$index][0]}}">
+                            {{causeaction[$index][1]}}
+                        </option>
+                    </select>
+                </div>
+                <span class="help-block"> </span>
+        </div> 
+
+        <div class="form-group">
+                <label class="control-label col-md-3">Name</label>
+                <div class="col-md-4">
+                    <input type="text" placeholder="Business or Last" class="form-control grey input-circle"
+                           ng-model="CaseQuery.last_name">
+                    <span class="help-block"> </span>
+                </div>
+
+                 <div class="col-md-2">
+                    <label class="checkbox-inline">
+                    <input ng-model="check1" type="checkbox" value="option1"> Exact Match Only
+                </label>
+              </div>  
+        </div>
+        
+        <div class="form-group"> 
+                <label class="control-label col-md-3"></label>   
+
+                <div class="col-md-2">
+                    <input type="text" placeholder="First" class="form-control grey input-circle"
+                           ng-model="CaseQuery.first_name">
+                    <span class="help-block"> </span>
+                </div>
+
+                <div class="col-md-2">
+                    <input type="text" placeholder="Middle" class="form-control grey input-circle"
+                           ng-model="CaseQuery.middle_name">
+                    <span class="help-block"> </span>
+                </div>    
+
+                <div class="col-md-2">
+                    <label class="checkbox-inline">
+                    <input ng-model="check2" type="checkbox" value="option2"> Exact Match Only
+                </label>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Type</label>
+            <div class="col-md-8">
+                <select class="form-control grey input-circle" ng-model="CaseQuery.person_type">
+                    <option ng-repeat="opval in formData.options.person_type" value="{{opval[0]}}">
+                        <option value="1">Attorney</option>
+                        <option value="2">Party</option>
+                    </option>
+                </select>
+                <span class="help-block"> </span>
+            </div>
+        </div>   
+
+        <div class="form-group">
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6">
+            <div class="alert alert-danger"><p>Search results from this screen are <b>NOT</b> subject to the 30 page limit on PACER charges. Please be as specific as possible with your search citreria.</p></div>
+        </div>
+
+        <div class="col-md-3 submit-btn">
+            <button type="submit" value="Submit" class="btn blue" ng-click="getPersons()">
+                <i class="fa fa-check"></i> Submit
+            </button>
+            <button class="btn default2" type="reset">Clear</button>
+        </div>
+    </div>
+    </div>    
+</form>

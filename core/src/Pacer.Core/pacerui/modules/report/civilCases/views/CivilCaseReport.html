@@ -1,0 +1,45 @@
+USCourt: {{pacerData.USCourt}}
+<br/> USCourtBranch: {{pacerData.USCourtBranch}}
+<br/> CaseTitle: {{pacerData.CaseTitle}}
+<br/> numberOfCasesReported: {{pacerData.numberOfCasesReported}}
+<br/>
+<table class="table panel panel-default" name="pacerData.civilCasesTable">
+    <tr ng-repeat="pacerData_civilCasesTable in pacerData.civilCasesTable">
+        <td>  URLName: {{pacerData_civilCasesTable.CaseNumberTitle.URLName}}
+            <br/> URL: {{pacerData_civilCasesTable.CaseNumberTitle.URL}}
+            <br/>
+        </td>
+        <td>  CaseDates: {{pacerData_civilCasesTable.CaseDates}}
+            <br/>
+        </td>
+        <td>  DaysPending: {{pacerData_civilCasesTable.DaysPending}}
+            <br/>
+        </td>
+        <td>  Notes: {{pacerData_civilCasesTable.Notes}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<table class="table panel panel-default" name="pacerData.civilCasesSummaryTable">
+    <tr ng-repeat="pacerData_civilCasesSummaryTable in pacerData.civilCasesSummaryTable">
+        <td>  Office: {{pacerData_civilCasesSummaryTable.Office}}
+            <br/>
+        </td>
+        <td>  All: {{pacerData_civilCasesSummaryTable.All}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> PacerLogin: {{pacerData.billing.PacerLogin}}
+    <br/> ClientCode: {{pacerData.billing.ClientCode}}
+    <br/> Description: {{pacerData.billing.Description}}
+    <br/> SearchCriteria: {{pacerData.billing.SearchCriteria}}
+    <br/> BillablePages: {{pacerData.billing.BillablePages}}
+    <br/> Cost: {{pacerData.billing.Cost}}
+    <br/>
+</div>

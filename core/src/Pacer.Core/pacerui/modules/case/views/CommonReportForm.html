@@ -1,0 +1,92 @@
+<div class="form-body"> 
+    <div class="page-content-inner">
+        <label class="control-label">{{formData.form.reportName}}</label>
+
+
+        <form action="#" class="form-horizontal form-bordered form-row-stripped">
+            <div class="form-body">
+                <div class="form-group" ng-repeat="optionset in formData.options track by $index" >
+                    <label class="control-label col-md-3">{{formData.form.optionFields[$index].fieldLabel}}</label>
+                    <div class="col-md-5">
+                        <select class="form-control input-circle" ng-model="CommonQuery[formData.form.optionFields[$index].fieldName]">
+                            <option ng-repeat="opval in optionset track by $index" value="{{optionset[$index][0]}}">
+                                {{optionset[$index][1]}}
+                            </option>
+                        </select>
+                        <span class="help-block"> Select {{formData.form.optionFields[$index].fieldLabel}}.</span>
+                    </div>
+                </div>
+
+
+                <!-- Checkbox -->
+                <div class="form-group" ng-repeat="field in formData.form.otherFields" ng-show="field.type == 'checkbox'">
+                    <label class="control-label col-md-4"> &nbsp;&nbsp;&nbsp;&nbsp; </label>
+                    <div class="checkbox-list">
+                        <label class="checkbox-inline">
+                            <input ng-model="CommonQuery[field.fieldName]" type="checkbox"   ng-checked="field.fieldValue"> {{field.fieldLabel}} </label>
+                    </div>
+                </div>
+
+                <!-- Radio button -->
+                <div class="form-group" ng-repeat="field in formData.form.otherFields" ng-show="field.type == 'radio'">
+                    <label class="control-label col-md-4"> &nbsp;&nbsp;&nbsp;&nbsp;  </label>
+                    <div class="radio-list">
+                        <label class="radio-inline">
+                            <input ng-model="CommonQuery[field.fieldName]" type="radio" name="optionsRadios1" id="optionsRadios1" ng-checked="field.fieldValue">{{field.fieldLabel}}</label>
+                    </div>
+                </div>
+
+                <!-- Text -->
+                <div class="form-group" ng-repeat="field in formData.form.otherFields" ng-show="field.type == 'text'">
+                    <label class="control-label col-md-3">{{field.fieldLabel}} </label>
+                    <div class="col-md-6">
+                        <input type="text" placeholder="Enter {{field.fieldLabel}}" class="form-control input-circle"
+                               ng-model="CommonQuery[field.fieldName]" value="{{field.fieldValue}}">
+                        <span class="help-block"> This is inline help </span>
+                    </div>
+                </div>
+
+                <!-- Text but hidden -->
+                <div class="form-group" ng-repeat="field in formData.form.otherFields" ng-show="field.type == 'hidden'">
+                    <div class="col-md-6">
+                        <input type="hidden" placeholder="Enter {{field.fieldLabel}}" class="form-control input-circle"
+                               id="{{field.fieldName}}"  name="{{field.fieldName}}" value="{{field.fieldValue}}">
+                    </div>
+                </div>
+
+                <!-- Date -->
+                <div class="form-group" ng-repeat="field in formData.form.otherFields track by $index" ng-show="field.type == 'date'">
+                    <label class="control-label col-md-3">{{field.fieldLabel}}</label>
+                    <div class="col-md-4">
+                        <div class="input-group input-large input-daterange">
+                            <p class="input-group">
+                                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="CommonQuery[field.fieldName]"
+                                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                                     <span class="input-group-btn">
+                                        <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                                            <i class="glyphicon glyphicon-calendar"></i></button>
+                                     </span>
+                            </p>
+                            <span class="help-block"> Select date range </span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="form-actions">
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-9 submit-btn">
+                        <button type="button" class="btn dark" ng-click="getCommonReport()">
+                            Submit<span class="glyphicon glyphicon-ok-circle"></span>
+                        </button>
+                        <button type="button" class="btn default2">Cancel</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>    

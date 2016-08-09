@@ -1,0 +1,138 @@
+{
+  "header1": {
+    "CaseNum": "1:07-cv-00347-RJA-LGF",
+    "PartyName": "Fisher et al v. SmithKline Beecham Corporation",
+    "PartyRepresentative": "Richard J. Arcara, presiding",
+    "PartyReferral": "Leslie G. Foschio, referral",
+    "DateFiled": "06/01/2007",
+    "DateTerminated": "05/07/2009",
+    "DateOfLastFiling": "05/07/2009"
+  },
+  "deadlinesTable": [
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=127&dm_id=863355&doc_num=54", "54", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-54-127", "", "Scheduling Conference", "" ],
+      "Event<br>Filed": "07/12/2007",
+      "DueSet": "08/29/2007,<br/>,at 11:00 AM",
+      "Satisfied": "",
+      "Terminated": "08/29/2007"
+    },
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=144&dm_id=898599&doc_num=58", "58", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-58-144", "", "Stip of Selection of Mediator", "" ],
+      "Event<br>Filed": "09/05/2007",
+      "DueSet": "09/13/2007",
+      "Satisfied": "",
+      "Terminated": "09/14/2007"
+    },
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=144&dm_id=898599&doc_num=58", "58", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-58-144", "", "First Mediation Session", "" ],
+      "Event<br>Filed": "09/05/2007",
+      "DueSet": "11/30/2007",
+      "Satisfied": "",
+      "Terminated": "12/11/2007"
+    },
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=220&dm_id=960012&doc_num=77", "77", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-77-220", "", "Response Deadline", "" ],
+      "Event<br>Filed": "11/29/2007",
+      "DueSet": "12/28/2007",
+      "Satisfied": "",
+      "Terminated": "11/17/2008"
+    },
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=220&dm_id=960012&doc_num=77", "77", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-77-220", "", "Reply Deadline", "" ],
+      "Event<br>Filed": "11/29/2007",
+      "DueSet": "01/16/2008",
+      "Satisfied": "",
+      "Terminated": "11/17/2008"
+    },
+    {
+      "Doc<br>No": "88",
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-88-258", "", "Response Deadline", "" ],
+      "Event<br>Filed": "01/08/2008",
+      "DueSet": "01/22/2008",
+      "Satisfied": "",
+      "Terminated": "11/17/2008"
+    },
+    {
+      "Doc<br>No": "88",
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-88-258", "", "Reply Deadline", "" ],
+      "Event<br>Filed": "01/08/2008",
+      "DueSet": "01/29/2008",
+      "Satisfied": "",
+      "Terminated": "11/17/2008"
+    },
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=302&dm_id=1019175&doc_num=101", "101", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-101-302", "", "Response Deadline", "" ],
+      "Event<br>Filed": "03/03/2008",
+      "DueSet": "03/10/2008",
+      "Satisfied": "",
+      "Terminated": "11/17/2008"
+    },
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=302&dm_id=1019175&doc_num=101", "101", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-101-302", "", "Reply Deadline", "" ],
+      "Event<br>Filed": "03/03/2008",
+      "DueSet": "03/14/2008",
+      "Satisfied": "",
+      "Terminated": "11/17/2008"
+    },
+    {
+      "Doc<br>No": "110",
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-110-331", "", "Response Deadline", "" ],
+      "Event<br>Filed": "10/15/2008",
+      "DueSet": "10/24/2008",
+      "Satisfied": "",
+      "Terminated": "11/17/2008"
+    },
+    {
+      "Doc<br>No": "110",
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-110-331", "", "Reply Deadline", "" ],
+      "Event<br>Filed": "10/15/2008",
+      "DueSet": "10/30/2008",
+      "Satisfied": "",
+      "Terminated": "11/17/2008"
+    },
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=352&dm_id=1204517&doc_num=116", "116", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-116-352", "", "Reply Deadline", "" ],
+      "Event<br>Filed": "11/17/2008",
+      "DueSet": "11/21/2008",
+      "Satisfied": "",
+      "Terminated": "03/11/2009"
+    },
+    {
+      "Doc<br>No": [ "/cgi-bin/show_doc.pl?caseid=64541&de_seq_num=352&dm_id=1204517&doc_num=116", "116", "" ],
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541-116-352", "", "Response Deadline", "" ],
+      "Event<br>Filed": "11/17/2008",
+      "DueSet": "12/05/2008",
+      "Satisfied": "",
+      "Terminated": "03/11/2009"
+    },
+    {
+      "Doc<br>No": "",
+      "DeadlineHearing": [ "/cgi-bin/SchedQry.pl?208600879333642-L_ShowDktAndRelated_1-0-64541--450", "", "Motion Hearing", "" ],
+      "Event<br>Filed": "04/20/2009",
+      "DueSet": "05/21/2009,<br/>,at 09:00 AM",
+      "Satisfied": "",
+      "Terminated": "05/07/2009"
+    }
+  ],
+  "billing": {
+    "PacerCenter": "PACER Service Center",
+    "TransactionReceipt": "Transaction Receipt",
+    "Date": "06/18/2016 12:23:10",
+    "PacerLogin": "tr1234",
+    "ClientCode": "",
+    "Description": "Deadline/Hearings",
+    "SearchCriteria": "1:07-cv-00347-RJA-LGF",
+    "BillablePages": "1",
+    "Cost": "0.10"
+  },
+  "sidebar": "Case",
+  "parsed": true
+}

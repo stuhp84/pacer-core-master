@@ -1,0 +1,146 @@
+<!--
+ view_comb_doc_text: "",
+        all_case_ids: "63443",
+        CaseNum_63443: "on",
+        date_range_type: "Filed",
+        date_from:"",
+        date_to:"",
+        documents_numbered_from_:"",
+        documents_numbered_to_:"",
+        list_of_parties_and_counsel:"on",
+        terminated_parties:"on",
+        output_format:"html",
+        PreResetField:"",
+        PreResetFields:"",
+        sort1:"oldest date first"
+        -->
+
+<!-- Query Form Begin-->
+<form action="#" class="form-horizontal form-bordered form-row-stripped">
+    
+    <div class="form-body">
+        <h3><span class="bold-title">Docket Report</span></h3>
+        <div class="form-group">
+            <label class="control-label col-md-2">Case Number</label>
+            <div class="col-md-6">
+                <input type="text" placeholder="Enter Case Number" class="form-control input-circle" ng-model="q.epa_case_num" ng-disabled="true">
+                <span class="help-block"></span>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Status</label>
+            <div class="col-md-6">
+                <!-- Angular and bootstrap clashes with each other with class=button. Can not select
+                <label class="radio-inline">
+                    <div class="radio" id="uniform-optionsRadios1"><span class="checked"><input ng-model="q.date_range_type" type="radio" name="optionsRadios" id="optionsRadios1" value="Filed" checked=""></span></div> Filed</label>
+              -->
+                <label class="checks radio-inline m-L2">
+                    <div class="" id="uniform-optionsRadios1"><span><input ng-model="q.date_range_type" type="radio" name="optionsRadios" id="optionsRadios1" value="Filed" checked ></span></div> Filed</label>
+                <label class="checks radio-inline m-L2">
+                    <div class="" id="uniform-optionsRadios2"><span><input ng-model="q.date_range_type" type="radio" name="optionsRadios" id="optionsRadios2" value="Entered"></span></div> Entered </label>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Filed Date Range</label>
+            <div class="col-md-6">
+                <div class="input-group input-large input-daterange">
+                    <p class="input-group">
+                        <input type="text" class="form-control" placeholder="MM/DD/YYYY" uib-datepicker-popup="{{format}}" ng-model="q.date_from"
+                               is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open1()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+                    </p>
+
+                    <span class="input-group-addon"> to </span>
+
+                    <p class="input-group">
+                        <input type="text" class="form-control" placeholder="MM/DD/YYYY" uib-datepicker-popup="{{format}}" ng-model="q.date_to"
+                               is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open2()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+                    </p>
+
+                    <span class="help-block"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Documents</label>
+                
+                <span class="col-md-3">
+                    <input type="text" class="form-control" ng-model="q.documents_numbered_from_">
+                </span>
+
+                <span class="col-md-2 input-group-addon">to</span>
+
+                <span class="col-md-3">    
+                    <input type="text" class="form-control" ng-model="q.documents_numbered_to_">
+                </span>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Include</label>
+            <div class="col-md-9">
+                <label class="checks m-L2 checkbox-inline">
+                    <input ng-model="q.list_of_parties_and_counsel" checked type="checkbox" value="on"> Parties and counsel </label>
+                <label class="checks m-L2 checkbox-inline">
+                    <input ng-model="q.terminated_parties"  checked type="checkbox" value="on"> Terminated parties </label>
+                <label class="checks m-L2 checkbox-inline">
+                    <input ng-model="q.list_of_member_cases" type="checkbox" value="on"> List of member cases</label>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Document Options </label>
+            <div class="col-md-6">
+                <label class="checks m-L2 checkbox-inline">
+                    <input ng-model="q.view_multi_docs" type="checkbox"  value="option1"> View multiple documents </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Format</label>
+            <div class="col-md-6">
+               <label class="checks radio-inline m-L2">
+                    <div class="" id="uniform-optionsRadios11"><span class="checked"><input ng-model="q.output_format" type="radio" name="optionsRadios11" id="optionsRadios11" value="html" checked=""></span></div> HTML (unpaginated)</label>
+                <label class="checks radio-inline m-L2">
+                    <div class="" id="uniform-optionsRadios22"><span><input ng-model="q.output_format" type="radio" name="optionsRadios22" id="optionsRadios22" value="pdf"></span></div> PDF (paginated) </label>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Sort by</label>
+            <div class="col-md-6">
+                <select class="form-control input-circle" ng-model="q.naturesuit_selected">
+                    <option selected="" value="oldest date first">Oldest date first</option>
+                    <option value="most recent date first">Most recent date first</option>
+                </select>
+                                    <span class="help-block">
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-md-offset-3 col-md-9 submit-btn pad-L2">
+                    <button type="button" class="btn blue" ng-click="run()">
+                        Submit<span class="glyphicon glyphicon-ok-circle"></span>
+                    </button>
+                    <button type="reset" class="btn default2">Clear</button>
+                </div>
+            </div>
+    </div>
+</form>

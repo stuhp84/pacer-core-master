@@ -1,0 +1,134 @@
+<form action="#" class="form-horizontal form-bordered form-row-stripped">
+    
+    <div class="form-body">
+        <h3><span class="bold-title">Related Transactions</span></h3>
+
+       <div class="form-group">
+            <label class="control-label col-md-2">Filed</label>
+            <div class="col-md-6">
+                <div class="input-group input-large input-daterange">
+                        <input type="text" class="form-control" placeholder="MM/DD/YYYY" uib-datepicker-popup="{{format}}" ng-model="q.date_from"
+                               is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open1()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+
+                    <span class="input-group-addon">to</span>
+
+                        <input type="text" class="form-control" placeholder="MM/DD/YYYY" uib-datepicker-popup="{{format}}" ng-model="q.date_to"
+                               is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open2()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+
+                    <span class="help-block"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Documents</label>
+                
+                <span class="col-md-3">
+                    <input type="text" class="form-control" ng-model="q.documents_numbered_from_">
+                </span>
+
+                <span class="col-md-2 input-group-addon">to</span>
+
+                <span class="col-md-3">    
+                    <input type="text" class="form-control" ng-model="q.documents_numbered_to_">
+                </span>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Document Type</label>
+            <div class="col-md-6">
+                <select class="form-control input-circle" ng-model="q.naturesuit_selected1">
+                    <option value=""></option>
+                    <option value="">Type</option>
+                    <option value="">adr</option>
+                    <option value="">answer</option>
+                    <option value="">apeal</option>
+                    <option value="">apeal-cr</option>
+                    <option value="">audio</option>
+                    <option value="">audio-cr</option>
+                    <option value="">charge-cr</option>
+                    <option value="">cmp</option>
+                    <option value="">detention-cr</option>
+                    <option value="">discov</option>
+                    <option value="">discovery-cr</option>
+                    <option value="">minutes</option>
+                    <option value="">minutes-cr</option>
+                    <option value="">misc</option>
+                    <option value="">mot2255</option>
+                    <option value="">notice</option>
+                    <option value="">order</option>
+                    <option value="">order-cr</option>
+                    <option value="">plea-cr</option>
+                    <option value="">respm</option>
+                    <option value="">respm-cr</option>
+                    <option value="">respoth</option>
+                    <option value="">service</option>
+                    <option value="">service-cr</option>
+                    <option value="">transfer</option>
+                    <option value="">transfer-cr</option>
+                    <option value="">trial</option>
+                    <option value="">trial-cr</option>
+                    <option value="">utility</option>
+                    <option value="">utility-cr</option>
+                    <option value="">waiver-cr</option>
+                </select>
+            </div>
+        </div>
+
+        <!--div class="form-group">
+            <label class="control-label col-md-2">Document Subtype</label>
+            <div class="col-md-6">
+                <input type="text" placeholder="" class="form-control input-circle"
+                       ng-model="q.documents_numbered_from_">
+                <span class="help-block"></span>
+            </div>
+        </div-->
+
+        <div class="form-group">
+        <label class="control-label col-md-2"></label>
+            <div class="col-md-6">
+                <label class="checkbox-inline">
+                    <input ng-model="q.view_pending" type="checkbox" value="option1"> Pending
+                </label>
+
+
+                <label class="checkbox-inline">
+                    <input ng-model="q.view_terminated" type="checkbox" value="option12"> Terminated
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Sort By</label>
+            <div class="col-md-6">
+                <select class="form-control input-circle" ng-model="q.naturesuit_selected2">
+                    <option value=""></option>
+                    <option value="">Filed Date</option>
+                    <option value="">Entered Date</option>
+                    <option value="">Document Number</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-offset-3 col-md-9 submit-btn pad-L2">
+                    <a href="#/related2"><button type="button" class="btn blue" ng-click="run()">
+                        Submit<span class="glyphicon glyphicon-ok-circle"></span>
+                    </button></a>
+                   <button class="btn default2" type="reset">Clear</button>
+                </div>
+        </div>
+    </div>
+</form>

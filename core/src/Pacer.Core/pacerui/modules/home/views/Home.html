@@ -1,0 +1,128 @@
+
+
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+        <!-- BEGIN CONTENT BODY -->
+        <!-- BEGIN PAGE HEAD-->
+        <div class="page-head">
+            <div class="container">
+                <!-- BEGIN PAGE TITLE -->
+                <div class="page-title">
+                    <h1></h1>
+                </div>
+                <!-- END PAGE TITLE -->
+                <!-- BEGIN PAGE TOOLBAR -->
+
+                <!-- END PAGE TOOLBAR -->
+            </div>
+        </div>
+        <!-- END PAGE HEAD-->
+        <!-- BEGIN PAGE CONTENT BODY -->
+        <div class="page-content" style="min-height: 436px;">
+            <div class="container">
+                <div class="case-search">
+                        <!-- BEGIN PAGE CONTENT INNER -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="AO"><img src="plugins/images/AO-logo.png" width="200" height="200" alt="Administrative Office of the United States Courts logo"></div>
+                                    <h4><span class="bold-title">Welcome to the U.S. District Court for the District of Columbia</span></h4>
+
+                                    <br /><br />
+
+                                    <!--
+                                    <div id="custom-search-input">
+                                          <div class="input-group col-md-12">
+
+
+                                              <div  ng-show="selectedItem == 'Case'" placeholder="" angucomplete-alt id="ex5" placeholder="Search projects" pause="500"
+                                                   remote-api-handler="caseLookupAPI" selected-object="selectedCase" ng-model="caseInput"
+                                                   remote-url-data-field="cases" title-field="caseTitle" description-field="caseId" minlength="2" input-class="form-control input-lg" match-class="highlight">
+                                                  </div>
+
+                                              <input ng-show="selectedItem == 'Name'" type="text" class="form-control input-lg" ng-model="caseInput" placeholder="" >
+
+                                                        <span class="input-group-btn">
+                                                        <button class="btn2 btn-info btn-lg btn blue s-btn" type="submit" value="Submit" ng-click="lookupCase()" >
+                                                            <i class="glyphicon glyphicon-search" aria-hidden="true" data-toggle="tooltip" title="magnifying glass"></i>
+                                                        </button>
+                                                      </span>
+                                              <br/>
+                                              <div class="result">
+                                                  <div class="" ng-show="selectedProject">
+                                                      Repository: <span class="bold-span">{{selectedProject.originalObject.git_url}}</span>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                    </div>
+                                    -->
+                                    <div id="custom-search-input">
+                                        <div class="input-group col-md-12">
+
+                                            <div   placeholder="" angucomplete-alt id="ex5" placeholder="Search projects" pause="500" text-searching="false"
+                                                  remote-api-handler="caseLookupAPI" selected-object="selectedCase" input-changed="inputChanged"
+                                                  remote-url-data-field="cases" title-field="caseTitle" description-field="caseId" minlength="2" input-class="form-control input-lg" match-class="highlight">
+                                            </div>
+
+                                                      <span class="input-group-btn">
+                                                        <button class="btn2 btn-info btn-lg btn blue s-btn" type="submit" value="Submit" ng-click="lookupCase()" >
+                                                            <i class="glyphicon glyphicon-search" aria-hidden="true" data-toggle="tooltip" title="magnifying glass"></i>
+                                                        </button>
+                                                      </span>
+                                        </div>
+                                    </div>
+
+
+                             
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+                        <div class="page-content-inner">
+                                <h4>Don't have a case number? Try our <a href ng-click="search()">Advanced Search</a></h4><br /><br />
+                       </div>
+
+                        <div class="page-content-inner p-padding alert alert-danger">
+                                <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        </div>
+
+                        <div class="title"><h4>Court Information</h4></div>
+                        <div class="court-content col-md-12">
+
+
+                            <div class="column col-md-4 pad-R">
+                                <img ng-src="plugins/images/Court1.png" class="hide-mobile img-responsive" alt="Gavel and flag">
+                                <h3>Court Details</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <a href="#">view more</a>
+                            </div>
+
+                            <div class="column col-md-4 pad-R">
+                                <img src="plugins/images/Court2.png" class="hide-mobile img-responsive" alt="Exterior of Court House">
+                                <h3>Court Locations</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <a href="#">view more</a>
+                            </div>
+
+                            <div class="column col-md-4 pad-R">
+                                <img src="plugins/images/Court3.png" class="hide-mobile img-responsive" alt="Judge Judy">
+                                <h3>Appointed Judges</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                <a href="#">view more</a>
+                            </div>
+                        
+                        </div>
+                        <!-- END PAGE CONTENT INNER -->
+                </div>        
+            </div>
+        </div>
+        <!-- END PAGE CONTENT BODY -->
+        <!-- END CONTENT BODY -->
+    </div>

@@ -1,0 +1,37 @@
+<div class="summary" name="header"> CaseNum: {{pacerData.header.CaseNum}}
+    <br/> PartyName: {{pacerData.header.PartyName}}
+    <br/> PartyRepresentative: {{pacerData.header.PartyRepresentative}}
+    <br/> DateFiled: {{pacerData.header.DateFiled}}
+    <br/> DateTerminated: {{pacerData.header.DateTerminated}}
+    <br/> DateOfLastFiling: {{pacerData.header.DateOfLastFiling}}
+    <br/>
+</div>
+<br/>
+<table class="table panel panel-default" name="pacerData.transactionTables">
+    <tr ng-repeat="pacerData_transactionTables in pacerData.transactionTables">
+        <td>
+            <table class="table panel panel-default" name="pacerData_transactionTables">
+                <tr ng-repeat="pacerData_transactionTables in pacerData_transactionTables">
+
+                    <td>
+                        DocNo: <a href ng-click="fetchCase(pacerData_transactionTables.DocNo[0])" >{{pacerData_transactionTables.DocNo[1]}}</a>
+                    </td>
+                    <td ng-show="isArrayElem(pacerData_transactionTables.EventName)">
+                        EventName:<a href ng-click="fetchCase(pacerData_transactionTables.EventName[0])" >{{pacerData_transactionTables.EventName[1]}}</a>
+                    </td>
+                    <td ng-show="!isArrayElem(pacerData_transactionTables.EventName)">
+                        EventName: {{pacerData_transactionTables.EventName}}
+                    </td>
+                    <td>  EventFiled: {{pacerData_transactionTables.EventFiled}}
+                        <br/>
+                    </td>
+                    <td>  EventTerminated: {{pacerData_transactionTables.EventTerminated}}
+                        <br/>
+                    </td>
+
+                </tr>
+            </table>
+        </td>
+        <br/>
+    </tr>
+</table>

@@ -1,0 +1,142 @@
+
+<div class="form-group">
+    <label class="control-label col-md-3">Sort by</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.sort1" >
+            <option ng-repeat="opval in pacerData.DocketReportSelectOptionValues.sort1 track by $index" value="{{pacerData.DocketReportSelectOptionValues.sort1[$index][0]}}">
+                {{pacerData.DocketReportSelectOptionValues.sort1[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.view_comb_doc_checkbox" type="checkbox" ng-checked=""> View Combined Docket Report
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.list_of_parties_and_counsel" type="checkbox" ng-checked="true"> Parties and counsel
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.terminated_parties" type="checkbox" ng-checked="true"> Terminated parties
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.list_of_member_cases" type="checkbox" ng-checked=""> List of member cases
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.view_multi_docs" type="checkbox" ng-checked=""> View multiple documents
+
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.date_range_type" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> Filed
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.date_range_type" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> Entered
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.output_format" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> html
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.output_format" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> pdf
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3"> </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter " class="form-control input-circle"
+               ng-model="Query.documents_numbered_from_" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3"> </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter " class="form-control input-circle"
+               ng-model="Query.documents_numbered_to_" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Filed
+
+        Entered</label>
+    <div class="col-md-8">
+        <div class="input-group input-large input-daterange">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Query.date_from" datetime="MM/dd/yyyy"
+                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">to</label>
+    <div class="col-md-8">
+        <div class="input-group input-large input-daterange">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Query.date_to" datetime="MM/dd/yyyy"
+                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-3 submit-btn">
+    <button type="submit" value="Submit" class="btn blue" ng-click="submitForm()">
+        <i class="fa fa-check"></i> Submit
+    </button>
+    <button class="btn default2" type="reset">Clear</button>
+</div>

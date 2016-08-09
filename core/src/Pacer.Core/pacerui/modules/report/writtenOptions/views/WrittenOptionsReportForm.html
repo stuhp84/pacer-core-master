@@ -1,0 +1,147 @@
+
+<div class="form-group">
+    <label class="control-label col-md-3">Office</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.office" >
+            <option ng-repeat="opval in pacerData.WrittenOptionsReportSelectOptionValues.office track by $index" value="{{pacerData.WrittenOptionsReportSelectOptionValues.office[$index][0]}}">
+                {{pacerData.WrittenOptionsReportSelectOptionValues.office[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Nature ofSuit</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.nsuit" >
+            <option ng-repeat="opval in pacerData.WrittenOptionsReportSelectOptionValues.nsuit track by $index" value="{{pacerData.WrittenOptionsReportSelectOptionValues.nsuit[$index][0]}}">
+                {{pacerData.WrittenOptionsReportSelectOptionValues.nsuit[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Case Type</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.case_type" >
+            <option ng-repeat="opval in pacerData.WrittenOptionsReportSelectOptionValues.case_type track by $index" value="{{pacerData.WrittenOptionsReportSelectOptionValues.case_type[$index][0]}}">
+                {{pacerData.WrittenOptionsReportSelectOptionValues.case_type[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Cause</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.cause" >
+            <option ng-repeat="opval in pacerData.WrittenOptionsReportSelectOptionValues.cause track by $index" value="{{pacerData.WrittenOptionsReportSelectOptionValues.cause[$index][0]}}">
+                {{pacerData.WrittenOptionsReportSelectOptionValues.cause[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Case Flags</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.case_flags" >
+            <option ng-repeat="opval in pacerData.WrittenOptionsReportSelectOptionValues.case_flags track by $index" value="{{pacerData.WrittenOptionsReportSelectOptionValues.case_flags[$index][0]}}">
+                {{pacerData.WrittenOptionsReportSelectOptionValues.case_flags[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Sort by</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.Key1" >
+            <option ng-repeat="opval in pacerData.WrittenOptionsReportSelectOptionValues.Key1 track by $index" value="{{pacerData.WrittenOptionsReportSelectOptionValues.Key1[$index][0]}}">
+                {{pacerData.WrittenOptionsReportSelectOptionValues.Key1[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.ShowFull" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> 0
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.ShowFull" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> 1
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Case Number </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter Case Number" class="form-control input-circle"
+               ng-model="Query.case_num" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Last Name </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter Last Name" class="form-control input-circle"
+               ng-model="Query.last_name" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">First Name </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter First Name" class="form-control input-circle"
+               ng-model="Query.first_name" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Middle Name </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter Middle Name" class="form-control input-circle"
+               ng-model="Query.middle_name" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Filed between</label>
+    <div class="col-md-8">
+        <div class="input-group input-large input-daterange">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Query.filed_from" datetime="MM/dd/yyyy"
+                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">and</label>
+    <div class="col-md-8">
+        <div class="input-group input-large input-daterange">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Query.filed_to" datetime="MM/dd/yyyy"
+                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-3 submit-btn">
+    <button type="submit" value="Submit" class="btn blue" ng-click="submitForm()">
+        <i class="fa fa-check"></i> Submit
+    </button>
+    <button class="btn default2" type="reset">Clear</button>
+</div>

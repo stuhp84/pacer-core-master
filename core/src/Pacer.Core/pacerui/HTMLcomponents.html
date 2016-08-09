@@ -1,0 +1,1229 @@
+<!-- Accept Charges -->
+
+            <input type="checkbox" value="selected" id="someID-1" class="tooltip-input">
+            <label for="someID-1" class="tooltip-label">I accept these charges.</label>  
+
+            <div role="tooltip" id="tooltipID" class="tooltip-content">
+                <a href="#/documents4"><button type="button" class="btn blue" ng-click="run()">View Document</button></a>
+            </div>
+
+
+
+<!-- Check Box -->
+
+        <div class="form-group">
+        <label class="control-label col-md-2"></label>
+            <div class="col-md-6">
+                <label class="checkbox-inline">
+                    <input ng-model="q.view_pending" type="checkbox" value="option1"> Checkbox Label
+                </label>
+            </div>
+        </div>
+
+
+
+<!-- Date Picker -->
+
+        <div class="col-md-3">
+            <div class="input-group input-large input-daterange">
+                    <input type="text" class="form-control" placeholder="MM/DD/YYYY" uib-datepicker-popup="{{format}}" ng-model="q.date_from"
+                               is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn blue" ng-click="open1()">
+                            <i class="glyphicon glyphicon-calendar"></i>
+                        </button>
+                    </span>
+        </div>   
+
+        
+
+<!-- Date Range Picker -->
+
+       <d iv class="form-group">
+            <label class="control-label col-md-2">Filed</label>
+            <div class="col-md-6">
+                <div class="input-group input-large input-daterange">
+                        <input type="text" class="form-control" placeholder="MM/DD/YYYY" uib-datepicker-popup="{{format}}" ng-model="q.date_from"
+                               is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open1()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+
+                    <span class="input-group-addon">to</span>
+
+                        <input type="text" class="form-control" placeholder="MM/DD/YYYY" uib-datepicker-popup="{{format}}" ng-model="q.date_to"
+                               is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true"
+                               close-text="Close" alt-input-formats="altInputFormats"/>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open2()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+
+                    <span class="help-block"></span>
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- Dropdown Field -->
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Dropdown Label </label>
+            <div class="col-md-6">
+                <select class="form-control input-circle" ng-model="q.naturesuit_selected1">
+                    <option value=""></option>
+                    <option value="">item 01</option>
+                    <option value="">item 02</option>
+                    <option value="">item 03</option>
+                    <option value="">item 04</option>
+                    <option value="">item 05</option>
+                </select>
+            </div>
+        </div>
+
+
+
+<!-- Pick List -->
+
+        <div class="form-group pad-R">
+                <label class="control-label col-md-3">Pick List Label </label>
+                <div class="col-md-8">
+                      <select multiple class="form-control grey" id="sel2">
+                        <option></option>
+                        <option>item 01</option>
+                        <option>item 02</option>
+                        <option>item 03</option>
+                        <option>item 04</option>
+                        <option>item 05</option>                        
+                      </select>
+                </div>
+                <span class="help-block"></span>
+        </div> 
+
+
+
+<!-- Radio Buttons -->
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Radio Label </label>
+            <div class="col-md-6">
+                <label class="checks radio-inline m-L2">
+                    <div class="" id="uniform-optionsRadios1"><span><input ng-model="q.date_range_type" type="radio" name="optionsRadios" id="optionsRadios1" value="1" checked ></span></div> Label 01 </label>
+                <label class="checks radio-inline m-L2">
+                    <div class="" id="uniform-optionsRadios2"><span><input ng-model="q.date_range_type" type="radio" name="optionsRadios" id="optionsRadios2" value="2"></span></div> Label 02 </label>
+            </div>
+        </div>        
+ 
+
+
+<!-- Receipt -->
+
+        <table class="table panel panel-sm">
+            <tr>
+                <td align="center" colspan="4"><h4><span class="bold-title">PACER SERVICE CENTER</span></h4><h4>Transaction Receipt</h4></td>
+            </tr>
+
+            <tr>
+                <td align="left" colspan="2">07/07/2016</td>
+                <td align="right" colspan="2">11:33 am</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Login:</th>
+                <td align="right" colspan="2">tr1234</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Client Code:</th>
+                <td align="right" colspan="2"></td>
+            </tr>      
+            
+            <tr>
+                <th align="left" colspan="2">Description:</th>
+                <td align="right" colspan="2">Associated Cases</td>
+            </tr> 
+            
+            <tr>
+                <th align="left" colspan="2">Search Criteria:</th>
+                <td align="right" colspan="2">1:16-cv-00058-WKW-GMB</td>
+            </tr> 
+
+            <tr>
+                <th align="left" colspan="2">Billable Pages:</th>
+                <td align="right" colspan="2">1</td>
+            </tr> 
+
+            <tr>
+                <th align="left" colspan="2">Cost:</th>
+                <td align="right" colspan="2">0.10</td>
+            </tr>
+        </table> 
+
+
+
+<!-- Search + Dropdown -->
+
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+
+                        <div   placeholder="" angucomplete-alt id="ex5" placeholder="Search projects" pause="500" text-searching="false"
+                               remote-api-handler="caseLookupAPI" selected-object="selectedCase" input-changed="inputChanged"
+                               remote-url-data-field="cases" title-field="caseTitle" description-field="caseId" minlength="2" input-class="form-control input-lg" match-class="highlight">
+                        </div>
+
+                        <span class="input-group-btn">
+                            <button class="btn2 btn-info btn-lg btn blue s-btn" type="submit" value="Submit" ng-click="lookupCase()" >
+                                <i class="glyphicon glyphicon-search" aria-hidden="true" data-toggle="tooltip" title="magnifying glass"></i>
+                            </button>
+                        </span>
+                </div>
+            </div>
+
+
+
+<!-- Submit + Clear Buttons -->
+
+                <div class="col-md-offset-3 col-md-9 submit-btn pad-L2">
+                    <a href="#/related2"><button type="button" class="btn blue" ng-click="run()">
+                        Submit<span class="glyphicon glyphicon-ok-circle"></span>
+                    </button></a>
+                   <button class="btn default2" type="reset">Clear</button>
+                </div>
+
+
+
+<!-- Text Field Range -->
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Documents</label>
+                
+                <span class="col-md-3">
+                    <input type="text" class="form-control" ng-model="q.documents_numbered_from_">
+                </span>
+
+                <span class="col-md-2 input-group-addon">to</span>
+
+                <span class="col-md-3">    
+                    <input type="text" class="form-control" ng-model="q.documents_numbered_to_">
+                </span>
+        </div>
+
+
+
+<!-- Table (Alias) -->
+
+                    <div class="title">
+                        <h4>Parties with aliases</h4>
+                    </div>
+                 
+                    <table class="table panel panel-default">
+                        <tr>       
+                            <td width="400"><b>Name (1)</b><br />
+                                <i>(Title)</i>
+                            </td>
+                            <td width="166">aka</td>
+                            <td width="574"><b>Alias Name</b>
+                            </td>
+                        </tr>        
+                    </table>
+
+
+
+<!-- Table (Associated Cases) -->
+
+        <div class="title">
+            <h4>Associated Cases</h4>
+        </div>
+     
+        <table id="civil-sort" class="sort table panel panel-default">
+                <thead>
+                    <tr>       
+                        <th class="sort-header" width="450">Lead Case </th>
+                        <th class="sort-header" width="450">Member Case </th>
+                        <th class="sort-header" width="120">Start Date </th>
+                        <th class="sort-header" width="120">End Date</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>       
+                        <td width="450">6:13-cv-00946-RWS-KNM</td>
+                        <td width="450"><a href="#">6:13-cv-00950-RWS-KNM<br /></a> Uniloc USA, Inc. et al v. Photo Stock Plus</td>
+                        <td width="120">06/28/2014</td>
+                        <td width="120">07/22/2014</td>
+                    </tr>
+                </tbody>           
+        </table>                    
+
+
+
+<!-- Table (Attorney List) Single -->
+
+        <div class="title">
+            <h4>Attorneys</h4>
+        </div>
+     
+        <table class="table panel panel-default">
+            <tr>       
+                <td width="400"><b>David B. Smith</b><br />
+                    Feuerstein &amp; Smith, LLP<br /> 
+                    17 St. Louis Place <br />
+                    Buffalo, NY 14202-1502 <br />
+                    716-845-9704 <br />
+                    716-856-9707 (fax) <br />
+                    <br /><br />
+                    <i>Assigned: 03/08/2007</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i>
+                </td>
+                <td width="166">representing</td>
+                <td width="574"><b>D.A. Elia Construction Corp. </b><br />
+                    <i>Assigned: 03/08/2007</i><br />
+                    <i>(Plantiff)</i>
+                </td>
+            </tr>     
+        </table>
+
+
+
+<!-- Table (Attorney List) Mutliple -->
+
+        <div class="title">
+            <h4>Attorneys</h4>
+        </div>
+     
+        <table class="table panel panel-default">
+            <tr>       
+                <td width="400"><b>Daniel F. Brown</b><br />
+                    Damon Morey LLP<br /> 
+                    200 Delaware Avenue <br />
+                    Suite 1200 <br />
+                    Buffalo, NY 14202 <br />
+                    716-856-5500  <br />
+                    716-856-5510 (fax)<br />
+                    <br /><br />
+                    <i>Assigned: 03/08/2007</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i>
+                </td>
+                <td width="166">representing</td>
+                <td width="574">
+                    <b>Damon &amp; Morey LLP </b><br />
+                    <i>Assigned: 03/08/2007</i><br />
+                    <i>(Defendant)</i>
+                    <br /><br />
+
+                    <b>John Smith</b><br />
+                    <i>Assigned: 03/08/2007</i><br />
+                    <i>(Defendant)</i>
+                    <br /><br />                    
+
+                    <b>Jane Smith</b><br />
+                    <i>Assigned: 03/08/2007</i><br />
+                    <i>(Defendant)</i>
+                </td>
+            </tr>    
+        </table>
+
+
+
+<!-- Table (Case File Location) -->
+
+            <div class="title">
+                <h4>Case File Location</h4>
+            </div>
+                    
+            <table class="table panel panel-default">
+                <tr>       
+                    <td width="200"><b>Case Number</b></td>
+
+                    <td width="110"><b>Volume</b></td>
+
+                    <td width=""><b>Case Title</b><br /></td>
+
+                    <td width=""><b>Result</b></td>
+                </tr>
+
+                <tr>       
+                    <td width="200">1:15-cr-00356-JFK</td>
+
+                    <td width="110">CS1</td>
+
+                    <td width="">USA v. Williams et al</td>
+
+                    <td width="">The case file may be available.</td>
+                </tr>     
+            </table>
+
+
+
+<!-- Table (Case Summary) Criminal -->
+
+            <div class="title"><h4> Antwoine Williams (1) Case Summary </h4></div>
+                <table class="table panel panel-default">
+                    <tr>
+                        <td width="400"><b>Office: </b>Foley Square</td>
+                        <td width="240"><b>Filed: </b>06/08/2015</td>
+                        <td width="160"></td>
+                        <td width="160"></td>
+                        <td width="160"></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>County: </b>Bronx</td>
+                        <td><b>Terminated: </b>05/31/2016</td>
+                        <td><b>Reopened: </b> </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Count: </b>1<br /></td>
+                        <td><b>Citation: </b>21:846=CD.F</td>
+                        <td><b>Offense Level: </b>4</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="5"><b>21:846=CD.F </b><i>(CONSPIRACY TO DISTRIBUTE CONTROLLED SUBSTANCE)</i><br /></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant Custody Status: </b>Custody This Court</td>
+                        <td><b>Flag: </b>ECF</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff: <br /></b>USA</td>
+                        <td><b>Represented by: <br /></b>Jessica Fender</td>
+                        <td><b>Phone: <br /></b>212-637-2500</td>
+                        <td><b>Fax: <br /></td>
+                        <td><b>Email: <br /></b>jessica@fender@usdoj.gov</td>
+                    </tr>
+                </table>
+
+
+
+<!-- Table (Case Summary) Civil -->
+
+            <div class="title"><h4> Case Summary </h4></div>
+                <table class="table panel panel-default">
+                    <tr>
+                        <td><b>Office: </b>Tyler</td>
+                        <td><b>Filed: </b>12/10/2013</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Jury Demand: </b>Both</td>
+                        <td><b>Demand:  </b></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Nature of Suit: </b>830</td>
+                        <td><b>Cause: </b>35:271 Patent Infringement</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Jurisdiction: </b>Federal Question</td>
+                        <td><b>Disposition: </b>Dismissed - Settled</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>County: </b>Anderson</td>
+                        <td><b>Terminated: </b>05/08/2015</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Origin: </b>1</td>
+                        <td><b>Reopened: </b> </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Lead Case: </b>None</td>
+                        <td><b>Related Case: </b>None</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Other Court Case: </b>None</td>
+                        <td><b>Def Custody Status: </b> </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><b>Flags:</b> CASREF, CLOSED, CONSOL, JURY, KNM3, LED1, PATENT/TRADEMARK, RWS2
+                    </tr>
+                </table>
+
+
+
+<!-- Table (Case Summary) Party -->
+
+                <table class="table panel">
+                    <tr class="title">
+                        <td width="340"><b>Party</b></td>
+                        <td width="200"><b>Represented by</b></td>
+                        <td width="140"><b>Phone</b></td>
+                        <td width="140"><b>Fax</b></td>
+                        <td width="200"><b>Email</b></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff:</b> Uniloc USA, Inc.</td>
+                        <td>James L. Etheridge</td>
+                        <td>817-470-7249</td>
+                        <td>817-887-5950</td>
+                        <td>jim@etheridgelaw.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff:</b> Uniloc Luxembourg S.A.</td>
+                        <td>James L. Etheridge</td>
+                        <td>817-470-7249</td>
+                        <td>817-887-5950</td>
+                        <td>jim@etheridgelaw.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+                        <td>Tamany Vinson Bentz</td>
+                        <td>310-229-9900</td>
+                        <td>310-229-9901</td>
+                        <td>tjbentz@venable.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+                        <td>Frank M Gasparo</td>
+                        <td>212-370-6273</td>
+                        <td>212-307-5598</td>
+                        <td>fmgasparo@venable.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+                        <td>Andrew William Stinson</td>
+                        <td>903-510-5277</td>
+                        <td>903-597-2413</td>
+                        <td>andys@rameyflock.com</td>
+                    </tr>
+                </table>
+
+
+
+<!-- Table (Filers) -->
+
+                    <div class="title">
+                        <h4>Filers</h4>
+                    </div>
+                 
+                    <table id="criminal-sort" class="sort table panel panel-default">
+                           <thead>
+                               <tr>       
+                                    <th class="sort-header" width="340">Name </th>
+                                    <th class="sort-header" width="300">Type </th>
+                                    <th class="sort-header" width="120">Added </th>
+                                    <th class="sort-header" width="120">Terminated </th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>       
+                                    <td><a href="#">Elvis Arias (1)</a></td>
+                                    <td>Defendant</td>
+                                    <td>06/08/2015</td>
+                                    <td>06/15/2015</td>
+                                </tr>
+                            </tbody>    
+                    </table>                
+
+
+
+<!-- Table (Deadlines & Hearings) -->
+
+        <div class="title">
+            <h4>Deadlines / Hearings</h4>
+        </div>       
+     
+        <table id="transaction-sort" class="sort table panel panel-default">
+                <thead>
+                    <tr>       
+                        <th class="sort-header" width="90">Doc. No. </th>
+                        <th class="sort-header" width="420">Deadline/Hearing </th>
+                        <th class="sort-header" width="120">Event Filed </th>
+                        <th class="sort-header" width="120">Due/Set </th>
+                        <th class="sort-header" width="120">Satisfied </th>
+                        <th class="sort-header" width="120">Terminated </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>       
+                        <td width="90"><a href="#/documents3">1</a></td>
+                        
+                        <td width="420">
+                            <button data-toggle="modal" data-target="#mod-1" class="btn-glyph">
+                                <img src="../../../plugins/images/docket-3.png">
+                                <img src="../../../plugins/images/docket-4.png">
+                            </button><b>Answer due</b>
+                        </td>
+
+                        <!-- Modal -->
+							<div id="mod-1" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="title-modal">
+							        <h4 class="modal-title">Case 6:07-cv-06077-DGL (Document 1)</h4>
+							        <button type="button" class="btn-close glyphicon glyphicon-remove-circle" data-dismiss="modal"></button>
+							      </div>
+
+							      <div class="modal-body">
+
+							        <p><b>Filed:</b> 02/15/2007 <br />
+									   <b>Entered:</b>	02/22/2007 <br />
+									   <b>Entered By:</b>  BJB, <br />
+									   <b>Event Name(s):</b>  Complaint <br /><br />
+									   <b>Full Docket Text for Document <a href="#/documents3">1:</a></b> COMPLAINT against D.O.C.S. Classification and Movement Employee, Brian Fischer, B. Connolly, John Alves, Miles, Smith, John Burge, Several John and Jane Does, Lucien LeClaire, Jr , filed by Johnathan. Johnson.(BJB, )</p>
+
+								  <div class="line"></div>	   
+
+							      <h4><span class="sec-title">All Related Docket Entries</span></h4>
+
+							      <p><b>Filed:</b> 02/15/2007 <br />
+									   <b>Entered:</b>	02/22/2007 <br />
+									   <b>Entered By:</b>  BJB, <br />
+									   <b>Event Name(s):</b>  Motion for Leave to Proceed in forma pauperis<br /><br />
+									   <b>Full Docket Text for Document <a href="#/documents3">2:</a></b> ORDER denying <a href="#/documents3">2</a> MOTION for Leave to Proceed in forma pauperis by Johnathan. Johnson.(BJB, )</p>
+
+							      </div>
+
+                                    <div class="panel-sm pad-all center">
+                                        <h4><span class="bold-title">PACER SERVICE CENTER</span></h4><h4>Transaction Receipt</h4>
+                                            <div class="line2"></div>
+                                        <span class="left">07/07/2016</span><span class="right"> 11:33 am</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left"><b>Login:</b></span><span class="right"> tr1234</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left"><b>Client Code:</b></span><span class="right"></span><br />
+                                            <div class="line2"></div>
+                                        <span class="left"><b>Description:</b></span><span class="right"> Deadlines / Hearings </span><br />
+                                            <div class="line2"></div>
+                                        <span class="left"><b>Search Criteria:</b></span><span class="right"> 6:07-cv-06077-DGL</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left"><b>Billable Pages:</b></span><span class="right"> 1</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left"><b>Cost:</b></span><span class="right"> 0.10</span><br /><br />                                        
+                                    </div><br /><br />
+
+							      <div class="modal-footer grey">
+							        <button type="button" class="btn btn default2" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+
+							  </div>
+							</div>
+
+                        <td width="120">02/15/2007</td>
+                        <td width="120">10/09/2007</td>
+                        <td width="120"></td>
+                        <td width="120"></td>
+                    </tr>                                                                                                                    
+                </tbody>         
+        </table>
+
+
+
+<!-- Table (History / Docs) w/ Docket Text -->
+
+        <div class="title">
+            <h4>History</h4>
+        </div>       
+     
+        <table class="table panel panel-default">
+                <thead>
+                    <tr>       
+                        <th width="100">Doc. No. </th>
+                        <th width="300">Dates </th>
+                        <th width="740">Description </th>
+                    </tr>
+                </thead>
+
+                <tbody >
+                    <tr>
+                        <tr valign="top">
+                            <td><a href="#/documents3">1</a></td>
+                            <td><b>Filed:</b> 02/15/2007<br /><b>Entered:</b> 02/22/2007</td>
+                            <td><b>Complaint</b></td>
+                        </tr>
+
+                        <tr valign="top">
+                            <td></td>
+                            <td colspan="2"><i><b>Docket Text:</b> COMPLAINT against D.O.C.S. Classification and Movement Employee, Brian Fischer, B. Connolly, John Alves, Miles, Smith, John Burge, Several John and Jane Does, Lucien LeClaire, Jr , filed by Johnathan. Johnson.(BJB, )</i>
+                            </td>
+                        </tr>
+                    </tr>        
+
+                    <tr valign="top" class="grey">
+                        <td><a href="#/documents3">2</a></td>
+                        <td><b>Filed:</b> 02/15/2007<br /><b>Entered:</b> 02/22/2007<br /><b>Terminated:</b> 03/01/2007</td>
+                        <td><b>Motion for Leave to Proceed in forma pauperis</b></td>
+                    </tr>
+
+                    <tr valign="top" class="grey">
+                        <td></td>
+                        <td colspan="2"><i><b>Docket Text:</b> MOTION for Leave to Proceed in forma pauperis by Johnathan. Johnson.(BJB, )</i>
+                        </td>
+                    </tr>                                                                                                                    
+                </tbody>
+        </table>
+
+
+
+<!-- Table (History / Docs) NO Docket Text -->
+
+        <div class="title">
+            <h4>History</h4>
+        </div>       
+     
+        <table id="nodt-sort" class="sort table panel panel-default">
+                <thead>
+                    <tr>       
+                        <th class="sort-header" width="100">Doc. No. </th>
+                        <th class="sort-header" width="300">Dates </th>
+                        <th class="sort-header" width="740">Description </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>       
+                        <td width="100"><a href="#/documents3">1</a>
+                        </td>
+                        
+                        <td width="300"><b>Filed:</b> 02/15/2007<br />
+                                        <b>Entered:</b> 02/22/2007
+                        </td>
+                        
+                        <td width="740">
+                            <button data-toggle="modal" data-target="#mod-6" class="btn-glyph">
+                                <img src="../../../plugins/images/docket-3.png">
+                                <img src="../../../plugins/images/docket-4.png">
+                            </button> <b>Complaint</b>
+                        </td>
+
+                        <!-- Modal -->
+                            <div id="mod-6" class="modal fade" role="dialog">
+                              <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                  <div class="title-modal">
+                                    <h4 class="modal-title">Full docket text for (Document 1)</h4>
+                                    <button type="button" class="btn-close glyphicon glyphicon-remove-circle" data-dismiss="modal"></button>
+                                  </div>
+                                  <div class="modal-body">
+
+
+                                    <p>COMPLAINT against D.O.C.S. Classification and Movement Employee, Brian Fischer, B. Connolly, John Alves, Miles, Smith, John Burge, Several John and Jane Does, Lucien LeClaire, Jr , filed by Johnathan. Johnson.(BJB, )</p><br /><br />
+
+                                    <div class="panel-sm center">
+                                        <h4><span class="bold-title">PACER SERVICE CENTER</span></h4><h4>Transaction Receipt</h4>
+                                            <div class="line2"></div>
+                                        <span class="left pad-L">07/07/2016</span><span class="right pad-R"> 11:33 am</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left pad-L"><b>Login:</b></span><span class="right pad-R"> tr1234</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left pad-L"><b>Client Code:</b></span><span class="right pad-R"></span><br />
+                                            <div class="line2"></div>
+                                        <span class="left pad-L"><b>Description:</b></span><span class="right pad-R"> History and Documents</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left pad-L"><b>Search Criteria:</b></span><span class="right pad-R"> 6:07-cv-06077-DGL</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left pad-L"><b>Billable Pages:</b></span><span class="right pad-R"> 1</span><br />
+                                            <div class="line2"></div>
+                                        <span class="left pad-L"><b>Cost:</b></span><span class="right pad-R"> 0.10</span><br /><br /> 
+                                    </div>
+                                  </div>
+      
+                                  <div class="modal-footer grey">
+                                        <button type="button" class="btn btn default2" data-dismiss="modal">Close</button>
+                                  </div>    
+
+                                </div>
+
+                              </div>
+                            </div>
+                    </tr>
+                </tbody>         
+        </table>
+
+
+
+<!-- Table (Parties) Criminal Single-Def -->
+
+        <div class="title">
+            <h4>Parties</h4>
+        </div>
+                
+        <table class="table panel panel-default">
+            <tr>       
+                <td width="400"><b>George Monsanto</b> (3)<br />
+                    <i>Added: 06/08/2015</i><br />
+                    <i>(Defendant)</i>
+                </td>
+                <td width="166">represented by</td>
+                <td width="574"><b>Richard John Ma</b><br />
+                    The Law Offices of Ma &amp; Park, PLLC<br /> 
+                    315 Broadway, Suite 200 <br />
+                    New York, NY 10007 <br />
+                    212-431-6938 <br />
+                    212-233-6937 (fax) <br />
+                    richardma@maparklaw.com <br />
+                    <br /><br />
+                    <i>Assigned: 09/30/2015</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i>
+                </td>
+            </tr>
+
+            <tr>       
+                <td width="400"><b>USA</b><br />
+                    <i>Added: 06/08/2015</i><br />
+                    <i>(Plaintiff)</i>
+                </td>
+                <td width="166">represented by </td>
+                <td width="574"><b>Jessica Fender</b><br />
+                    U.S. Attorney's Office, S.D.N.Y.<br /> 
+                    1 St. Andrews Plaza <br />
+                    New York, NY 10007 <br />
+                    212-637-2500  <br />
+                    (fax)<br />
+                    jessica.fender@usdoj.gov
+                    <br /><br />
+                    <i>Assigned: 06/17/2015</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>PRO HAC VICE</i>
+                    <i>ATTORNEY TO BE NOTICED</i><br />
+                    <br /><br />
+
+                    <b>Jessica Rose Lonergan</b><br />
+                    U.S. Attorney's Office, S.D.N.Y.<br /> 
+                    1 St. Andrews Plaza <br />
+                    New York, NY 10007 <br />
+                    212-637-1038  <br />
+                    212-637-2937 (fax)<br />
+                    jessica.lonergan@usdoj.gov
+                    <br /><br />
+                    <i>Assigned: 06/29/2015</i><br />
+                    <i>ATTORNEY TO BE NOTICED</i><br />
+                    <br /><br />
+                </td>
+            </tr>   
+        </table>
+
+
+
+<!-- Table (Parties) Criminal Multi-Def -->
+
+        <div class="title">
+            <h4>Parties</h4>
+        </div>
+                
+        <table class="table panel panel-default">
+            <tr>       
+                <td width="400"><b>Elvis Arias</b> (2)<br />
+                    <i>Added: 06/08/2015</i><br />
+                    <i>(Defendant)</i>
+                </td>
+                <td width="166">represented by</td>
+                <td width="574"><b>Donald Joseph Yannella, III</b><br />
+                    Donald Yannella P.C.<br /> 
+                    233 Broadway, Suite 2370 <br />
+                    New York, NY 10279 <br />
+                    212-226-2883 <br />
+                    646-430-8379 (fax) <br />
+                    nynjccrimlawyer@gmail.com <br />
+                    <br /><br />
+                    <i>Assigned: 06/17/2015</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i>
+                </td>
+            </tr>
+
+            <tr>       
+                <td width="400"><b>Jesus Benedith</b> (4)<br />
+                    <i>Added: 06/08/2015</i><br />
+                    <i>(Defendant)</i>
+                </td>
+                <td width="166">represented by </td>
+                <td width="574"><b>Allan Paul Haber</b><br />
+                    Law Office of Allan P. Haber<br /> 
+                    111 Broadway <br />
+                    19th Floor <br />
+                    New York, NY 10006 <br />
+                    212-233-4411  <br />
+                    212-374-1506 (fax)<br />
+                    allanhaber@aol.com
+                    <br /><br />
+                    <i>Assigned: 11/12/2015</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i><br />
+                    <br /><br />
+
+                    <b>Andrew G. Patel</b><br />
+                    Andrew G. Patel<br /> 
+                    80 Broad Street<br />
+                    Suite 1900 <br />
+                    New York, NY 10004 <br />
+                    212-349-0230  <br />
+                    646-349-0230 (fax)<br />
+                    apatel@apatellaw.com
+                    <br /><br />
+                    <i>Assigned: 06/17/2015</i><br />
+                    <i>TERMINATED: 11/12/2015</i>
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i>
+                    <br /><br />
+                </td>
+            </tr>   
+        </table>
+
+
+
+<!-- Table (Parties) Criminal No Attorney -->
+
+        <div class="title">
+            <h4>Parties</h4>
+        </div>
+                
+        <table class="table panel panel-default">
+            <tr>       
+                <td width="400"><b>Rebecca Reynolds</b> (1)<br />
+                    <i>Added: 06/03/2016</i><br />
+                    <i>(Defendant)</i>
+                </td>
+                <td width="166">represented by </td>
+                <td></td>
+            </tr>
+
+            <tr>       
+                <td width="400"><b>USA</b><br />
+                    <i>Added: 06/03/2016</i><br />
+                    <i>(Plaintiff)</i>
+                </td>
+                <td width="166">represented by </td>
+                <td width="574"><b>Adam Wright</b><br />
+                    U.S. Attorney's Office<br /> 
+                    450 Golden Gate Avenue <br />
+                    San Francisco, CA 94102 <br />
+                    415-436-7368  <br />
+                    adam.wright@usdoj.gov
+                    <br /><br />
+                    <i>Assigned: 06/07/2016</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i><br />
+                    <br /><br />
+
+                    <b>Brian Joseph Stretch</b><br />
+                    U.S. Attorney's Office<br /> 
+                    450 Golden Gate Avenue <br />
+                    11th Floor <br />
+                    San Francisco, CA 94102 <br />
+                    415-436-6842  <br />
+                    415-436-7234 (fax)  <br />
+                    brian.stretch@usdoj.gov
+                    <br /><br />
+                    <i>Assigned: 06/03/2016</i><br />
+                    <i>TERMINATED: 06/07/2016</i>
+                    <br /><br />
+                </td>
+            </tr>   
+        </table>
+
+
+
+<!-- Table (Parties) Criminal Pro SE -->
+
+        <div class="title">
+            <h4>Parties</h4>
+        </div>
+                
+        <table class="table panel panel-default">
+            <tr>       
+                <td width="400"><b>Hakeem El Bey</b> (1)<br />
+                    #47442-424<br />
+                    Pekin-FCI<br />
+                    Pekin Correctional Center<br />
+                    P.O. Box 5000<br />
+                    Pekin, IL 61555<br />
+                    <i>Added: 08/13/2014</i><br />
+                    <i>TERMINATED: 09/17/2015</i><br />
+                    <i>(Defendant)</i><br />
+                    PRO SE
+                </td>
+                <td width="166">represented by </td>
+                <td width="574"><b>Gaberiel A. Fuentes</b><br />
+                    Jenner &amp; Block LLP <br /> 
+                    353 N. Clark Street <br />
+                    Chicago, IL 60654 <br />
+                    312-222-9350 <br />
+                    gfuentes@jenner.com <br />
+                    <br /><br />
+                    <i>Assigned: 11/10/2016</i><br />
+                    <i>ATTORNEY TO BE NOTICED</i><br />
+                    <br /><br />
+                </td>
+            </tr>   
+        </table>
+
+
+
+<!-- Table (Parties) Criminal No Attorney + Pro SE -->
+
+        <div class="title">
+            <h4>Parties</h4>
+        </div>
+                
+        <table class="table panel panel-default">
+            <tr>       
+                <td width="400"><b>Waseem Anas Daker</b> (1)<br />
+                    #277371<br />
+                    Cobb County Jail<br />
+                    P.O. Box 100110<br />
+                    Marietta, GA 30061<br />
+                    <i>Added: 02/16/2010</i><br />
+                    <i>TERMINATED: 04/46/2010</i><br />
+                    <i>(Defendant)</i><br />
+                    PRO SE<br />
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>       
+                <td width="400"><b>USA</b><br />
+                    <i>Added: 02/16/2010</i><br />
+                    <i>(Plaintiff)</i>
+                </td>
+                <td width="166">represented by </td>
+                <td width="574"><b>Kim Dammers</b><br />
+                    Office of the United States Attorney<br /> 
+                    75 Spring Street, S.W. <br />
+                    600 United States Courthouse <br />
+                    Atlanta, GA 30303<br />
+                    404-581-6000  <br />
+                    kim.dammers@usdoj.gov<br />
+                    <br /><br />
+                    <i>Assigned: 02/16/2010</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i><br />
+                    <br /><br />
+                </td>
+            </tr>    
+        </table>
+
+
+
+<!-- Table (Parties) Criminal Civil -->
+
+        <div class="title">
+            <h4>Parties</h4>
+        </div>
+                
+        <table class="table panel panel-default">
+            <tr>       
+                <td width="400"><b>Sarah J. Kalobius</b><br />
+                    <i>Added: 01/25/2007</i><br />
+                    <i>(Plaintiff)</i>
+                </td>
+                <td width="166">represented by</td>
+                <td width="574"><b>Kenneth R. Hiller</b><br />
+                    Law Offices of Kenneth Hiller<br /> 
+                    6000 North Bailey Avenue <br />
+                    Suite 1A  <br />
+                    Amherst, NY 14226 <br />
+                    716-564-3288 <br />
+                    716-332-1884 (fax) <br />
+                    <br /><br />
+                    <i>Assigned: 01/25/2007</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i>
+                </td>
+            </tr>
+
+            <tr>       
+                <td width="400"><b>West Asset Management , Inc.</b><br />
+                    <i>Added: 01/25/2007</i><br />
+                    <i>(Defendant)</i>
+                </td>
+                <td width="166">represented by </td>
+                <td width="574"><b>Hedwig M. Auletta</b><br />
+                    Damon Morey LLP<br /> 
+                    200 Delaware Avenue <br />
+                    Suite 1200 <br />
+                    Buffalo, NY 14202 <br />
+                    716-858-3707  <br />
+                    716-856-5535 (fax)<br />
+                    <br /><br />
+                    <i>Assigned: 03/23/2007</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i><br />
+                    <br /><br />
+
+                    <b>Allison L. Cannizaro</b><br />
+                    Sessions, Fishman, Nathan &amp; Israel, L.L.P.<br /> 
+                    3850 North Causeway Boulevard<br />
+                    Suite 200 <br />
+                    Metairie, LA 70002 <br />
+                    504-846-7926  <br />
+                    504-828-3737 (fax)<br />
+                    <br /><br />
+                    <i>Assigned: 05/02/2007</i><br />
+                    <i>PRO HAC VICE</i>
+                    <i>ATTORNEY TO BE NOTICED</i>
+                    <br /><br />
+
+                     <b>David Israel</b><br />
+                    Sessions, Fishman, Nathan &amp; Israel, L.L.P.<br /> 
+                    3850 North Causeway Boulevard<br />
+                    Suite 200 <br />
+                    Metairie, LA 70002 <br />
+                    504-828-3700  <br />
+                    504-828-3737 (fax)<br />
+                    <br /><br />
+                    <i>Assigned: 04/25/2007</i><br />
+                    <i>LEAD ATTORNEY</i>
+                    <i>ATTORNEY TO BE NOTICED</i>
+                    <br /><br />
+                </td>
+            </tr>
+
+            <tr>       
+                <td width="400"><b>John Smith</b><br />
+                    <i>Added: 02/15/2007</i><br />
+                    <i>(Defendant)</i>
+                </td>
+                <td width="166">represented by</td>
+                <td width="574"><b></b><br />
+                </td>
+            </tr>     
+        </table>
+
+
+
+<!-- Table (Other Court Information) -->
+
+        <div class="title">
+            <h4>Other Court Information</h4>
+        </div>
+
+        <table id="criminal-sort" class="sort table panel panel-default">
+                <thead>
+                    <tr>       
+                        <th class="sort-header" width="450">Court Name </th>
+                        <th class="sort-header" width="450">Case Number </th>
+                        <th class="sort-header" width="120">Start Date </th>
+                        <th class="sort-header" width="120">End Date</th>
+                    </tr>
+                </thead>
+     
+
+                <tbody>
+                    <tr>       
+                        <td width="450">Western District of Texas</td>
+                        <td width="450">15-CR-460-KC</td>
+                        <td width="120">10/02/2015</td>
+                        <td width="120">10/08/2015</td>
+                    </tr>
+                </tbody>         
+        </table>
+
+
+
+<!-- Table (Related Cases) -->
+
+        <div class="title">
+            <h4>Related Cases</h4>
+        </div>
+
+        <table id="related-sort" class="sort table panel panel-default">
+                <thead>
+                    <tr>       
+                        <th class="sort-header" width="900">Case</th>
+                        <th class="sort-header" width="120">Start Date</th>
+                        <th class="sort-header" width="120">End Date</th>
+                    </tr>
+                </thead>    
+
+                <tbody>
+                    <tr>       
+                        <td width="900"><a href="#">6:13-cv-00942-RWS-KNM<br /></a> Uniloc USA, Inc. et al v. Corbis Corporation</td>
+                        <td width="120">12/10/2013</td>
+                        <td width="120">05/08/2015</td>
+                    </tr> 
+                </tbody>            
+        </table>
+
+
+
+<!-- Table (View Doc Attachments) -->
+
+        <table class="table panel panel-default">
+                <thead>
+                    <tr>       
+                        <th width="220">Attachment </th>
+                        <th width="400">Description </th>
+                        <th width="120">Amount </th>
+                        <th width="120">File Size </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>       
+                        <td width="220">                
+                            <label class="checkbox-inline">
+                                <input ng-model="view_02" type="checkbox" value="option2"><a href="#/documents3">1</a>
+                            </label>
+                        </td>
+                        <td width="400">Ex. A </td>
+                        <td width="120">4 pages</td>
+                        <td width="120">64 kb</td>
+                    </tr>
+
+                    <tr>       
+                        <td width="220">                
+                            <label class="checkbox-inline">
+                            <input ng-model="view_03" type="checkbox" value="option3"><a href="#/documents3">2</a></label>
+                        </td>
+                        <td width="400">Ex. B </td>
+                        <td width="120">3 pages</td>
+                        <td width="120">47 kb</td>
+                    </tr>
+
+                    <tr class="grey">       
+                        <td width="620">
+
+                            <button class="btn default" ng-model="selectAll" ng-click="toggleSelectAll()" type="button" value="option1">Select All</button>
+                            <button class="btn default2" ng-click="clear()" type="reset">Clear</button>
+                            <a href="#/documents3"><button type="button" class="btn blue">View</button></a> 
+                            <a href="#/documents3"><button type="button" class="btn blue">Download<span class="glyphicon glyphicon-download"></span></button></a>           
+
+                        </td>
+                        <td></td>
+                        <td width="120" class="mid"><b>7 pages</b></td>
+                        <td width="120" class="mid"><b>0.8 mb</b></td>
+                    </tr>                                                                                                                                                                                                              
+                </tbody>  
+        </table>
+
+

@@ -1,0 +1,169 @@
+
+<div class="form-group">
+    <label class="control-label col-md-3">Office</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.office" >
+            <option ng-repeat="opval in pacerData.CriminalCaseReportSelectOptionValues.office track by $index" value="{{pacerData.CriminalCaseReportSelectOptionValues.office[$index][0]}}">
+                {{pacerData.CriminalCaseReportSelectOptionValues.office[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Case types</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.case_type" >
+            <option ng-repeat="opval in pacerData.CriminalCaseReportSelectOptionValues.case_type track by $index" value="{{pacerData.CriminalCaseReportSelectOptionValues.case_type[$index][0]}}">
+                {{pacerData.CriminalCaseReportSelectOptionValues.case_type[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Caseflags</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.case_flags" >
+            <option ng-repeat="opval in pacerData.CriminalCaseReportSelectOptionValues.case_flags track by $index" value="{{pacerData.CriminalCaseReportSelectOptionValues.case_flags[$index][0]}}">
+                {{pacerData.CriminalCaseReportSelectOptionValues.case_flags[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Citation</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.citation" >
+            <option ng-repeat="opval in pacerData.CriminalCaseReportSelectOptionValues.citation track by $index" value="{{pacerData.CriminalCaseReportSelectOptionValues.citation[$index][0]}}">
+                {{pacerData.CriminalCaseReportSelectOptionValues.citation[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Sort by</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.sort1" >
+            <option ng-repeat="opval in pacerData.CriminalCaseReportSelectOptionValues.sort1 track by $index" value="{{pacerData.CriminalCaseReportSelectOptionValues.sort1[$index][0]}}">
+                {{pacerData.CriminalCaseReportSelectOptionValues.sort1[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Sort by</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.sort2" >
+            <option ng-repeat="opval in pacerData.CriminalCaseReportSelectOptionValues.sort2 track by $index" value="{{pacerData.CriminalCaseReportSelectOptionValues.sort2[$index][0]}}">
+                {{pacerData.CriminalCaseReportSelectOptionValues.sort2[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Sort by</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.sort3" >
+            <option ng-repeat="opval in pacerData.CriminalCaseReportSelectOptionValues.sort3 track by $index" value="{{pacerData.CriminalCaseReportSelectOptionValues.sort3[$index][0]}}">
+                {{pacerData.CriminalCaseReportSelectOptionValues.sort3[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.pending_citations" type="checkbox" ng-checked="true"> Pending
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.terminated_citations" type="checkbox" ng-checked=""> Disposed
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.pending_defendants" type="checkbox" ng-checked="true"> Pending defendants
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.terminated_defendants" type="checkbox" ng-checked=""> Terminated defendants
+
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.format" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> standard
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.format" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> data
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Terminal digit(s) </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter Terminal digit(s)" class="form-control input-circle"
+               ng-model="Query.terminal_digit" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Filed</label>
+    <div class="col-md-8">
+        <div class="input-group input-large input-daterange">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Query.filed_from" datetime="MM/dd/yyyy"
+                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">to</label>
+    <div class="col-md-8">
+        <div class="input-group input-large input-daterange">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Query.filed_to" datetime="MM/dd/yyyy"
+                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-3 submit-btn">
+    <button type="submit" value="Submit" class="btn blue" ng-click="submitForm()">
+        <i class="fa fa-check"></i> Submit
+    </button>
+    <button class="btn default2" type="reset">Clear</button>
+</div>

@@ -1,0 +1,94 @@
+<div class="form-body">
+    <div class="page-content-inner">
+        <div class="summary">
+            <h3><span class="bold-title">{{pacerData.header.CaseNum}}</span>{{pacerData.header.PartyName}}</h3>
+            <h3>{{pacerData.header.PartyRepresentative}}</h3>
+            <h3>{{pacerData.header.PartyReferral}}</h3>
+            <p><b>Filed:</b> {{pacerData.header.DateFiled}} |
+                <b>Last filing:</b> {{pacerData.header.DateOfLastFiling}} |
+                <span ng-show="pacerData.header.DateTerminated"><b>Terminated:</b> {{pacerData.header.DateTerminated}}</span></p>
+        </div>
+
+        <div class="title">
+            <h4>Parties</h4>
+        </div>
+
+        <table class="table panel panel-default">
+            <tr ng-repeat="pacerData_attorneys in pacerData.attorneys">
+
+                  <div>
+                    <td width="400">
+                        <div  ng-repeat="pacerData_attorneys_persons in pacerData_attorneys.persons track by $index">
+                            <i>{{pacerData_attorneys_persons}} </i>
+                        </div>
+                        <br />
+                    </td>
+
+                    <td width="166">represented by</td>
+
+                    <td width="574">
+                        <div ng-repeat="pacerData_attorneys_AttorneyToPersonList in pacerData_attorneys.AttorneyToPersonList">
+                            <b>{{pacerData_attorneys_AttorneyToPersonList.Name}}</b> <br/>
+                            {{pacerData_attorneys_AttorneyToPersonList.Company}} <br/>
+                            <div ng-repeat="pacerData_attorneys_AttorneyRecord_Address in pacerData_attorneys_AttorneyToPersonList.Address  track by $index">
+                                {{pacerData_attorneys_AttorneyRecord_Address}} <br/>
+                            </div>
+                            {{pacerData_attorneys_AttorneyToPersonList.Phone}} <br/>
+                            {{pacerData_attorneys_AttorneyToPersonList.Fax}}  <br/>
+                            <br/>
+                            <div ng-show="pacerData_attorneys_AttorneyToPersonList.AssignedDate"><i >Assigned: {{pacerData_attorneys_AttorneyToPersonList.AssignedDate}}</i> <br/></div>
+                            <div ng-show="pacerData_attorneys_AttorneyToPersonList.extraInfo1"><i >{{pacerData_attorneys_AttorneyToPersonList.extraInfo1}}</i><br/></div>
+                            <div ng-show="pacerData_attorneys_AttorneyToPersonList.extraInfo2"><i > {{pacerData_attorneys_AttorneyToPersonList.extraInfo2}}</i><br/></div>
+                            <br /><br />
+                        </div>
+                    </td>
+
+                </div>
+            </tr>
+        </table>
+
+
+
+        <table class="table panel panel-sm">
+            <tr>
+                <td align="center" colspan="4"><h4><span class="bold-title">{{pacerData.billing.PacerCenter}}</span></h4>
+                    <h4>{{pacerData.billing.TransactionReceipt}}</h4></td>
+            </tr>
+
+            <tr>
+                <td align="left" colspan="2">{{pacerData.billing.Date}}</td>
+                <td align="right" colspan="2">{{pacerData.billing.Time}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Login:</th>
+                <td align="right" colspan="2">{{pacerData.billing.PacerLogin}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Client Code:</th>
+                <td align="right" colspan="2">{{pacerData.billing.ClientCode}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Description:</th>
+                <td align="right" colspan="2">{{pacerData.billing.Description}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Search Criteria:</th>
+                <td align="right" colspan="2">{{pacerData.billing.SearchCriteria}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Billable Pages:</th>
+                <td align="right" colspan="2">{{pacerData.billing.BillablePages}}</td>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="2">Cost:</th>
+                <td align="right" colspan="2">{{pacerData.billing.Cost}}</td>
+            </tr>
+        </table>
+        </div>
+    </div> 

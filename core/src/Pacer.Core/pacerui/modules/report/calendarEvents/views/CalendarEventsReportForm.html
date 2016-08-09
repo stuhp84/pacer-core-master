@@ -1,0 +1,152 @@
+
+<div class="form-group">
+    <label class="control-label col-md-3">Office</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.office" >
+            <option ng-repeat="opval in pacerData.CalendarEventsReportSelectOptionValues.office track by $index" value="{{pacerData.CalendarEventsReportSelectOptionValues.office[$index][0]}}">
+                {{pacerData.CalendarEventsReportSelectOptionValues.office[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Natureof suit</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.nature_suit" >
+            <option ng-repeat="opval in pacerData.CalendarEventsReportSelectOptionValues.nature_suit track by $index" value="{{pacerData.CalendarEventsReportSelectOptionValues.nature_suit[$index][0]}}">
+                {{pacerData.CalendarEventsReportSelectOptionValues.nature_suit[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Calendar events</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.SelectHearings" >
+            <option ng-repeat="opval in pacerData.CalendarEventsReportSelectOptionValues.SelectHearings track by $index" value="{{pacerData.CalendarEventsReportSelectOptionValues.SelectHearings[$index][0]}}">
+                {{pacerData.CalendarEventsReportSelectOptionValues.SelectHearings[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3">Sort by</label>
+    <div class="col-md-8">
+        <select multiple class="form-control grey" id="sel1" ng-model="Query.Sort" >
+            <option ng-repeat="opval in pacerData.CalendarEventsReportSelectOptionValues.Sort track by $index" value="{{pacerData.CalendarEventsReportSelectOptionValues.Sort[$index][0]}}">
+                {{pacerData.CalendarEventsReportSelectOptionValues.Sort[$index][1]}}
+            </option>
+        </select>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.include_docket_text" type="checkbox" ng-checked="true"> Include docket text
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.include_closed_cases" type="checkbox" ng-checked="true"> Include closed cases
+
+        </label>
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-md-3"></label>
+    <div class="col-md-8">
+        <label class="checkbox-inline">
+            <input ng-model="Query.display_term_parties" type="checkbox" ng-checked="true"> Display terminated parties
+
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.sel_time" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> AM
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.sel_time" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> PM
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.SchedAmPm" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> AM
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <div  class="col-md-11">
+        <label >
+            <input ng-model="Query.SchedAmPm" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> PM
+        </label>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Case Number </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter Case Number" class="form-control input-circle"
+               ng-model="Query.case_num" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Time </label>
+    <div class="col-md-8">
+        <input type="text" placeholder="Enter Time" class="form-control input-circle"
+               ng-model="Query.SchedTime" value="{{}}">
+        <span class="help-block"> This is inline help </span>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">Set</label>
+    <div class="col-md-8">
+        <div class="input-group input-large input-daterange">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Query.StartDate" datetime="MM/dd/yyyy"
+                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="form-group" >
+    <label class="control-label col-md-3">to</label>
+    <div class="col-md-8">
+        <div class="input-group input-large input-daterange">
+            <p class="input-group">
+                <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="Query.EndDate" datetime="MM/dd/yyyy"
+                       is-open="isOpenFns[$index]" datepicker-options="dateOptions" ng-required="true"
+                       close-text="Close" alt-input-formats="altInputFormats" date-format="MM/dd/yyyy" date-type="string"/>
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn blue" ng-click="openFns[$index]()">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-md-3 submit-btn">
+    <button type="submit" value="Submit" class="btn blue" ng-click="submitForm()">
+        <i class="fa fa-check"></i> Submit
+    </button>
+    <button class="btn default2" type="reset">Clear</button>
+</div>

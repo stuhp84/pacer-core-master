@@ -1,0 +1,28 @@
+DocumentNumber: {{pacerData.DocumentNumber}}
+<br/> DocumentURL: {{pacerData.DocumentURL}}
+<br/> TotalPages: {{pacerData.TotalPages}}
+<br/> TotalSize: {{pacerData.TotalSize}}
+<br/> AttachmentTotalPages: {{pacerData.AttachmentTotalPages}}
+<br/> AttachmentTotalSize: {{pacerData.AttachmentTotalSize}}
+<br/>
+<table class="table panel panel-default" name="pacerData.queryResult">
+    <tr ng-repeat="pacerData_queryResult in pacerData.queryResult">
+        <td>
+            <table class="table panel panel-default" name="pacerData_queryResult.Attachment">
+                <tr ng-repeat="pacerData_queryResult_Attachment in pacerData_queryResult.Attachment  track by $index"> {{pacerData_queryResult_Attachment}}
+                    <br/>
+                </tr>
+            </table>
+            <br/>
+        </td>
+        <td>  Description: {{pacerData_queryResult.Description}}
+            <br/>
+        </td>
+        <td>  NumberOfPages: {{pacerData_queryResult.NumberOfPages}}
+            <br/>
+        </td>
+        <td>  FileSize: {{pacerData_queryResult.FileSize}}
+            <br/>
+        </td>
+    </tr>
+</table>

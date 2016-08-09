@@ -1,0 +1,415 @@
+
+
+
+<div class="form-body">
+    <div class="page-content-inner">
+
+<div class="alert alert-info">
+<button data-toggle="collapse" data-target="#Criminal" class="btn default">Criminal</button>
+<button data-toggle="collapse" data-target="#Civil" class="btn default">Civil</button>
+<b> <span class="glyphicon glyphicon-arrow-left"></span> Click button</b> to toggle test cases. (These buttons are for testing purposes only)
+</div>
+
+<div id="Criminal" class="collapse">    
+
+        <div class="summary">
+                <h3><span class="bold-title">1:15-cr-00356-JFK All Defendants</span>USA v. Williams et al</h3>
+                <p><b>Filed:</b>  06/08/2015 |
+                   <b>Last filing:</b> 06/07/2016 </p>
+        </div>
+
+            <div class="title"><h4> Antwoine Williams (1) Case Summary </h4></div>
+                <table class="table panel panel-default">
+                    <tr>
+                        <td width="400"><b>Office: </b>Foley Square</td>
+                        <td width="240"><b>Filed: </b>06/08/2015</td>
+                        <td width="160"></td>
+                        <td width="160"></td>
+                        <td width="160"></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>County: </b>Bronx</td>
+                        <td><b>Terminated: </b>05/31/2016</td>
+                        <td><b>Reopened: </b> </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Count: </b>1<br /></td>
+                        <td><b>Citation: </b>21:846=CD.F</td>
+                        <td><b>Offense Level: </b>4</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="5"><b>21:846=CD.F </b><i>(CONSPIRACY TO DISTRIBUTE CONTROLLED SUBSTANCE)</i><br /></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant Custody Status: </b>Custody This Court</td>
+                        <td><b>Flag: </b>ECF</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff: <br /></b>USA</td>
+                        <td><b>Represented by: <br /></b>Jessica Fender</td>
+                        <td><b>Phone: <br /></b>212-637-2500</td>
+                        <td><b>Fax: <br /></td>
+                        <td><b>Email: <br /></b>jessica@fender@usdoj.gov</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff: <br /></b>USA</td>
+                        <td><b>Represented by: <br /></b>Jessica Rose Lonergran</td>
+                        <td><b>Phone: <br /></b>212-637-1038</td>
+                        <td><b>Fax: <br /></b>212-637-2937</td>
+                        <td><b>Email: <br /></b>jessica@lonegan@usdoj.gov</td>
+                    </tr>
+                </table>
+            
+            <div class="title"><h4> Elvins Arias (2) Case Summary </h4></div>
+                <table class="table panel">
+                    <tr>
+                        <td width="400"><b>Office: </b>Foley Square</td>
+                        <td width="240"><b>Filed: </b>06/08/2015</td>
+                        <td width="160"></td>
+                        <td width="160"></td>
+                        <td width="160"></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>County: </b>Bronx</td>
+                        <td><b>Terminated: </b></td>
+                        <td><b>Reopened: </b> </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Count: </b>1<br /></td>
+                        <td><b>Citation: </b>21:846=CD.F</td>
+                        <td><b>Offense Level: </b>4</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="5"><b>21:846=CD.F </b><i>(CONSPIRACY TO DISTRIBUTE CONTROLLED SUBSTANCE)</i><br /></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant Custody Status: </b>Released</td>
+                        <td><b>Flag: </b>ECF</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant: <br /></b>Elvis Arias</td>
+                        <td><b>Represented by: <br /></b>Donald Joseph Yanella, III</td>
+                        <td><b>Phone: <br /></b>212-226-2883</td>
+                        <td><b>Phone: <br /></b>646-430-8379</td>
+                        <td><b>Email: <br /></b>nynjcrimlawyer@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff: <br /></b>USA</td>
+                        <td><b>Represented by: <br /></b>Jessica Fender</td>
+                        <td><b>Phone: <br /></b>212-637-2500</td>
+                        <td><b>Fax: <br /></b></td>
+                        <td><b>Email: <br /></b>jessica@fender@usdoj.gov</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff: <br /></b>USA</td>
+                        <td><b>Represented by: <br /></b>Jessica Rose Lonergran</td>
+                        <td><b>Phone: <br /></b>212-637-1038</td>
+                        <td><b>Fax: <br /></b>212-637-2937</td>
+                        <td><b>Email: <br /></b>jessica@lonegan@usdoj.gov</td>
+                    </tr>
+                </table>
+
+            <p ng-show=" Object.keys(caseQueryData.caseSumTable[0]).length == 1">
+                <span ng-show="case.Plaintiff">Plaintiff: {{caseQueryData.caseSumTable[0].Plaintiff}}</span>
+                <span ng-show="case.Defendant">Defendant: {{caseQueryData.caseSumTable[0].Defendant}}</span>
+            </p>
+
+                <table class="table panel">
+                    <tr class="title">
+                        <td width="385"><b>Party</b></td>
+                        <td width="240"><b>Represented by</b></td>
+                        <td width="160"><b>Phone</b></td>
+                        <td width="160"><b>Fax</b></td>
+                        <td width="160"><b>Email</b></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff:</b> Uniloc USA, Inc.</td>
+
+                        <td>James L. Etheridge</td>
+
+                        <td>817-470-7249</td>
+
+                        <td>817-887-5950</td>
+
+                        <td>jim@etheridgelaw.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff:</b> Uniloc Luxembourg S.A.</td>
+
+                        <td>James L. Etheridge</td>
+
+                        <td>817-470-7249</td>
+
+                        <td>817-887-5950</td>
+
+                        <td>jim@etheridgelaw.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+
+                        <td>Tamany Vinson Bentz</td>
+
+                        <td>310-229-9900</td>
+
+                        <td>310-229-9901</td>
+
+                        <td>tjbentz@venable.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+
+                        <td>Frank M Gasparo</td>
+
+                        <td>212-370-6273</td>
+
+                        <td>212-307-5598</td>
+
+                        <td>fmgasparo@venable.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+
+                        <td>Andrew William Stinson</td>
+
+                        <td>903-510-5277</td>
+
+                        <td>903-597-2413</td>
+
+                        <td>andys@rameyflock.com</td>
+                    </tr>
+                </table>
+
+                <table class="table panel panel-sm">
+                    <tr>
+                        <td align="center" colspan="4"><h4><span class="bold-title">PACER SERVICE CENTER</span></h4><h4>Transaction Receipt</h4></td>
+                    </tr>
+
+                    <tr>
+                        <td align="left" colspan="2">07/07/2016</td>
+                        <td align="right" colspan="2">11:33 am</td>
+                    </tr>
+
+                    <tr>
+                        <th align="left" colspan="2">Login:</th>
+                        <td align="right" colspan="2">tr1234</td>
+                    </tr>
+
+                    <tr>
+                        <th align="left" colspan="2">Client Code:</th>
+                        <td align="right" colspan="2"></td>
+                    </tr>      
+                    
+                    <tr>
+                        <th align="left" colspan="2">Description:</th>
+                        <td align="right" colspan="2">Associated Cases</td>
+                    </tr> 
+                    
+                    <tr>
+                        <th align="left" colspan="2">Search Criteria:</th>
+                        <td align="right" colspan="2">6:13-cv-00946-RWS-KNM</td>
+                    </tr> 
+
+                    <tr>
+                        <th align="left" colspan="2">Billable Pages:</th>
+                        <td align="right" colspan="2">1</td>
+                    </tr> 
+
+                    <tr>
+                        <th align="left" colspan="2">Cost:</th>
+                        <td align="right" colspan="2">0.10</td>
+                    </tr>
+            </table>
+</div>
+
+<div id="Civil" class="collapse">    
+
+        <div class="summary">
+                <h3><span class="bold-title">6:13-cv-00946-RWS-KNM</span>Uniloc USA Inc. et al v. SS SPV LLC</h3>
+                <h4><span class="sec-title">Robert W. Schroeder, presiding</span></h4>
+                <h4><span class="sec-title">K Nicole Mitchell, referral</span></h4>
+                <p><b>Filed:</b>  12/10/2013 |
+                   <b>Terminated:</b> 05/08/2015 |
+                   <b>Last filing:</b> 05/08/2015 </p>
+        </div>
+
+            <div class="title"><h4> Case Summary </h4></div>
+                <table class="table panel panel-default">
+                    <tr>
+                        <td><b>Office: </b>Tyler</td>
+                        <td><b>Filed: </b>12/10/2013</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Jury Demand: </b>Both</td>
+                        <td><b>Demand:  </b></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Nature of Suit: </b>830</td>
+                        <td><b>Cause: </b>35:271 Patent Infringement</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Jurisdiction: </b>Federal Question</td>
+                        <td><b>Disposition: </b>Dismissed - Settled</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>County: </b>Anderson</td>
+                        <td><b>Terminated: </b>05/08/2015</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Origin: </b>1</td>
+                        <td><b>Reopened: </b> </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Lead Case: </b>None</td>
+                        <td><b>Related Case: </b>None</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Other Court Case: </b>None</td>
+                        <td><b>Def Custody Status: </b> </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><b>Flags:</b> CASREF, CLOSED, CONSOL, JURY, KNM3, LED1, PATENT/TRADEMARK, RWS2
+                    </tr>
+                </table>
+
+            <p ng-show=" Object.keys(caseQueryData.caseSumTable[0]).length == 1">
+                <span ng-show="case.Plaintiff">Plaintiff: {{caseQueryData.caseSumTable[0].Plaintiff}}</span>
+                <span ng-show="case.Defendant">Defendant: {{caseQueryData.caseSumTable[0].Defendant}}</span>
+            </p>
+
+                <table class="table panel">
+                    <tr class="title">
+                        <td width="340"><b>Party</b></td>
+                        <td width="200"><b>Represented by</b></td>
+                        <td width="140"><b>Phone</b></td>
+                        <td width="140"><b>Fax</b></td>
+                        <td width="200"><b>Email</b></td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff:</b> Uniloc USA, Inc.</td>
+                        <td>James L. Etheridge</td>
+                        <td>817-470-7249</td>
+                        <td>817-887-5950</td>
+                        <td>jim@etheridgelaw.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Plaintiff:</b> Uniloc Luxembourg S.A.</td>
+                        <td>James L. Etheridge</td>
+                        <td>817-470-7249</td>
+                        <td>817-887-5950</td>
+                        <td>jim@etheridgelaw.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+                        <td>Tamany Vinson Bentz</td>
+                        <td>310-229-9900</td>
+                        <td>310-229-9901</td>
+                        <td>tjbentz@venable.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+                        <td>Frank M Gasparo</td>
+                        <td>212-370-6273</td>
+                        <td>212-307-5598</td>
+                        <td>fmgasparo@venable.com</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Defendant:</b> SS SPV LLC</td>
+                        <td>Andrew William Stinson</td>
+                        <td>903-510-5277</td>
+                        <td>903-597-2413</td>
+                        <td>andys@rameyflock.com</td>
+                    </tr>
+                </table>
+
+                <table class="table panel panel-sm">
+                    <tr>
+                        <td align="center" colspan="4"><h4><span class="bold-title">PACER SERVICE CENTER</span></h4><h4>Transaction Receipt</h4></td>
+                    </tr>
+
+                    <tr>
+                        <td align="left" colspan="2">07/07/2016</td>
+                        <td align="right" colspan="2">11:33 am</td>
+                    </tr>
+
+                    <tr>
+                        <th align="left" colspan="2">Login:</th>
+                        <td align="right" colspan="2">tr1234</td>
+                    </tr>
+
+                    <tr>
+                        <th align="left" colspan="2">Client Code:</th>
+                        <td align="right" colspan="2"></td>
+                    </tr>      
+                    
+                    <tr>
+                        <th align="left" colspan="2">Description:</th>
+                        <td align="right" colspan="2">Associated Cases</td>
+                    </tr> 
+                    
+                    <tr>
+                        <th align="left" colspan="2">Search Criteria:</th>
+                        <td align="right" colspan="2">6:13-cv-00946-RWS-KNM</td>
+                    </tr> 
+
+                    <tr>
+                        <th align="left" colspan="2">Billable Pages:</th>
+                        <td align="right" colspan="2">1</td>
+                    </tr> 
+
+                    <tr>
+                        <th align="left" colspan="2">Cost:</th>
+                        <td align="right" colspan="2">0.10</td>
+                    </tr>
+            </table>
+</div>
+
+
+
+    </div>
+</div>
+

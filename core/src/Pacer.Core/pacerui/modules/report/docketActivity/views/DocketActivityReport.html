@@ -1,0 +1,57 @@
+USCourt: {{pacerData.USCourt}}
+<br/> USCourtBranch: {{pacerData.USCourtBranch}}
+<br/> CaseTitle: {{pacerData.CaseTitle}}
+<br/> numberOfCasesReported: {{pacerData.numberOfCasesReported}}
+<br/>
+<table class="table panel panel-default" name="pacerData.DocketActivityReport">
+    <tr ng-repeat="pacerData_DocketActivityReport in pacerData.DocketActivityReport">
+        <td>  URL: {{pacerData_DocketActivityReport.CaseNumberTitle.URL}}
+            <br/> URLName: {{pacerData_DocketActivityReport.CaseNumberTitle.URLName}}
+            <br/>
+        </td>
+        <td>  Entered: {{pacerData_DocketActivityReport.Dates.Entered}}
+            <br/> Time: {{pacerData_DocketActivityReport.Dates.Time}}
+            <br/> Filed: {{pacerData_DocketActivityReport.Dates.Filed}}
+            <br/> Reopened: {{pacerData_DocketActivityReport.Dates.Reopened}}
+            <br/>
+        </td>
+        <td>  Category: {{pacerData_DocketActivityReport.CategoryEvent.Category}}
+            <br/> Event: {{pacerData_DocketActivityReport.CategoryEvent.Event}}
+            <br/> DocumentURL: {{pacerData_DocketActivityReport.CategoryEvent.DocumentURL}}
+            <br/> DocumentURLName: {{pacerData_DocketActivityReport.CategoryEvent.DocumentURLName}}
+            <br/>
+        </td>
+        <td>  PartyName: {{pacerData_DocketActivityReport.Docketedby.PartyName}}
+            <br/> Type: {{pacerData_DocketActivityReport.Docketedby.Type}}
+            <br/>
+        </td>
+        <td>  Office: {{pacerData_DocketActivityReport.Notes.Office}}
+            <br/> Presider: {{pacerData_DocketActivityReport.Notes.Presider}}
+            <br/> CaseFlags: {{pacerData_DocketActivityReport.Notes.CaseFlags}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<table class="table panel panel-default" name="pacerData.DocketActivityReportSummaryTable">
+    <tr ng-repeat="pacerData_DocketActivityReportSummaryTable in pacerData.DocketActivityReportSummaryTable">
+        <td>  Casenumber: {{pacerData_DocketActivityReportSummaryTable.Casenumber}}
+            <br/>
+        </td>
+        <td>  All: {{pacerData_DocketActivityReportSummaryTable.All}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> PacerLogin: {{pacerData.billing.PacerLogin}}
+    <br/> ClientCode: {{pacerData.billing.ClientCode}}
+    <br/> Description: {{pacerData.billing.Description}}
+    <br/> SearchCriteria: {{pacerData.billing.SearchCriteria}}
+    <br/> BillablePages: {{pacerData.billing.BillablePages}}
+    <br/> Cost: {{pacerData.billing.Cost}}
+    <br/>
+</div>

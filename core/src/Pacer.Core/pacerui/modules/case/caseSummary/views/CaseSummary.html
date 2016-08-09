@@ -1,0 +1,62 @@
+<div class="summary" name="header1"> CaseNum: {{pacerData.header1.CaseNum}}
+    <br/> PartyName: {{pacerData.header1.PartyName}}
+    <br/> PartyRepresentative: {{pacerData.header1.PartyRepresentative}}
+    <br/> PartyReferral: {{pacerData.header1.PartyReferral}}
+    <br/> DateFiled: {{pacerData.header1.DateFiled}}
+    <br/> DateTerminated: {{pacerData.header1.DateTerminated}}
+    <br/> DateOfLastFiling: {{pacerData.header1.DateOfLastFiling}}
+    <br/>
+</div>
+<br/>
+<div class="summary" name="caseSumHeader"> Office: {{pacerData.caseSumHeader.Office}}
+    <br/> Filed: {{pacerData.caseSumHeader.Filed}}
+    <br/> JuryDemand: {{pacerData.caseSumHeader.JuryDemand}}
+    <br/> Demand: {{pacerData.caseSumHeader.Demand}}
+    <br/> NatureofSuit: {{pacerData.caseSumHeader.NatureofSuit}}
+    <br/> Cause: {{pacerData.caseSumHeader.Cause}}
+    <br/> Jurisdiction: {{pacerData.caseSumHeader.Jurisdiction}}
+    <br/> Disposition: {{pacerData.caseSumHeader.Disposition}}
+    <br/> County: {{pacerData.caseSumHeader.County}}
+    <br/> Terminated: {{pacerData.caseSumHeader.Terminated}}
+    <br/> Origin: {{pacerData.caseSumHeader.Origin}}
+    <br/> Reopened: {{pacerData.caseSumHeader.Reopened}}
+    <br/> LeadCase: {{pacerData.caseSumHeader.LeadCase}}
+    <br/> RelatedCase: {{pacerData.caseSumHeader.RelatedCase}}
+    <br/> OtherCourtCase: {{pacerData.caseSumHeader.OtherCourtCase}}
+    <br/> DefCustodyStatus: {{pacerData.caseSumHeader.DefCustodyStatus}}
+    <br/> Flags: {{pacerData.caseSumHeader.Flags}}
+    <br/>
+</div>
+<br/>
+<table class="table panel panel-default" name="pacerData.caseSumTable">
+    <tr ng-repeat="pacerData_caseSumTable in pacerData.caseSumTable">
+        <td>  Plaintiff: {{pacerData_caseSumTable.Plaintiff}}
+            <br/>
+        </td>
+        <td>  attorney: {{pacerData_caseSumTable.attorney}}
+            <br/>
+        </td>
+        <td>  Phone: {{pacerData_caseSumTable.contact.Phone}}
+            <br/> Fax: {{pacerData_caseSumTable.contact.Fax}}
+            <br/>
+        </td>
+        <td>  Defendant: {{pacerData_caseSumTable.Defendant}}
+            <br/>
+        </td>
+        <td>  Mediator: {{pacerData_caseSumTable.Mediator}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> PacerLogin: {{pacerData.billing.PacerLogin}}
+    <br/> ClientCode: {{pacerData.billing.ClientCode}}
+    <br/> Description: {{pacerData.billing.Description}}
+    <br/> SearchCriteria: {{pacerData.billing.SearchCriteria}}
+    <br/> BillablePages: {{pacerData.billing.BillablePages}}
+    <br/> Cost: {{pacerData.billing.Cost}}
+    <br/>
+</div>

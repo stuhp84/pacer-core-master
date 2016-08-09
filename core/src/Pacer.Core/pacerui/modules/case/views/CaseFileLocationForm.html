@@ -1,0 +1,42 @@
+<form action="#" class="form-horizontal form-bordered form-row-stripped">
+    
+    <div class="form-body">
+        <h3><span class="bold-title">1:15-cr-00356-JFK</span></h3>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-1">Volumes </label>
+
+            <div class="col-md-3 pad-L2">
+                <label class="checks checkbox-inline pad-R3">
+                    <input ng-model="q.view_CS1" type="checkbox" value="option1"> CS1
+                </label>
+
+                <label class="checks checkbox-inline pad-R3">    
+                    <input ng-model="q.view_CS2" type="checkbox" value="option2"> CS2
+                </label>
+
+                <label class="checks checkbox-inline pad-R3">    
+                    <input ng-model="q.view_CS3" type="checkbox" value="option3"> CS3
+                </label>
+            </div>
+
+            <div class="col-md-3">
+                <label class="checks checkbox-inline pad-L3 pad-R">
+                    <input ng-model="q.selectAll" ng-click="toggleSelectAll()" type="checkbox" value="option1"><b>Select All</b><br />
+                </label>
+            </div>    
+        </div>
+
+        <div class="form-group"></div>           
+
+        <div class="row">
+                <div class="col-md-offset-3 col-md-9 submit-btn pad-L2">
+                    <a href ng-click="run()"><button type="button" class="btn blue" ng-click="run()">
+                        Submit<span class="glyphicon glyphicon-ok-circle"></span>
+                    </button></a>
+                    <button type="button" ng-click="clear()" class="btn default2">Clear</button>
+                </div>
+        </div>
+    </div>
+</form>

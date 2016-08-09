@@ -1,0 +1,200 @@
+<div class="col-lg-12">
+
+    <div class="form-body">
+        <div class="title">
+            <h4>Docket Report Details</h4>
+        </div>
+
+        <div class="panel panel-default panel-body">
+            <!-- Header us district court -->
+            <table class="table table-condensed" style="border-collapse:collapse;">
+
+                <tr align="center">
+                    <td>
+                        {{docketReportData.header.USCourt}}
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        {{docketReportData.header.USCourtBranch}}
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td>
+                        {{docketReportData.header.CaseTitle}}
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="title">
+            <h4>Case Summary</h4>
+        </div>
+
+        <div class="panel panel-default panel-body">
+            <!-- Case summary information -->
+            <table class="table table-condensed" style="border-collapse:collapse;">
+                <tr>
+                    <td>
+                        <table class="table table-condensed">
+                            <tr>
+                                <td>
+                                    {{docketReportData.header.PartyCompanyName}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Assigned To: {{docketReportData.header.AssignedTo}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Cause: {{docketReportData.header.Cause}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="table table-condensed">
+                            <tr>
+                                <td>
+                                    Date Filed:{{docketReportData.header.DateFiled}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Date Terminated: {{docketReportData.header.DateTerminated}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Jury Demand: {{docketReportData.header.JuryDemand}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Nature Of Suit: {{docketReportData.header.NatureOfSuit}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Juristiction: {{docketReportData.header.Jurisdiction}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- Case summary information -->
+        </div>
+
+        <div class="title">
+            <h4>Party Associations</h4>
+        </div>
+
+        <div class="panel panel-default panel-body">
+            <!-- Party associations -->
+            <table class="table table-condensed" style="border-collapse:collapse;">
+                <tr ng-repeat="association in docketReportData.associations track by $index">
+                    <td>
+                        <table class="table table-condensed">
+                            <tr>
+                                <td>
+                                    {{association.person.PartyName}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    {{association.person.PartyCompany}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        {{association.represent}}
+                    </td>
+                    <td>
+                        <table ng-repeat="attorney in association.attorneys track by $index" class="table table-condensed">
+                            <tr>
+                                <td>
+                                    {{attorney.Name}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    {{attorney.Company}}
+                                </td>
+                            </tr>
+                            <!-- Address in array -->
+                            <tr ng-repeat="addressItem in attorney.Address track by $index">
+                                <td ng-show="addressItem.length > 0">
+                                    {{addressItem}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    {{attorney.Phone}}
+                                </td>
+                            </tr>
+                            <tr ng-show="attorney.extraInfo1.trim().length > 0">
+                                <td>
+                                    {{attorney.extraInfo1}}
+                                </td>
+                            </tr>
+                            <tr ng-show="attorney.extraInfo2.trim().length > 0">
+                                <td>
+                                    {{attorney.extraInfo2}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+            </table>
+            <!-- Party associations -->
+        </div>
+
+        <div class="title">
+            <h4>Docket Text</h4>
+        </div>
+
+        <div class="panel panel-default panel-body">
+            <!-- Docket Report table -->
+            <table class="table table-condensed" style="border-collapse:collapse;" style="max-width:1098px">
+                    <tr>
+                        <td>
+                            Date Filed
+                        </td>
+                        <td>
+                            #
+                        </td>
+                        <td style="max-width:960px;">
+                            Docket Text
+                        </td>
+                    </tr>
+
+                <tr style="max-width:1098px;" ng-repeat="row in docketReportData.docketTable track by $index">
+                    <td>
+                        {{row.DateFiled}}
+                    </td>
+                    <td ng-show="docketReportData.docketTable[$index].hash.length >= 2">
+                        <a  ng-click="DoAction('{{docketReportData.docketTable[$index].hash[0]}}')">{{docketReportData.docketTable[$index].hash[1]}}</a>
+                    </td>
+                    <td style="max-width:960px;" ng-show="docketReportData.docketTable[$index].hash.length == 0">
+
+                    </td>
+                    <td>
+                        {{row.DocketText}}
+                    </td>
+
+
+                </tr>
+            </table>
+
+            <!-- Billing table -->
+            <billing />
+
+        </div>
+    </div>
+</div>

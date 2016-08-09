@@ -1,0 +1,57 @@
+
+<!-- New form -->
+
+    <div class="form-body">
+        <h3><span class="bold-title">Deadlines / Hearings</span></h3>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-1">Sort by</label>
+            <div class="col-md-6">
+
+                <select class="form-control input-circle" ng-model="Query.sort1">
+                    <option ng-repeat="opval in pacerData.DeadlinesHearingsSelectOptionValues.sort1 track by $index" value="{{pacerData.DeadlinesHearingsSelectOptionValues.sort1[$index][0]}}">
+                        {{pacerData.DeadlinesHearingsSelectOptionValues.sort1[$index][1]}}
+                    </option>
+                </select>
+                <span class="help-block">
+                    <select class="form-control input-circle" ng-model="Query.sort2">
+                         <option ng-repeat="opval in pacerData.DeadlinesHearingsSelectOptionValues.sort2 track by $index" value="{{pacerData.DeadlinesHearingsSelectOptionValues.sort2[$index][0]}}">
+                        {{pacerData.DeadlinesHearingsSelectOptionValues.sort2[$index][1]}}
+                    </option>
+                </select>
+                <span class="help-block">
+                    <select class="form-control input-circle" ng-model="Query.sort3">
+                       <option ng-repeat="opval in pacerData.DeadlinesHearingsSelectOptionValues.sort3 track by $index" value="{{pacerData.DeadlinesHearingsSelectOptionValues.sort3[$index][0]}}">
+                            {{pacerData.DeadlinesHearingsSelectOptionValues.sort3[$index][1]}}
+                       </option>
+                </select>
+                <span class="help-block">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1"></label>
+            <div class="col-md-6">
+                <label class="checkbox-inline">
+                    <input ng-model="Query.ChkPend"  type="checkbox" value="option1"> Pending
+                </label>
+
+
+                <label class="checkbox-inline">
+                    <input ng-model="q.view_terminated" type="checkbox" ng-checked="true" value="option12"> Terminated / Satisfied
+                </label>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-offset-3 col-md-9 submit-btn pad-L2">
+                <button type="button" class="btn blue" ng-click="submitForm()" >
+                    Submit<span class="glyphicon glyphicon-ok-circle"></span>
+                </button>
+                <button class="btn default2" type="reset">Clear</button>
+            </div>
+        </div>
+    </div>
+

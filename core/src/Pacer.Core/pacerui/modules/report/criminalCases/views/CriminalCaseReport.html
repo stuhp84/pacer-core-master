@@ -1,0 +1,68 @@
+USCourt: {{pacerData.USCourt}}
+<br/> USCourtBranch: {{pacerData.USCourtBranch}}
+<br/> CaseTitle: {{pacerData.CaseTitle}}
+<br/> numberOfCasesReported: {{pacerData.numberOfCasesReported}}
+<br/>
+<table class="table panel panel-default" name="pacerData.crCasesTable2">
+    <tr ng-repeat="pacerData_crCasesTable2 in pacerData.crCasesTable2">
+        <td>  CaseNumber
+            <br>Title: {{pacerData_crCasesTable2.CaseNumber
+            <br>Title}}
+            <br/>
+        </td>
+        <td>  CaseDates: {{pacerData_crCasesTable2.CaseDates}}
+            <br/>
+        </td>
+        <td>  Days
+            <br>Pending: {{pacerData_crCasesTable2.Days
+            <br>Pending}}
+            <br/>
+        </td>
+        <td>  Notes: {{pacerData_crCasesTable2.Notes}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<table class="table panel panel-default" name="pacerData.crCasesTable">
+    <tr ng-repeat="pacerData_crCasesTable in pacerData.crCasesTable">
+        <td>  URL: {{pacerData_crCasesTable.CaseNumberTitle.URL}}
+            <br/> URLName: {{pacerData_crCasesTable.CaseNumberTitle.URLName}}
+            <br/>
+        </td>
+        <td>  Casefiled: {{pacerData_crCasesTable.CaseDates.Casefiled}}
+            <br/> Added: {{pacerData_crCasesTable.CaseDates.Added}}
+            <br/>
+        </td>
+        <td>  DaysPending: {{pacerData_crCasesTable.DaysPending}}
+            <br/>
+        </td>
+        <td>  Office: {{pacerData_crCasesTable.Notes.Office}}
+            <br/> Presider: {{pacerData_crCasesTable.Notes.Presider}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<table class="table panel panel-default" name="pacerData.crCasesSummaryTable">
+    <tr ng-repeat="pacerData_crCasesSummaryTable in pacerData.crCasesSummaryTable">
+        <td>  Office: {{pacerData_crCasesSummaryTable.Office}}
+            <br/>
+        </td>
+        <td>  All: {{pacerData_crCasesSummaryTable.All}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> PacerLogin: {{pacerData.billing.PacerLogin}}
+    <br/> ClientCode: {{pacerData.billing.ClientCode}}
+    <br/> Description: {{pacerData.billing.Description}}
+    <br/> SearchCriteria: {{pacerData.billing.SearchCriteria}}
+    <br/> BillablePages: {{pacerData.billing.BillablePages}}
+    <br/> Cost: {{pacerData.billing.Cost}}
+    <br/>
+</div>

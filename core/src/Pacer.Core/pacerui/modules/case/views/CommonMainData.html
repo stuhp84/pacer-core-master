@@ -1,0 +1,99 @@
+
+<div class="form-body">
+<div class="alert alert-warning">
+    <strong>NOTE!</strong> This page has not yet been completely arranged and styled.
+</div>
+
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>{{componentName}} Heading</h3>
+        </div>
+
+        <div class="panel-body">
+            <table class="table table-condensed" style="border-collapse:collapse;">
+                <tbody>
+                <tr ng-repeat="aInfo in componentData track by $index">
+                    <td>
+                        {{aInfo}}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>{{componentName}} Details</h3>
+        </div>
+
+        <div class="panel-body">
+            <table class="table table-condensed" style="border-collapse:collapse;">
+
+                <tbody>
+                <tr>
+                    <td>
+                        <table class="table table-condensed" style="border-collapse:collapse;">
+                            <tbody>
+                            <tr ng-repeat="aInfo in componentDataDetails[0] track by $index" ng-if="$index > 0">
+                                <td>
+                                    {{aInfo}}
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="table table-condensed" style="border-collapse:collapse;">
+                            <tbody>
+                            <tr ng-repeat="aInfo in componentDataDetails track by $index">
+                                <td ng-repeat="tdata in aInfo[0] track by $index">
+                                    {{tdata}}
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Billinng -->
+<div class="col-lg-6">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>Billing</h3>
+        </div>
+
+        <div class="panel-body">
+            <table class="table table-condensed" style="border-collapse:collapse;">
+                <tbody>
+                <tr>
+                    <td>{{billing[0][0]}}</td>
+                </tr>
+                <tr>
+                    <td>{{billing[1][0]}}</td>
+                </tr>
+                <tr>
+                    <td>{{billing[2][0]}}</td>
+                </tr>
+
+                <tr ng-repeat="bilrow in billing track by $index" ng-if="$index > 2">
+                    <td ng-repeat="bilcol in bilrow track by $index">
+                        {{bilcol}}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+</div>

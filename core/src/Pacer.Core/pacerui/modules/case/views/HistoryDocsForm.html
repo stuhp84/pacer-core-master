@@ -1,0 +1,47 @@
+<form action="#" class="form-horizontal form-bordered form-row-stripped">
+    
+    <div class="form-body">
+        <h3><span class="bold-title">History and Documents</span></h3>
+
+        <div class="form-group">
+        <label class="control-label col-md-1"></label>
+            <div class="col-md-6">
+               <label class="radio-inline">
+                    <div class="" id="uniform-optionsRadios11"><span><input ng-model="q.output_format" type="radio" name="optionsRadios" id="optionsRadios11" value="all" checked="checked"></span></div> All events (history)
+                </label>
+
+                <label class="radio-inline">
+                    <div class="" id="uniform-optionsRadios22"><span><input ng-model="q.output_format" type="radio" name="optionsRadios" id="optionsRadios22" value="only"></span></div> Only events with documents
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+        <label class="control-label col-md-1"></label>
+            <div class="col-md-6">
+                <label class="checkbox-inline">
+                    <input ng-model="q.view_docket_text" type="checkbox" value="option1"> Display Docket Text
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-1">Sort by</label>
+            <div class="col-md-6">
+                <select class="form-control input-circle" ng-model="q.naturesuit_selected">
+                    <option value="oldest date first" selected="selected">Oldest date first</option>
+                    <option value="most recent date first">Newest date first</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-offset-3 col-md-9 submit-btn pad-L2">
+                    <a href="#/history2"><button type="button" class="btn blue" ng-click="run()">
+                        Submit<span class="glyphicon glyphicon-ok-circle"></span>
+                    </button></a>
+                   <button class="btn default2" type="reset">Clear</button>
+                </div>
+        </div>
+    </div>
+</form>

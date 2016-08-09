@@ -1,0 +1,35 @@
+<div class="summary" name="header"> header1: {{pacerData.header.header1}}
+    <br/> header2: {{pacerData.header.header2}}
+    <br/>
+</div>
+<br/>
+<table class="table panel panel-default" name="pacerData.queryResult">
+    <tr ng-repeat="pacerData_queryResult in pacerData.queryResult">
+        <td>
+        <td >
+            <a href ng-click="fetchCase(pacerData_queryResult.CaseNumber[0])" >{{pacerData_queryResult.CaseNumber[1]}}</a>
+        </td>
+        </td>
+        <td>  Parties: {{pacerData_queryResult.Parties}}
+            <br/>
+        </td>
+        <td>  CaseFiledDate: {{pacerData_queryResult.CaseFiledDate}}
+            <br/>
+        </td>
+        <td>  CaseClosedDate: {{pacerData_queryResult.CaseClosedDate}}
+            <br/>
+        </td>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> PacerLogin: {{pacerData.billing.PacerLogin}}
+    <br/> ClientCode: {{pacerData.billing.ClientCode}}
+    <br/> Description: {{pacerData.billing.Description}}
+    <br/> SearchCriteria: {{pacerData.billing.SearchCriteria}}
+    <br/> BillablePages: {{pacerData.billing.BillablePages}}
+    <br/> Cost: {{pacerData.billing.Cost}}
+    <br/>
+</div>

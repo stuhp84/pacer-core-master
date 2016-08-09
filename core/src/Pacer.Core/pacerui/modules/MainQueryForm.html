@@ -1,0 +1,284 @@
+<form action="#" class="form-horizontal form-bordered form-row-stripped">
+    <div class="title"><h4> Advanced Search </h4></div>
+
+    <div class="adv-search">
+
+        <div class="form-group">
+                <label class="control-label col-md-3">Case Status</label>
+                <div class="col-md-4">
+                    <label class="radio-inline">
+                        <input ng-model="CaseQuery.case_status" type="radio" name="optionsRadios1" id="optionsRadios1" value="Open" checked="">Open</label>
+                    <label class="radio-inline">
+                        <input ng-model="CaseQuery.case_status" type="radio" name="optionsRadios2" id="optionsRadios2" value="Closed"> Closed </label>
+                    <label class="radio-inline">
+                        <input ng-model="CaseQuery.case_status" type="radio" name="optionsRadios3" id="optionsRadios3" value="All"> All </label>
+                </div> 
+
+  
+                <div class="col-md-4">
+                    <input type="text" placeholder="Case Number" class="form-control grey input-circle" ng-model="CaseQuery.case_number">
+                    <span class="help-block"> </span>
+                </div>       
+        </div>   
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Filed Date Range</label>
+            <div class="col-md-8">
+
+                <div class="input-group input-large input-daterange">
+                    <form name="productForm" novalidate>
+                         <input valid-date datepicker-popup="MM/dd/yyyy" maxlength="10" type="date" class="form-control grey" placeholder="MM/DD/YYYY" name="startDate" uib-datepicker-popup="{{format}}" ng-model="CaseQuery.filed_from" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats"/>
+
+                    </form>
+
+                    <span class="input-group-addon"> to </span>
+
+                    <form name="productForm" novalidate>
+
+                         <input valid-date datepicker-popup="MM/dd/yyyy" maxlength="10" type="date"  class="form-control grey" placeholder="MM/DD/YYYY" name="startDate" uib-datepicker-popup="{{format}}" ng-model="CaseQuery.filed_from" is-open="popup2.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats"/>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Last Entry Date Range</label>
+            <div class="col-md-8">
+                <div class="input-group input-large input-daterange">
+                    <form name="productForm" novalidate>
+                         <input valid-date datepicker-popup="MM/dd/yyyy" maxlength="10" type="text"  class="form-control grey" placeholder="MM/DD/YYYY" name="startDate" uib-datepicker-popup="{{format}}" ng-model="CaseQuery.lastentry_from" is-open="popup3.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats"/>
+                         
+                         <span class="alert alert-danger" role="alert" ng-show="myForm.startDate.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Invalid start date.</span>
+  
+                         <span class="alert alert-danger" role="alert" ng-show="myForm.startDate.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Start date is required.</span>
+                    </form>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open3()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+
+                    <span class="input-group-addon"> to </span>
+
+                    <form name="productForm" novalidate>
+                         <input valid-date datepicker-popup="MM/dd/yyyy" maxlength="10" type="text"  class="form-control grey" placeholder="MM/DD/YYYY" name="endDate" uib-datepicker-popup="{{format}}" ng-model="CaseQuery.lastentry_to" is-open="popup4.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats"/>
+
+                         <span class="alert alert-danger" role="alert" ng-show="myForm.startDate.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Invalid end date.</span>
+  
+                         <span class="alert alert-danger" role="alert" ng-show="myForm.startDate.$error.invalidDate">
+                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>End date is required.</span>
+                    </form>
+
+                             <span class="input-group-btn">
+                                <button type="button" class="btn btn blue" ng-click="open4()">
+                                    <i class="glyphicon glyphicon-calendar"></i></button>
+                             </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+                <label class="control-label col-md-3">Nature Of Suit</label>
+                <div class="col-md-8">
+                      <select multiple class="form-control grey" id="sel2">
+                        <option></option>
+                        <option>0 (zero)</option>
+                        <option>110 (Insurance)</option>
+                        <option>120 (Contract: Marine)</option>
+                        <option>130 (Miller Act)</option>
+                        <option>140 (Negotiable Instrument)</option>
+                        <option>150 (Contract: Recovery/Enforcement)</option>
+                        <option>151 (Contract: Recovery Medicare)</option>
+                        <option>152 (Contract: Recovery Student Loan)</option>
+                        <option>153 (Contract: Recovery Veteren Ben.)</option>
+                        <option>160 (Stockholders Suits)</option>
+                        <option>190 (Contract: Other)</option>
+                        <option>195 (Contract: Product Liability)</option>
+                        <option>196 (Contract: Franchise)</option>
+                        <option>210 (Condemnation)</option>
+                        <option>220 (Real Property: Foreclosure)</option>
+                        <option>230 (Rent Lease &amp; Ejectment)</option>
+                        <option>240 (Torts to Land)</option>
+                        <option>245 (Tort Product Liability)</option>
+                        <option>290 (Real Property: Other)</option>
+                        <option>310 (Airplane)</option>
+                        <option>315 (Airplane Product Liability)</option>
+                        <option>320 (Assault Libel &amp; Slander)</option>
+                        <option>330 (Federal Employer's Liability)</option>
+                        <option>340 (Marine)</option>
+                        <option>345 (Marine Product Liability)</option>
+                        <option>350 (Motor Vehicle)</option>
+                        <option>355 (Motor Vehicle Prod. Liability)</option>
+                        <option>360 (P.I.: Other)</option>
+                        <option>362 (Personal Inj. Med. Malpractice)</option>
+                        <option>365 (Personal Inj. Prod. Liability)</option>
+                        <option>368 (P.I.: Asbestos)</option>
+                        <option>370 (Fraud or Truth-In-Lending)</option>
+                        <option>371 (Truth in Lending)</option>
+                        <option>380 (Personal Property: Other)</option>
+                        <option>385 (Prop. Damage Prod. Liability)</option>
+                        <option>400 (State Reapportionment)</option>
+                        <option>410 (Anti-Trust)</option>
+                        <option>422 (Bankruptcy Appeal (801))</option>
+                        <option>423 (Bankruptcy Withdrawl)</option>
+                        <option>430 (Banks and Banking)</option>
+                        <option>440 (Civil Rights: Other)</option>
+                        <option>441 (Civil Rights: Voting)</option>
+                        <option>442 (Civil Rights: Jobs)</option>
+                        <option>443 (Civil Rights: Accomodations)</option>
+                        <option>444 (Civil Rights: Welfare)</option>
+                        <option>445 (Civil Rights: Americans with Disabilities - Employment)</option>
+                        <option>446 (Civil Rights: Americans with Disabilities - Other)</option>
+                        <option>450 (Commerce ICC Rates, Etc.)</option>
+                        <option>460 (Deportation)</option>
+                        <option>462 (Naturalization Application)</option>
+                        <option>463 (Habeas Corpus - Alien Detainee)</option>
+                        <option>465 (Other Immigration Actions)</option>
+                        <option>470 (Racketeer/Corrupt Organization)</option>
+                        <option>480 (Consumer Credit)</option>
+                        <option>490 (Cable/Satellite TV)</option>
+                        <option>510 (Prisoner: Vacate Sentence)</option>
+                        <option>530 (Habeas Corpus (General))</option>
+                        <option>535 (Death Penalty - Habeas Corpus)</option>
+                        <option>540 (Mandamus &amp; Other)</option>
+                        <option>550 (Prisoner: Civil Rights)</option>
+                        <option>555 (Habeas Corpus (Prison Condition))</option>
+                        <option>610 (Forfeit/Penalty: Agriculture)</option>
+                        <option>620 (Forfeit/Penalty: Food and Drug)</option>
+                        <option>625 (Drug Related Seizure of Property)</option>
+                        <option>630 (Forfeit/Penalty: Liquor Laws)</option>
+                        <option>640 (Forfeit/Penalty: R.R. &amp; Truck)</option>
+                        <option>650 (Forfeit/Penalty: Airline Regs.)</option>
+                        <option>660 (Forfeit/Penalty: Occup. Safety)</option>
+                        <option>690 (Forfeit/Penalty: Other)</option>
+                        <option>710 (Labor: Fair Standards)</option>
+                        <option>720 (Labor: Labor/Mgt. Relations)</option>
+                        <option>730 (Labor: Reporting/Disclosure)</option>
+                        <option>740 (Labor: Railway Labor Act)</option>
+                        <option>790 (Labor: Other)</option>
+                        <option>791 (E.R.I.S.A.)</option>
+                        <option>810 (Selective Service)</option>
+                        <option>820 (Copyright)</option>
+                        <option>830 (Patent)</option>
+                        <option>840 (Trademark)</option>
+                        <option>850 (Securities/Commodities)</option>
+                        <option>861 (Social Security: HIA)</option>
+                        <option>862 (Social Security: Black Lung)</option>
+                        <option>863 (Social Security: DIWC/DIWWW)</option>
+                        <option>864 (Social Security: SSID Tit. XVI)</option>
+                        <option>865 (Social Security: RSI Tax Suits)</option>
+                        <option>870 (Taxes)</option>
+                        <option>871 (Tax Suits: IRS-Third Party)</option>
+                        <option>875 (Taxes: Customer Challenge)</option>
+                        <option>890 (Other Statutory Actions)</option>
+                        <option>891 (Agriculture Acts)</option>
+                        <option>892 (Economic Stabilization Act)</option>
+                        <option>893 (Enviromental Matters)</option>
+                        <option>894 (Energy Allocation Act)</option>
+                        <option>895 (Freedom of Information Act)</option>
+                        <option>900 (Appeal of Fee Determination)</option>
+                        <option>950 (Constitutional - State Statute)</option>
+                      </select>
+                </div>
+                                    <span class="help-block"> </span>
+        </div>
+
+        <div class="form-group">
+                <label class="control-label col-md-3">Cause of Action</label>
+                <div class="col-md-8">
+                      <select multiple class="form-control grey" id="sel2">
+                        <option></option>
+                        <option>0 (No cause code entered)</option>
+                        <option>02:0431 (02:431 Fed. Election Commision: Failure Enforce C)</option>
+                        <option>02:0437 (Federal Election Commission)</option>
+                        <option>05:0075 (05:75(2)Contract - Reduction in Grade)</option>
+                        <option>05:0551 (05:551 Administrative Procedure Act)</option>
+                        <option>05:0052fi (05:552 Freedom of Information Act)</option>
+                        <option>05:0552pa (05:552 Right Privacy Act)</option>
+                        <option>05:0701 (05:0701 Maritime Subsidy Board)</option>
+                        <option>05:0702 (05:702 Administrative Procedure Act)</option>
+                        <option>05:0704 (05:704 Labor Litigation)</option>
+                        <option>05:7703 (05:7703 Discrimination - Review of Agency Act)</option>
+                        <option>05:8470 (05:8470 Enforcement of Judgment against Retirement Benefits)</option>
+                        <option>07:0006 (07:6(b) Federal Commodity Exchange Regulation)</option>
+                        <option>07:0025 (7:25 Fraud Commodities Leverage Contracts)</option>
+                        <option>07:0181 (07:181 Packers &amp; Stockyard Act)</option>
+                        <option>07:0499 (07:499 Agricultural Commodities Act)</option>
+                      </select>
+                </div>
+                                    <span class="help-block"> </span>
+        </div> 
+
+        <div class="form-group">
+                <label class="control-label col-md-3">Name</label>
+                <div class="col-md-4">
+                    <input type="text" placeholder="Business or Last" class="form-control grey input-circle"
+                           ng-model="CaseQuery.last_name">
+                    <span class="help-block"> </span>
+                </div>
+
+                 <div class="col-md-2">
+                    <label class="checkbox-inline">
+                    <input ng-model="check1" type="checkbox" value="option1"> Exact Match Only
+                </label>
+              </div>  
+        </div>
+        
+        <div class="form-group"> 
+                <label class="control-label col-md-3"></label>   
+
+                <div class="col-md-2">
+                    <input type="text" placeholder="First" class="form-control grey input-circle"
+                           ng-model="CaseQuery.first_name">
+                    <span class="help-block"> </span>
+                </div>
+
+                <div class="col-md-2">
+                    <input type="text" placeholder="Middle" class="form-control grey input-circle"
+                           ng-model="CaseQuery.middle_name">
+                    <span class="help-block"> </span>
+                </div>    
+
+                <div class="col-md-2">
+                    <label class="checkbox-inline">
+                    <input ng-model="check2" type="checkbox" value="option2"> Exact Match Only
+                </label>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Type</label>
+            <div class="col-md-8">
+                <select class="form-control grey input-circle" ng-model="CaseQuery.person_type">
+                    <option ng-repeat="opval in formData.options.person_type" value="{{opval[0]}}">
+                        <option value="1">Attorney</option>
+                        <option value="2">Party</option>
+                    </option>
+                </select>
+                <span class="help-block"> </span>
+            </div>
+        </div>   
+
+        <div class="form-group">
+                    <div class="col-md-3"></div>
+
+                    <div class="col-md-6">
+                        <div class="alert alert-danger"><p>Search results from this screen are <b>NOT</b> subject to the 30 page limit on PACER charges. Please be as specific as possible with your search citreria.</p></div>
+                    </div>
+
+                    <div class="col-md-3 submit-btn">
+                        <button type="submit" value="Submit" class="btn blue" ng-click="getPersons()">
+                            <i class="fa fa-check"></i> Submit
+                        </button>
+                        <button class="btn default2" type="reset">Clear</button>
+                    </div>
+        </div>
+    </div>    
+</form>
+

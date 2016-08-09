@@ -1,0 +1,349 @@
+{
+  "header": {
+    "CaseNum": "1:07-cv-00347-RJA-LGF",
+    "PartyName": "Fisher et al v. SmithKline Beecham Corporation",
+    "PartyRepresentative": "Richard J. Arcara, presiding",
+    "PartyReferral": "Leslie G. Foschio, referral",
+    "DateFiled": "06/01/2007",
+    "DateTerminated": "05/07/2009",
+    "DateOfLastFiling": "05/07/2009"
+  },
+  "attorneys": [
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Fax": "310-820-7444 (fax)",
+        "Phone": "310-207-3233",
+        "AssignedDate": "10/05/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Michael L. Baum",
+        "Company": "Baum, Hedlund, Aristei & Goldman, P.C.",
+        "Address": [ "12100 Wilshire Boulevard", "Suite 950", "Los Angeles, CA 90025" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Fax": "404-572-5136 (fax)",
+        "Phone": "404-572-4600",
+        "AssignedDate": "06/01/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Andrew Thomas Bayman",
+        "Company": "King & Spalding LLP",
+        "Address": [ "1180 Peachtree Street, NE", "Atlanta, GA 30309", "PRO HAC VICE" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Fax": "404-572-5136 (fax)",
+        "Phone": "404-572-4600",
+        "AssignedDate": "06/04/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Franklin P. Brannen, Jr.",
+        "Company": "King & Spalding LLP",
+        "Address": [ "1180 Peachtree Street, NE", "Atlanta, GA 30309", "PRO HAC VICE" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Fax": "(716)852-6100 (fax)",
+        "Phone": "(716) 847-5436",
+        "AssignedDate": "06/06/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Peter D. Braun",
+        "Company": "Phillips Lytle LLP",
+        "Address": [ "3400 HSBC Center", "Buffalo, NY 14203-2887" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Phone": "310-207-3233",
+        "AssignedDate": "06/01/2007",
+        "Name": "Robert M. Brava-Partain",
+        "Company": "Baum Hedlund PC",
+        "Address": [ "12100 Wilshire Blvd", "Suite 950", "Los Angeles, CA 90025", "TERMINATED: 01/27/2009" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Fax": "716-568-7522 (fax)",
+        "Phone": "716-568-7325",
+        "AssignedDate": "12/21/2007",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "R. Scott DeLuca",
+        "Company": "Schrader, Israely, DeLuca & Waters LLP",
+        "Address": [ "2821 Wehrle Drive, Suite 3", "Williamsville, NY 14221" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Fax": "310-207-4204 (fax)",
+        "Phone": "310-207-3233",
+        "AssignedDate": "01/21/2009",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Bijan Esfandiari",
+        "Company": "Baum, Hedlund, Aristei & Goldman, P.C.",
+        "Address": [ "12100 Wilshire Boulevard", "Suite 950", "Los Angeles, CA 90025", "PRO HAC VICE" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Fax": "404-572-5137 (fax)",
+        "Phone": "404-572-4600",
+        "AssignedDate": "06/04/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Robert B. Friedman",
+        "Company": "King & Spalding LLP",
+        "Address": [ "1180 Peachtree Street, NE", "Atlanta, GA 30309", "PRO HAC VICE" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Fax": "310-820-7444 (fax)",
+        "Phone": "310-207-3233",
+        "AssignedDate": "10/05/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Kate E. Gillespie",
+        "Company": "Baum, Hedlund, Aristei & Goldman, P.C.",
+        "Address": [ "12100 Wilshire Boulevard", "Suite 950", "Los Angeles, CA 90025" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Fax": "716-852-6100 (fax)",
+        "Phone": "716-847-7019",
+        "AssignedDate": "06/04/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Robert E. Glanville",
+        "Company": "Phillips Lytle LLP",
+        "Address": [ "3400 HSBC Center", "Buffalo, NY 14203" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Fax": "404-572-5136 (fax)",
+        "Phone": "404-572-4600",
+        "AssignedDate": "06/04/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "S. Samuel Griffin",
+        "Company": "King & Spalding LLP",
+        "Address": [ "1180 Peachtree Street", "Atlanta, GA 30309-3521" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Fax": "404-572-5137 (fax)",
+        "Phone": "404-572-4601",
+        "AssignedDate": "07/12/2007",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Heather M. Howard",
+        "Company": "King & Spalding LLP",
+        "Address": [ "1180 Peachtree Street, NE", "Atlanta, GA 30309" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Phone": "310-207-3233",
+        "AssignedDate": "06/01/2007",
+        "Name": "Jennifer R. Liakos",
+        "Company": "Baum Hedlund PC",
+        "Address": [ "12100 Wilshire Blvd", "Suite 950", "Los Angeles, CA 90025", "TERMINATED: 01/27/2009" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Fax": "202-466-0527 (fax)",
+        "Phone": "202-466-0513",
+        "AssignedDate": "06/01/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Cara Luther",
+        "Company": "Baum Hedlund A Professional Corporation",
+        "Address": [ "1250 24th Street N.W.", "Suite 300", "Washington, DC 20037-1124" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Phone": "310-207-3233",
+        "AssignedDate": "06/01/2007",
+        "Name": "Karen Barth Menzies",
+        "Company": "Baum Hedlund PC",
+        "Address": [ "12100 Wilshire Blvd", "Suite 950", "Los Angeles, CA 90025", "TERMINATED: 01/27/2009" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Phone": "310-207-3233",
+        "AssignedDate": "06/01/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "George W. Murgatroyd, III",
+        "Company": "Baum Hedlund PC",
+        "Address": [ "12100 Wilshire Blvd", "Suite 950", "Los Angeles, CA 90025" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ],
+        [ "SmithKline Beecham Corporation", "(Defendant)" ]
+      ],
+      "AttorneyRecord": {
+        "Fax": "585-258-2821 (fax)",
+        "Phone": "585-258-2853",
+        "AssignedDate": "04/20/2009",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Paul V. Nunes",
+        "Company": "Underberg & Kessler LLP",
+        "Address": [ "300 Bausch & Lomb Place", "Rochester, NY 14604" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Fax": "310-820-7444 (fax)",
+        "Phone": "310-827-0087",
+        "AssignedDate": "06/01/2007",
+        "extraInfo1": "LEAD ATTORNEY",
+        "extraInfo2": "ATTORNEY TO BE NOTICED",
+        "Name": "Frances M. Phares",
+        "Company": "Baum, Hedlund, Aristei & Goldman, P.C.",
+        "Address": [ "12100 Wilshire Boulevard", "Suite 950", "Los Angeles, CA 90025" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [
+        [ "Mark C. Fisher", "(Plaintiff)" ],
+        [ "Marlene L. Fisher", "(Plaintiff)" ],
+        [ "Stephanie A. Fisher", "(Plaintiff)" ]
+      ],
+      "AttorneyRecord": {
+        "Fax": "716-847-6004 (fax)",
+        "Phone": "716-848-9000",
+        "AssignedDate": "07/25/2007",
+        "Name": "J. David Sampson",
+        "Company": "Underberg & Kessler LLP",
+        "Address": [ "1900 Main Place Tower", "Buffalo, NY 14202", "TERMINATED: 10/31/2008" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Phone": "215-994-2748",
+        "AssignedDate": "06/01/2007",
+        "Name": "Joshua G. Schiller",
+        "Company": "Dechert LLP",
+        "Address": [ "2929 Arch Street", "Cira Center", "Philadelphia, PA 19104", "TERMINATED: 09/18/2007" ]
+      },
+      "Represent": "representing "
+    },
+    {
+      "persons": [ [ "SmithKline Beecham Corporation", "(Defendant)" ] ],
+      "AttorneyRecord": {
+        "Phone": "215-994-2812",
+        "AssignedDate": "06/04/2007",
+        "Name": "David J. Stanoch",
+        "Company": "Dechert LLP",
+        "Address": [ "Cira Center", "2929 Arch Street", "Philadelphia, PA 19104-2808", "TERMINATED: 09/18/2007" ]
+      },
+      "Represent": "representing "
+    }
+  ],
+  "billing": {
+    "PacerCenter": "PACER Service Center",
+    "TransactionReceipt": "Transaction Receipt",
+    "Date": "06/19/2016 09:07:47",
+    "PacerLogin": "tr1234",
+    "ClientCode": "",
+    "Description": "Attorney List",
+    "SearchCriteria": "1:07-cv-00347-RJA-LGF",
+    "BillablePages": "3",
+    "Cost": "0.30"
+  },
+  "sidebar": "Case",
+  "parsed": true
+}

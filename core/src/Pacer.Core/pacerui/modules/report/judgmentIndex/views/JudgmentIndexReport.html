@@ -1,0 +1,44 @@
+USCourt: {{pacerData.USCourt}}
+<br/> USCourtBranch: {{pacerData.USCourtBranch}}
+<br/> CaseTitle: {{pacerData.CaseTitle}}
+<br/>
+<table class="table panel panel-default" name="pacerData.judgementIndexTables">
+    <tr ng-repeat="pacerData_judgementIndexTables in pacerData.judgementIndexTables">
+        <td>
+             <table class="table panel panel-default" name="pacerData_judgementIndexTables">
+            <tr ng-repeat="pacerData_judgementIndexTables in pacerData_judgementIndexTables">
+                <td>  CaseNumberTitle: {{pacerData_judgementIndexTables.CaseNumberTitle}}
+                    <br/>
+                </td>
+                <td>  Infavorof: {{pacerData_judgementIndexTables.JudgmentDescription.Infavorof}}
+                    <br/> Against: {{pacerData_judgementIndexTables.JudgmentDescription.Against}}
+                    <br/> Amount: {{pacerData_judgementIndexTables.JudgmentDescription.Amount}}
+                    <br/> Date: {{pacerData_judgementIndexTables.JudgmentDescription.Date}}
+                    <br/> DocumentURL: {{pacerData_judgementIndexTables.JudgmentDescription.DocumentURL}}
+                    <br/> DocumentURLName: {{pacerData_judgementIndexTables.JudgmentDescription.DocumentURLName}}
+                    <br/> Interest: {{pacerData_judgementIndexTables.JudgmentDescription.Interest}}
+                    <br/> CourtCost: {{pacerData_judgementIndexTables.JudgmentDescription.CourtCost}}
+                    <br/>
+                </td>
+                <td>  Status: {{pacerData_judgementIndexTables.Status}}
+                    <br/>
+                </td>
+
+            </tr>
+        </table>
+        </td>
+        <br/>
+    </tr>
+</table>
+<br/>
+<div class="summary" name="billing"> PacerCenter: {{pacerData.billing.PacerCenter}}
+    <br/> TransactionReceipt: {{pacerData.billing.TransactionReceipt}}
+    <br/> Date: {{pacerData.billing.Date}}
+    <br/> PacerLogin: {{pacerData.billing.PacerLogin}}
+    <br/> ClientCode: {{pacerData.billing.ClientCode}}
+    <br/> Description: {{pacerData.billing.Description}}
+    <br/> SearchCriteria: {{pacerData.billing.SearchCriteria}}
+    <br/> BillablePages: {{pacerData.billing.BillablePages}}
+    <br/> Cost: {{pacerData.billing.Cost}}
+    <br/>
+</div>

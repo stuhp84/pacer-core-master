@@ -1,0 +1,293 @@
+{
+  "header1": {
+    "CaseNum": "1:07-cv-00347-RJA-LGF",
+    "PartyName": "Fisher et al v. SmithKline Beecham Corporation",
+    "PartyRepresentative": "Richard J. Arcara, presiding",
+    "PartyReferral": "Leslie G. Foschio, referral",
+    "DateFiled": "06/01/2007",
+    "DateTerminated": "05/07/2009",
+    "DateOfLastFiling": "05/07/2009"
+  },
+  "caseSumHeader": {
+    "Office": "Buffalo",
+    "Filed": "06/01/2007",
+    "JuryDemand": "Defendant",
+    "Demand": "",
+    "NatureofSuit": "365",
+    "Cause": "28:1332 Diversity-Personal Injury",
+    "Jurisdiction": "Diversity",
+    "Disposition": "Dismissed - Settled",
+    "County": "Chautauqua",
+    "Terminated": "05/07/2009",
+    "Origin": "5",
+    "Reopened": "",
+    "LeadCase": "None",
+    "RelatedCase": "None",
+    "OtherCourtCase": "2:06-cv-3021PBT[United States District Court E.D. PA]",
+    "DefCustodyStatus": "",
+    "Flags": ",CLOSED_2009,,,MEDIATION"
+  },
+  "caseSumTable": [
+    {
+      "Plaintiff": "Stephanie A. Fisher",
+      "attorney": "Michael L. Bau",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Plaintiff": "Stephanie A. Fisher",
+      "attorney": "R. Scott  DeLuc",
+      "contact": {
+        "Phone": "716-568-7325",
+        "Fax": "716-568-7522"
+      }
+    },
+    {
+      "Plaintiff": "Stephanie A. Fisher",
+      "attorney": "Bijan  Esfandiar",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-207-4204"
+      }
+    },
+    {
+      "Plaintiff": "Stephanie A. Fisher",
+      "attorney": "Kate E. Gillespi",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Plaintiff": "Stephanie A. Fisher",
+      "attorney": "Cara  Luthe",
+      "contact": {
+        "Phone": "202-466-0513",
+        "Fax": "202-466-0527"
+      }
+    },
+    {
+      "Plaintiff": "Stephanie A. Fisher",
+      "attorney": "George W. Murgatroyd, II",
+      "contact": {
+        "Phone": "310-207-3233"
+      }
+    },
+    {
+      "Plaintiff": "Stephanie A. Fisher",
+      "attorney": "Paul V. Nune",
+      "contact": {
+        "Phone": "585-258-2853",
+        "Fax": "585-258-2821"
+      }
+    },
+    {
+      "Plaintiff": "Stephanie A. Fisher",
+      "attorney": "Frances M. Phare",
+      "contact": {
+        "Phone": "310-827-0087",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Plaintiff": "Mark C. Fisher",
+      "attorney": "Michael L. Bau",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Plaintiff": "Mark C. Fisher",
+      "attorney": "R. Scott  DeLuc",
+      "contact": {
+        "Phone": "716-568-7325",
+        "Fax": "716-568-7522"
+      }
+    },
+    {
+      "Plaintiff": "Mark C. Fisher",
+      "attorney": "Bijan  Esfandiar",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-207-4204"
+      }
+    },
+    {
+      "Plaintiff": "Mark C. Fisher",
+      "attorney": "Kate E. Gillespi",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Plaintiff": "Mark C. Fisher",
+      "attorney": "Cara  Luthe",
+      "contact": {
+        "Phone": "202-466-0513",
+        "Fax": "202-466-0527"
+      }
+    },
+    {
+      "Plaintiff": "Mark C. Fisher",
+      "attorney": "George W. Murgatroyd, II",
+      "contact": {
+        "Phone": "310-207-3233"
+      }
+    },
+    {
+      "Plaintiff": "Mark C. Fisher",
+      "attorney": "Paul V. Nune",
+      "contact": {
+        "Phone": "585-258-2853",
+        "Fax": "585-258-2821"
+      }
+    },
+    {
+      "Plaintiff": "Mark C. Fisher",
+      "attorney": "Frances M. Phare",
+      "contact": {
+        "Phone": "310-827-0087",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Plaintiff": "Marlene L. Fisher",
+      "attorney": "Michael L. Bau",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Plaintiff": "Marlene L. Fisher",
+      "attorney": "R. Scott  DeLuc",
+      "contact": {
+        "Phone": "716-568-7325",
+        "Fax": "716-568-7522"
+      }
+    },
+    {
+      "Plaintiff": "Marlene L. Fisher",
+      "attorney": "Bijan  Esfandiar",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-207-4204"
+      }
+    },
+    {
+      "Plaintiff": "Marlene L. Fisher",
+      "attorney": "Kate E. Gillespi",
+      "contact": {
+        "Phone": "310-207-3233",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Plaintiff": "Marlene L. Fisher",
+      "attorney": "Cara  Luthe",
+      "contact": {
+        "Phone": "202-466-0513",
+        "Fax": "202-466-0527"
+      }
+    },
+    {
+      "Plaintiff": "Marlene L. Fisher",
+      "attorney": "George W. Murgatroyd, II",
+      "contact": {
+        "Phone": "310-207-3233"
+      }
+    },
+    {
+      "Plaintiff": "Marlene L. Fisher",
+      "attorney": "Paul V. Nune",
+      "contact": {
+        "Phone": "585-258-2853",
+        "Fax": "585-258-2821"
+      }
+    },
+    {
+      "Plaintiff": "Marlene L. Fisher",
+      "attorney": "Frances M. Phare",
+      "contact": {
+        "Phone": "310-827-0087",
+        "Fax": "310-820-7444"
+      }
+    },
+    {
+      "Defendant": "SmithKline Beecham Corporation",
+      "attorney": "Andrew Thomas Bayma",
+      "contact": {
+        "Phone": "404-572-4600",
+        "Fax": "404-572-5136"
+      }
+    },
+    {
+      "Defendant": "SmithKline Beecham Corporation",
+      "attorney": "Franklin P. Brannen, Jr",
+      "contact": {
+        "Phone": "404-572-4600",
+        "Fax": "404-572-5136"
+      }
+    },
+    {
+      "Defendant": "SmithKline Beecham Corporation",
+      "attorney": "Peter D. Brau",
+      "contact": {
+        "Phone": "(716) 847-5436",
+        "Fax": "(716)852-6100"
+      }
+    },
+    {
+      "Defendant": "SmithKline Beecham Corporation",
+      "attorney": "Robert B. Friedma",
+      "contact": {
+        "Phone": "404-572-4600",
+        "Fax": "404-572-5137"
+      }
+    },
+    {
+      "Defendant": "SmithKline Beecham Corporation",
+      "attorney": "Robert E. Glanvill",
+      "contact": {
+        "Phone": "716-847-7019",
+        "Fax": "716-852-6100"
+      }
+    },
+    {
+      "Defendant": "SmithKline Beecham Corporation",
+      "attorney": "S. Samuel Griffi",
+      "contact": {
+        "Phone": "404-572-4600",
+        "Fax": "404-572-5136"
+      }
+    },
+    {
+      "Defendant": "SmithKline Beecham Corporation",
+      "attorney": "Heather M. Howar",
+      "contact": {
+        "Phone": "404-572-4601",
+        "Fax": "404-572-5137"
+      }
+    },
+    {
+      "Mediator": "Michael A. Brady"
+    }
+  ],
+  "billing": {
+    "PacerCenter": "PACER Service Center",
+    "TransactionReceipt": "Transaction Receipt",
+    "Date": "07/17/2016 08:32:47",
+    "PacerLogin": "tr1234",
+    "ClientCode": "",
+    "Description": "Case Summary",
+    "SearchCriteria": "1:07-cv-00347-RJA-LGF",
+    "BillablePages": "1",
+    "Cost": "0.10"
+  },
+  "sidebar": "Case",
+  "parsed": true
+}

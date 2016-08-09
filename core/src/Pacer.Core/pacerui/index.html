@@ -1,0 +1,408 @@
+<html ng-app="Pacer" lang="en"><!--<![endif]--><!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8">
+    <title ng-bind="'PACER - ' + title">PACER</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet"
+          type="text/css">
+    <link href="plugins/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="plugins/css/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="plugins/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="plugins/css/uniform.default.min.css" rel="stylesheet" type="text/css"/>
+    <link href="plugins/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <link href="plugins/pages/css/datatables.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/pages/css/datatables.bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- END PAGE LEVEL PLUGINS -->
+
+    <!-- PAGE LEVEL -->
+    <link href="plugins/pages/css/daterangepicker.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/pages/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/pages/css/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/pages/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css">
+    <!-- PAGE LEVEL -->
+
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="plugins/css/components.min.css" rel="stylesheet" id="style_components" type="text/css"/>
+    <link href="plugins/css/plugins.min.css" rel="stylesheet" type="text/css"/>
+    <!-- END THEME GLOBAL STYLES -->
+    <!-- BEGIN THEME LAYOUT STYLES -->
+    <link href="plugins/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="plugins/css/default.min.css" rel="stylesheet" type="text/css" id="style_color">
+    <link href="plugins/css/custom.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Autocomplete -->
+    <link href="plugins/css/angucomplete-alt.css" rel="stylesheet" type="text/css">
+
+    <!-- SIMPLE SIDEBAR -->
+    <link href="plugins/css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- STU'S NEW CSS -->
+    <link href="plugins/css/styles.css" rel="stylesheet">
+
+    <!-- END THEME LAYOUT STYLES -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+<!-- END HEAD -->
+
+ 
+<div class="page-header" aria="header">
+    <!-- BEGIN HEADER TOP -->
+        <div class="container">
+            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+            <a href="javascript:;" class="menu-toggler"></a>
+            <!-- END RESPONSIVE MENU TOGGLER -->
+            <!-- BEGIN TOP NAVIGATION MENU -->
+
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+    <!-- END HEADER TOP -->
+    <!-- BEGIN HEADER MENU -->
+
+        <div class="container">
+            <!-- BEGIN HEADER SEARCH BOX -->
+
+            <!-- END HEADER SEARCH BOX -->
+            <!-- BEGIN MEGA MENU -->
+            <!-- DOC: Apply "hor-menu-light" class after the "hor-menu" class below to have a horizontal menu with white background -->
+            <!-- DOC: Remove data-hover="dropdown" and data-close-others="true" attributes below to disable the dropdown opening on mouse hover -->
+        <div class="hor-menu" ng-disabled="currentUser" ng-controller="HomeController">
+            <nav class="navbar navbar-default navbar-fixed-top navbar-light" role="navigation">
+
+                <div class="nav navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>    
+                    <a class="navbar-brand" ng-click="home()"><img src="plugins/images/CMECF.gif" height="24" width="125" alt="CMECF logo"/></a>
+                </div>
+
+                <div class="navbar-collapse collapse" >
+                    <ul class="nav navbar-nav navbar-left">
+
+                        <li class="menu-dropdown classic-menu-dropdown">
+                            <a href ng-click="search()"><span class="glyphicon glyphicon-search" aria-hidden="true" data-toggle="tooltip" title="magnifying glass"></span>Search</a>
+                        </li> 
+
+
+                        <li class="menu-dropdown classic-menu-dropdown">
+                            <a href data-toggle="dropdown" class="dropdown-toggle" >
+                                <span class="glyphicon glyphicon-stats" aria-hidden="true" data-toggle="tooltip" title="bar chart"></span> Report <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu pull-left" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+                                <li class="menuitem">
+                                    <a href ng-click="docket()">Docket Sheet</a>
+                                </li>
+
+                                <li class="menuitem">
+                                    <a href ng-click="getDocketActivityReportForm()">Docket Activity</a>
+                                </li>
+
+                                <li class="menuitem">
+                                    <a href ng-click="getCriminalCaseReportForm()">Criminal Cases</a>
+                                </li>
+
+                                <li class="menuitem">
+                                    <a href ng-click="getCivilCaseReportForm()">Civil Cases</a>
+                                </li>
+
+                                <li class="menuitem">
+                                    <a href ng-click="getJudgmentIndexReportForm()">Judgement Index</a>
+                                </li>
+
+                                <li class="menuitem">
+                                    <a href ng-click="getCalendarEventsReportForm()">Calendar Events</a>
+                                </li>
+
+                                <li class="menuitem">
+                                    <a href ng-click="getWrittenOptionsReportForm()">Written Opinions</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-dropdown classic-menu-dropdown">
+                            <a href="#"><span class="glyphicon glyphicon-file" aria-hidden="true" data-toggle="tooltip" title="file"></span>Filing</a>
+                        </li> 
+
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        
+                        <li class="menu-dropdown classic-menu-dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle"> 
+                                <span class="glyphicon glyphicon-cog" aria-hidden="true" data-toggle="tooltip" title="gear"></span>DC Training<span class="c_type"> (district) </span><span class="caret"></span>
+                                </a>
+                                            
+                            <ul class="dropdown-menu pull-left">
+
+                                <li class="nav-link">
+                                    <a href="https://www.pacer.gov/psco/cgi-bin/links.pl">Court Links</a>
+                                </li>
+
+                                <li class="nav-link">
+                                    <a href="https://www.pacer.gov/pcl.html">PACER Case Locator</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        
+                        <li class="menu-dropdown classic-menu-dropdown" ng-show="receipt != null" class="ng-hide">
+                            <a data-toggle="dropdown" class="dropdown-toggle"> 
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>{{receipt.Cost}}<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu pull-left">
+                                <li class="nav-link">
+                                    <billing />
+                                </li>
+                            </ul> 
+                        </li>
+
+                        <li class="menu-dropdown classic-menu-dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle"> 
+                                <span class="glyphicon glyphicon-user" aria-hidden="true" data-toggle="tooltip" title="user"></span> Account <span class="end"><span class="caret"></span></span>
+                            </a>
+                                            
+                            <ul class="dropdown-menu pull-left">
+
+                                <li class="nav-link">    
+                                    <a href="components_date_time_pickers.html">Account Information</a>
+                                </li>
+                                                                    
+                                <li class="nav-link">    
+                                    <a href="components_date_time_pickers.html">Billing History</a>
+                                </li>
+                                                                    
+                                <li class="nav-link">    
+                                    <a href="components_bootstrap_select_splitter.html">Legal Research</a>
+                                </li>
+
+                                <li class="nav-link">
+                                    <a href ng-click="logout()"> Sign Out <span class="arrow"></span></a>
+                                </li>
+                            </ul> 
+
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>    
+     
+    <!-- END HEADER MENU -->
+</div>
+<!-- END HEADER -->
+
+    <!-- Sidebar navbar -->
+        <div  ng-controller="HomeController">
+            <ng-include src="getTemplate()" />
+        </div>
+
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+        <!-- BEGIN CONTENT BODY -->
+        <!-- BEGIN PAGE HEAD-->
+        <div class="page-head">
+            <div class="container">
+                <!-- BEGIN PAGE TITLE>
+                <div class="page-title">
+                    <h1>Search Form </h1>
+                </div-->
+                <!-- END PAGE TITLE -->
+                <!-- BEGIN PAGE TOOLBAR -->
+
+                <!-- END PAGE TOOLBAR -->
+            </div>
+        </div>
+
+        <!-- END PAGE HEAD-->
+        <!-- BEGIN PAGE CONTENT BODY -->
+        <div class="page-content" style="min-height: 436px;" >
+            <div class="container">
+
+
+                <!-- BEGIN PAGE BREADCRUMBS -->
+                <!-- BEGIN PAGE CONTENT INNER -->
+
+                <div ng-view autoscroll="true"></div>
+
+                    <!-- Query Form End-->
+                <!-- END PAGE CONTENT INNER -->
+
+            </div>
+        </div>
+        <!-- END PAGE CONTENT BODY -->
+        <!-- END CONTENT BODY -->
+    </div>
+    <!-- END CONTENT -->
+    <!-- BEGIN QUICK SIDEBAR -->
+    <a href="javascript:;" class="page-quick-sidebar-toggler">
+        <i class="icon-login"></i>
+    </a>
+    <div class="page-quick-sidebar-wrapper" data-close-on-body-click="false">
+        <div class="page-quick-sidebar">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="javascript:;" data-target="#quick_sidebar_tab_1" data-toggle="tab"> Users
+                        <span class="badge badge-danger">2</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" data-target="#quick_sidebar_tab_2" data-toggle="tab"> Alerts
+                        <span class="badge badge-success">7</span>
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> More
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        <li>
+                            <a href="javascript:;" data-target="#quick_sidebar_tab_3" data-toggle="tab">
+                                <i class="icon-bell"></i> Alerts </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-target="#quick_sidebar_tab_3" data-toggle="tab">
+                                <i class="icon-info"></i> Notifications </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-target="#quick_sidebar_tab_3" data-toggle="tab">
+                                <i class="icon-speech"></i> Activities </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="javascript:;" data-target="#quick_sidebar_tab_3" data-toggle="tab">
+                                <i class="icon-settings"></i> Settings </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- END QUICK SIDEBAR -->
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<!-- BEGIN PRE-FOOTER -->
+<!-- BEGIN INNER FOOTER -->
+
+<div class="scroll-to-top" style="display: none;">
+    <i class="icon-arrow-up"></i>
+</div>
+
+    <footer class="footer" role="footer">
+          <div class="container">
+            <a href"#">Getting Started</a> |
+            <a href"#">Help</a> |
+            <a href"#">Privacy</a> |
+            <a href"#">Policy and Procedures</a> |
+            <a href"#">Contact Us</a>
+            <p class="text-muted">This site is maintained by the Administrative Office of the U.S. Courts, PACER Service Center. <br />
+            The purpose of this site is to provide information about locating and filing cases in U.S. federal courts.</p>
+          </div>
+    </footer>
+
+<!-- END INNER FOOTER -->
+<!-- END PRE-FOOTER -->
+
+<!-- END FOOTER -->
+<!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+
+    <!-- Angular and UI -->
+    <script src="//code.angularjs.org/1.5.3/angular.js"></script>
+    <script src="//code.angularjs.org/1.5.3/angular-route.js"></script>
+    <script src="//code.angularjs.org/1.5.3/angular-cookies.js"></script>
+    <script src="//code.angularjs.org/1.5.3/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.5.js"></script>
+    <script src="plugins/angular/angular-ui-router.js" type="text/javascript"></script>
+
+
+<!-- BEGIN CORE PLUGINS -->
+<script src="plugins/js/jquery.min.js" type="text/javascript"></script>
+<script src="plugins/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="plugins/js/js.cookie.min.js" type="text/javascript"></script>
+<script src="plugins/js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="plugins/js/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="plugins/js/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="plugins/js/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="plugins/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN THEME GLOBAL SCRIPTS -->
+<script src="plugins/js/app.min.js" type="text/javascript"></script>
+<!-- END THEME GLOBAL SCRIPTS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="plugins/js/form-samples.min.js" type="text/javascript"></script>
+<script src="plugins/pages/js/moment.min.js" type="text/javascript"></script>
+<script src="plugins/pages/js/daterangepicker.min.js" type="text/javascript"></script>
+<script src="plugins/pages/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+<script src="plugins/pages/js/bootstrap-timepicker.min.js" type="text/javascript"></script>
+<script src="plugins/pages/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<script src="plugins/pages/js/search-drop.js" type="text/javascript"></script>
+<script src="plugins/pages/js/typeahead.min.js"></script>
+<script src="plugins/pages/js/tablesort.min.js"></script>
+<script src="plugins/pages/js/tablesort.js"></script>
+
+<!-- autocomplete -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-touch.min.js"></script>
+<script src="plugins/pages/js/angucomplete-alt.js"></script>
+
+<!-- END PAGE LEVEL SCRIPTS -->
+
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+
+<script src="plugins/pages/js/datatable.js" type="text/javascript"></script>
+<script src="plugins/pages/js/datatables.min.js" type="text/javascript"></script>
+<script src="plugins/pages/js/datatables.bootstrap.js" type="text/javascript"></script>
+
+<!-- END PAGE LEVEL PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+
+<script src="plugins/pages/js/table-datatables-responsive.min.js" type="text/javascript"></script>
+<script src="plugins/pages/js/tablesort.date.js"></script>
+<script src="plugins/pages/js/tablesort.dotsep.js"></script>
+<script src="plugins/pages/js/tablesort.filesize.js"></script>
+<script src="plugins/pages/js/tablesort.monthname.js"></script>
+<script src="plugins/pages/js/tablesort.number.js"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="plugins/pages/js/components-date-time-pickers.min.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+
+<!-- BEGIN THEME LAYOUT SCRIPTS -->
+<script src="plugins/js/layout.min.js" type="text/javascript"></script>
+<script src="plugins/js/demo.min.js" type="text/javascript"></script>
+<script src="plugins/js/quick-sidebar.min.js" type="text/javascript"></script>
+<script src="plugins/js/tooltip.js" type="text/javascript"></script>
+<!-- END THEME LAYOUT SCRIPTS -->
+
+
+<script src="scripts/appprototype.js"></script>
+<script src="modules/authentication/services.js"></script>
+<script src="modules/pacercore/services.js"></script>
+<script src="modules/authentication/controllers.js"></script>
+<script src="modules/home/controllers.js"></script>
+<script src="modules/mainQuery/controllers.js"></script>
+<script src="modules/persons/controllers.js"></script>
+<script src="modules/case/controllers.js"></script>
+<script src="modules/case/landingPage/controllers.js"></script>
+<script src="modules/shared/directives.js"></script>
+<script src="modules/report/docketSheet/controllers.js"></script>
+
+</body>
+</html>
